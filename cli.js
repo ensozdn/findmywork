@@ -8,6 +8,7 @@ import { generateMarkdownReport } from './modules/reportGenerator.js';
 import { startTelegramListener } from './modules/telegramBot.js';
 import { processIncomingEmail } from './modules/emailTracker.js';
 import { syncAllPlatforms } from './modules/multiPlatformScout.js';
+import { generateTailoredResumeMarkdown, exportTailoredResumePdf } from './modules/resumeTailor.js';
 import { getApplications, logApplication } from './modules/tracker.js';
 import { chromium } from 'playwright-core';
 import readline from 'readline';
@@ -309,10 +310,36 @@ async function main() {
     return;
   }
 
+  if (command === 'tailor') {
+    const idx = parseInt(args[1] || '1', 10) - 1;
+    const dataPath = path.join(__dirname, 'data/jobs_latest.json');
+    if (!fs.existsSync(dataPath)) {
+      console.log(`[INFO] Once ilan taramasi yapilmali.`);
+      return;
+    }
+    const jobs = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+    const job = jobs[idx] || jobs[0];
+    if (!job) {
+      console.log(`[WARN] Ilan bulunamadi.`);
+      return;
+    }
+    console.log(`\nATS CV OPTIMIZASYONU: ${job.company} - ${job.title}`);
+    const isChromeReady = await isChromeDebuggingOpen();
+    if (isChromeReady) {
+      const res = await exportTailoredResumePdf(job);
+      console.log(`[OK] PDF CV hazir: ${res.pdfPath}`);
+    } else {
+      const res = generateTailoredResumeMarkdown(job);
+      console.log(`[OK] Markdown CV hazir: ${res.mdPath}`);
+    }
+    return;
+  }
+
   console.log(`\nKullanim:`);
   console.log(`  node cli.js check              -> Profil, CV ve Chrome baglantisini test eder`);
   console.log(`  node cli.js scan [rol]         -> LinkedIn'i arka planda tarar ve listeler`);
   console.log(`  node cli.js remote             -> RemoteOK global remote ilanlarini tarar ve havuza ekler`);
+  console.log(`  node cli.js tailor [ilan no]   -> Secilen ilana ozel optimize ATS CV uretir`);
   console.log(`  node cli.js review             -> Ilanlari tek tek inceleyip onaylananlara basvurur`);
   console.log(`  node cli.js report             -> Taranan tum ilanlari ve hazir mesajlari listeler`);
   console.log(`  node cli.js track              -> Yapilan basvurulari ve takip durumunu gosterir`);

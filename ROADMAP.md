@@ -24,3 +24,8 @@
 - [x] JavaScript, TypeScript, React, Node.js ve Full Stack etiketleriyle filtreleme
 - [x] Ortak ATS puanlama, Telegram bildirim ve REPORT.md havuzunda birlestirme
 
+## Faz 5: Ilana Ozel ATS CV ve On Yazi Motoru (Tamamlandi)
+- [x] Ilandaki anahtar kelimelere gore ozellesen dinamik profesyonel ozet
+- [x] Emlak24, Pro Sicht ve Car Studio AI tecrubelerini hedefe gore siralama
+- [x] Tek komutla ilana ozel ATS dostu PDF ve Markdown CV uretimi (`node cli.js tailor`)
+
