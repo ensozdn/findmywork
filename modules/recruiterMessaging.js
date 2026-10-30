@@ -57,3 +57,4 @@ export async function sendOrDraftRecruiterMessage({
   console.log(`ℹ️ Doğrudan bağlantı butonu yerine mesaj veya takip modu mevcut. Sekme açık bırakıldı.`);
   return { success: true, mode: 'PAGE_OPEN' };
 }
+

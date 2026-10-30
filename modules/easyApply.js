@@ -91,3 +91,4 @@ export async function performEasyApply(page, cvPath) {
 
   return { success: false, reason: 'TIMEOUT_OR_COMPLEX_FORM' };
 }
+
