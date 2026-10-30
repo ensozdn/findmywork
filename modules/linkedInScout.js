@@ -1,6 +1,7 @@
 import { chromium } from 'playwright-core';
 import { analyzeJob } from './jobAnalyzer.js';
 import { generateMarkdownReport } from './reportGenerator.js';
+import { verifyCompanyCareerSite } from './careerSiteVerifier.js';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -109,12 +110,18 @@ export async function scanLinkedInJobs({
       });
 
       if (jobData.title && jobData.title !== 'Ilan Basligi') {
+        const verification = await verifyCompanyCareerSite({
+          companyName: jobData.company,
+          jobTitle: jobData.title
+        });
+        jobData.verification = verification;
+
         const analysis = analyzeJob(jobData);
         results.push({
           ...jobData,
           analysis
         });
-        console.log(`[STATUS] [%${analysis.score}] ${jobData.title} @ ${jobData.company} [${analysis.isGhostRisk ? 'RISK' : 'UYGUN'}]`);
+        console.log(`[STATUS] [%${analysis.score}] ${jobData.title} @ ${jobData.company} [${analysis.isGhostRisk ? 'RISK' : 'UYGUN'}] ${verification.verified ? '[DOGRULANDI]' : ''}`);
       }
     } catch (itemErr) {
       console.warn(`[WARN] Ilan #${i + 1} atlandi: ${itemErr.message}`);

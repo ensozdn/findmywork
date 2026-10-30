@@ -6,6 +6,8 @@ import { performEasyApply } from './modules/easyApply.js';
 import { sendOrDraftRecruiterMessage } from './modules/recruiterMessaging.js';
 import { generateMarkdownReport } from './modules/reportGenerator.js';
 import { startTelegramListener } from './modules/telegramBot.js';
+import { processIncomingEmail } from './modules/emailTracker.js';
+import { syncAllPlatforms } from './modules/multiPlatformScout.js';
 import { getApplications, logApplication } from './modules/tracker.js';
 import { chromium } from 'playwright-core';
 import readline from 'readline';
@@ -287,13 +289,35 @@ async function main() {
     return;
   }
 
+  if (command === 'mail') {
+    const subject = args[1] || 'Guncelleme';
+    const body = args[2] || '';
+    const sender = args[3] || '';
+    console.log(`\nE-POSTA PARSER ISLEMI`);
+    const res = await processIncomingEmail({ sender, subject, body });
+    if (res) {
+      console.log(`[OK] Islem tamamlandi: ${res.type} (${res.company})`);
+    } else {
+      console.log(`[INFO] E-posta notr bulundu, islem yapilmadi.`);
+    }
+    return;
+  }
+
+  if (command === 'remote') {
+    console.log(`\nGLOBAL REMOTE ILAN TARAMASI (RemoteOK)`);
+    await syncAllPlatforms();
+    return;
+  }
+
   console.log(`\nKullanim:`);
   console.log(`  node cli.js check              -> Profil, CV ve Chrome baglantisini test eder`);
   console.log(`  node cli.js scan [rol]         -> LinkedIn'i arka planda tarar ve listeler`);
+  console.log(`  node cli.js remote             -> RemoteOK global remote ilanlarini tarar ve havuza ekler`);
   console.log(`  node cli.js review             -> Ilanlari tek tek inceleyip onaylananlara basvurur`);
   console.log(`  node cli.js report             -> Taranan tum ilanlari ve hazir mesajlari listeler`);
   console.log(`  node cli.js track              -> Yapilan basvurulari ve takip durumunu gosterir`);
-  console.log(`  node cli.js bot                -> Telegram uzaktan onay dinleyicisini baslatir\n`);
+  console.log(`  node cli.js bot                -> Telegram uzaktan onay dinleyicisini baslatir`);
+  console.log(`  node cli.js mail [konu] [metin]-> Gelen e-postayi analiz eder ve Telegram/veritabanina isler\n`);
 }
 
 main().catch(console.error);

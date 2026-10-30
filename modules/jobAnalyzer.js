@@ -67,7 +67,17 @@ export function analyzeJob(job) {
   if (redFlags.length > 0) score -= 40;
   if (warnings.length > 0) score -= (warnings.length * 5);
 
-  score = Math.max(10, Math.min(score, 98));
+  let verificationInfo = job.verification || null;
+  if (verificationInfo) {
+    if (verificationInfo.verified === true) {
+      score = Math.min(100, score + 10);
+    } else if (verificationInfo.verified === false) {
+      score -= 30;
+      warnings.push(verificationInfo.statusLabel);
+    }
+  }
+
+  score = Math.max(10, Math.min(score, 100));
 
   let relevantExp = profile.experience[0];
   if (/\bjava\b/i.test(text) || text.includes('spring')) {
@@ -106,6 +116,7 @@ export function analyzeJob(job) {
     personaLabel: personaMeta.personaLabel,
     outreachMessage: personaMeta.message,
     charLength: personaMeta.charLength,
+    verification: verificationInfo,
     atsBullets
   };
 }
