@@ -15,6 +15,14 @@ const jobsPath = path.join(__dirname, '../data/jobs_latest.json');
 const cvPath = path.join(__dirname, '../config/resume.pdf');
 
 function getTelegramConfig() {
+  if (process.env.TELEGRAM_BOT_TOKEN && process.env.TELEGRAM_CHAT_ID) {
+    return {
+      bot_token: process.env.TELEGRAM_BOT_TOKEN,
+      chat_id: process.env.TELEGRAM_CHAT_ID,
+      min_score_threshold: 45,
+      enabled: true
+    };
+  }
   if (!fs.existsSync(configPath)) return null;
   return JSON.parse(fs.readFileSync(configPath, 'utf8'));
 }
@@ -83,9 +91,9 @@ export async function notifyJob(job, jobIndex) {
   const comp = `<b>Sirket:</b> ${job.company}`;
   const type = `<b>Tur:</b> ${job.isEasyApply ? 'Easy Apply (LinkedIn Ici)' : 'Dis Kariyer Sitesi'}`;
   const skills = `<b>Eslenenler:</b> ${a.matchedSkills.slice(0, 5).join(', ') || 'Temel Stack'}`;
-  const persona = `<b>Hedef Persona:</b> ${a.personaLabel || 'Genel'}`;
+  const note = a.outreachMessage ? `\n\n<b>Hazir Iletisim Notu (${a.personaLabel}):</b>\n<code>${a.outreachMessage}</code>` : '';
 
-  const messageText = `${title}\n\n${pos}\n${comp}\n${type}\n${skills}\n${persona}`;
+  const messageText = `${title}\n\n${pos}\n${comp}\n${type}\n${skills}${note}`;
 
   const keyboardButtons = [];
 

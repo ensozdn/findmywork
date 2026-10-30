@@ -335,6 +335,11 @@ async function main() {
     return;
   }
 
+  if (command === 'cloud') {
+    await import('./scripts/cloudScout.js');
+    return;
+  }
+
   console.log(`\nKullanim:`);
   console.log(`  node cli.js check              -> Profil, CV ve Chrome baglantisini test eder`);
   console.log(`  node cli.js scan [rol]         -> LinkedIn'i arka planda tarar ve listeler`);
@@ -344,6 +349,7 @@ async function main() {
   console.log(`  node cli.js report             -> Taranan tum ilanlari ve hazir mesajlari listeler`);
   console.log(`  node cli.js track              -> Yapilan basvurulari ve takip durumunu gosterir`);
   console.log(`  node cli.js bot                -> Telegram uzaktan onay dinleyicisini baslatir`);
+  console.log(`  node cli.js cloud              -> Bulut taramasini calistirir (RemoteOK & LinkedIn & Telegram)`);
   console.log(`  node cli.js mail [konu] [metin]-> Gelen e-postayi analiz eder ve Telegram/veritabanina isler\n`);
 }
 

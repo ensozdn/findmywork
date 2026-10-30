@@ -1,0 +1,38 @@
+name: Cloud Job Scout
+
+on:
+  schedule:
+    - cron: '0 */3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scout:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run Cloud Scout
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: node scripts/cloudScout.js
+
+      - name: Commit updated job history
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/notified_jobs.json data/jobs_latest.json REPORT.md || true
+          git diff --staged --quiet || git commit -m "chore: update notified jobs from cloud scout"
+          git push || true
