@@ -1,10 +1,10 @@
-# 🎯 findmywork (Can Değer Stratejisi & AI Destekli İş Arama Asistanı)
+#  findmywork (Can Değer Stratejisi & AI Destekli İş Arama Asistanı)
 
 Bu proje, **Can Değer'in yapay zeka ajanları ile iş arama ve ATS bypass etme stratejisini** temel alarak geliştirilmiş; LinkedIn ve iş portallarındaki yorucu ve "hayalet ilan" dolu süreci otomatikleştiren yerel bir asistandır.
 
 ---
 
-## 🚀 Can Değer Stratejisinin Uygulanışı
+## Stratejisinin Uygulanışı
 
 | Prensip | Nasıl Uygulandı? | İlgili Dosya |
 | :--- | :--- | :--- |
@@ -19,7 +19,7 @@ Bu proje, **Can Değer'in yapay zeka ajanları ile iş arama ve ATS bypass etme 
 
 ---
 
-## 🛡️ Güvenlik & Ban Koruması (Chrome DevTools Protocol)
+##  Güvenlik & Ban Koruması (Chrome DevTools Protocol)
 
 LinkedIn'in bot koruma algoritmalarına takılmamak ve hesabını riske atmamak için sistem sıfırdan sahte bir tarayıcı açmaz. Zaten giriş yaptığın **kendi Google Chrome oturumuna** `remote-debugging-port` üzerinden güvenle bağlanır.
 
@@ -32,7 +32,7 @@ Mevcut açık Chrome pencerelerini kapatıp terminalde şu komutu çalıştır:
 
 ---
 
-## 🛠️ Kullanım Komutları
+##  Kullanım Komutları
 
 Proje dizinine geç:
 ```bash
