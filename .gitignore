@@ -1,5 +1,5 @@
 node_modules/
 .DS_Store
 *.log
-# Yerel taranan veriler ve özel başvuru geçmişi
 data/applications.json
+data/chrome_profile/
