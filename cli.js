@@ -30,34 +30,34 @@ async function main() {
   const command = args[0] || 'help';
 
   console.log(`\n======================================================`);
-  console.log(`🎯  FINDMYWORK (Can Değer Stratejisi & AI Pipeline)`);
+  console.log(`FINDMYWORK - Is Arama ve Basvuru Yonetim Pipeline`);
   console.log(`======================================================`);
 
   if (command === 'check') {
-    console.log(`\n1. Profil & CV Kontrolü:`);
+    console.log(`\n1. Profil ve CV Kontrolu:`);
     const profilePath = path.join(__dirname, 'config/profile.json');
     const cvPath = path.join(__dirname, 'config/resume.pdf');
     
     if (fs.existsSync(profilePath)) {
       const p = JSON.parse(fs.readFileSync(profilePath, 'utf8'));
-      console.log(`  ✅ Profil: ${p.personal.full_name} (${p.personal.title})`);
-      console.log(`  🎯 Hedef Roller: ${p.preferences.target_roles.join(', ')}`);
-      console.log(`  ⭐ Projeler: ${p.highlight_projects.map(pr => pr.name).join(', ')}`);
+      console.log(`  [OK] Profil: ${p.personal.full_name} (${p.personal.title})`);
+      console.log(`  [OK] Hedef Roller: ${p.preferences.target_roles.join(', ')}`);
+      console.log(`  [OK] Projeler: ${p.highlight_projects.map(pr => pr.name).join(', ')}`);
     }
 
     if (fs.existsSync(cvPath)) {
-      console.log(`  📎 Hazır CV (PDF): Mevcut (${cvPath})`);
+      console.log(`  [OK] Hazir CV: Mevcut (${cvPath})`);
     } else {
-      console.log(`  ℹ️  Hazır CV: config/resume.pdf bulunamadı (Hazır CV'ni bu konuma koyabilirsin).`);
+      console.log(`  [INFO] Hazir CV: config/resume.pdf bulunamadi.`);
     }
 
-    console.log(`\n2. Chrome Bağlantı Kontrolü:`);
+    console.log(`\n2. Chrome Baglanti Kontrolu:`);
     const chromeStatus = await ensureChromeReady();
     if (chromeStatus.ok) {
-      console.log(`  ✅ ${chromeStatus.message}`);
+      console.log(`  [OK] ${chromeStatus.message}`);
     } else {
-      console.log(`  ⚠️  ${chromeStatus.message}`);
-      console.log(`  👉 ${chromeStatus.hint}`);
+      console.log(`  [WARN] ${chromeStatus.message}`);
+      console.log(`  [HINT] ${chromeStatus.hint}`);
     }
     return;
   }
@@ -66,22 +66,22 @@ async function main() {
     const keyword = args[1] || 'React Native';
     const isChromeReady = await isChromeDebuggingOpen();
     if (!isChromeReady) {
-      console.log(`\n❌ Chrome debug modunda açık değil! Port: 9222`);
-      console.log(`Terminalde şu komutla başlatabilirsin:\n`);
+      console.log(`\n[ERROR] Chrome debug modunda acik degil. Port: 9222`);
+      console.log(`Terminalde calistirin:\n`);
       console.log(`"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --remote-debugging-port=9222 &\n`);
       return;
     }
 
-    console.log(`\n🚀 "${keyword}" anahtar kelimesiyle tarama başlatılıyor...`);
+    console.log(`\n[INFO] "${keyword}" anahtar kelimesiyle tarama baslatiliyor...`);
     try {
       await scanLinkedInJobs({
         keyword,
         maxJobs: 15,
         remoteOnly: false
       });
-      console.log(`\n👉 Şimdi onaylayıp başvurmak için: node cli.js review`);
+      console.log(`\n[INFO] Incelemek ve basvurmak icin: node cli.js review`);
     } catch (e) {
-      console.error(`\n❌ Tarama hatası:`, e.message);
+      console.error(`\n[ERROR] Tarama hatasi:`, e.message);
     }
     return;
   }
@@ -89,7 +89,7 @@ async function main() {
   if (command === 'review') {
     const dataPath = path.join(__dirname, 'data/jobs_latest.json');
     if (!fs.existsSync(dataPath)) {
-      console.log(`\nHenüz taranmış ilan verisi bulunamadı. Önce: node cli.js scan`);
+      console.log(`\n[INFO] Taranmis ilan verisi bulunamadi. Once: node cli.js scan`);
       return;
     }
 
@@ -100,9 +100,9 @@ async function main() {
 
     const pendingJobs = jobs.filter(j => !appliedUrls.has(j.url));
 
-    console.log(`\n📋 İNCELENMEYİ BEKLEYEN ${pendingJobs.length} İLAN VAR.\n`);
+    console.log(`\n[INFO] Incelenmeyi bekleyen ${pendingJobs.length} ilan var.\n`);
     if (pendingJobs.length === 0) {
-      console.log(`Tüm taranan ilanlar incelenmiş veya başvurulmuş!`);
+      console.log(`[INFO] Tum taranan ilanlar incelenmis veya basvurulmus.`);
       return;
     }
 
@@ -117,31 +117,31 @@ async function main() {
       const a = j.analysis;
 
       console.log(`\n================================================================`);
-      console.log(`[${i + 1}/${pendingJobs.length}] Skor: %${a.score} ${a.isGhostRisk ? '⚠️ [GHOST RİSKİ]' : '✨ [YÜKSEK UYUM]'}`);
+      console.log(`[${i + 1}/${pendingJobs.length}] Skor: %${a.score} [${a.isGhostRisk ? 'GHOST RISKI' : 'UYGUN'}]`);
       console.log(`Pozisyon : ${j.title} @ ${j.company}`);
       console.log(`Konum    : ${j.meta}`);
-      console.log(`Tür      : ${j.isEasyApply ? '⚡ Kolay Başvuru (Easy Apply)' : '🔗 Şirket Dış Linki'}`);
-      console.log(`Eşleşenler: ${a.matchedSkills.join(', ') || 'Temel Mobil Yetkinlikler'}`);
+      console.log(`Tur      : ${j.isEasyApply ? 'Kolay Basvuru (Easy Apply)' : 'Sirket Dis Linki'}`);
+      console.log(`Eslenen  : ${a.matchedSkills.join(', ') || 'Temel mobil stack'}`);
       console.log(`URL      : ${j.url}`);
       console.log(`----------------------------------------------------------------`);
-      console.log(`💬 CAN DEĞER İLETİŞİM NOTU (İK / Hiring Manager İçin):`);
+      console.log(`Iletisim Notu:`);
       console.log(`"${a.outreachMessage.split('\n')[0]}..."`);
       console.log(`----------------------------------------------------------------`);
 
-      console.log(`Ne yapmak istersin?`);
-      console.log(`  [1] ⚡ Onayla ve Otomatik Başvur (Easy Apply)`);
-      console.log(`  [2] 🌐 Chrome'da Aç (İncele veya Dış Linkten Başvur)`);
-      console.log(`  [3] 💬 İK / Hiring Manager'a Mesaj / Bağlantı Notu Hazırla`);
-      console.log(`  [4] ⏩ Pas Geç (Atla)`);
-      console.log(`  [q] ❌ Çıkış`);
+      console.log(`Islem secin:`);
+      console.log(`  [1] Onayla ve Otomatik Basvur (Easy Apply)`);
+      console.log(`  [2] Chrome'da Ac (Incele / Dis Linkten Basvur)`);
+      console.log(`  [3] Yoneticiye Mesaj / Baglanti Notu Hazirla`);
+      console.log(`  [4] Pas Gec (Atla)`);
+      console.log(`  [q] Cikis`);
 
-      const choice = await askQuestion(`Seçimin (1/2/3/4/q): `);
+      const choice = await askQuestion(`Secim (1/2/3/4/q): `);
 
       if (choice === 'q' || choice === 'Q') break;
 
       if (choice === '1') {
         if (!isChromeReady || !browser) {
-          console.log(`Chrome bağlı değil! Lütfen Chrome'u debug modunda aç.`);
+          console.log(`[ERROR] Chrome bagli degil.`);
           continue;
         }
         const context = browser.contexts()[0];
@@ -156,29 +156,25 @@ async function main() {
             role: j.title,
             url: j.url,
             status: 'APPLIED_EASY_APPLY',
-            notes: 'Otomatik Easy Apply ile başvuruldu'
+            notes: 'Otomatik Easy Apply ile basvuruldu'
           });
-          console.log(`🎉 Başvuru kaydedildi ve takip listene eklendi!`);
+          console.log(`[SUCCESS] Basvuru kaydedildi.`);
         } else {
-          console.log(`⚠️ Başvuru tamamlanamadı (${res.reason}). Sayfa sekmede açık bırakıldı.`);
+          console.log(`[WARN] Basvuru tamamlanamadi: ${res.reason}`);
         }
       } else if (choice === '2') {
         if (browser) {
           const context = browser.contexts()[0];
           const page = await context.newPage();
           await page.goto(j.url);
-          console.log(`🔗 Sekme Chrome'da açıldı.`);
+          console.log(`[INFO] Sekme Chrome'da acildi.`);
         }
       } else if (choice === '3') {
-        if (j.hiringManagerName) {
-          console.log(`İlanı yayınlayan: ${j.hiringManagerName}`);
-        }
-        // Şirketin liderlerini bulup mesaj hazırlama modülü
         const leads = await findHiringManagers({ companyName: j.company });
         if (leads.length > 0) {
-          console.log(`\nBulunan Yöneticiler:`);
+          console.log(`\nBulunan Yoneticiler:`);
           leads.forEach((l, idx) => console.log(`  ${idx + 1}. ${l.name} (${l.title})`));
-          const leadPick = await askQuestion(`Kime mesaj notu hazırlansın? (1-${leads.length} / atla: Enter): `);
+          const leadPick = await askQuestion(`Kime mesaj notu hazirlansin? (1-${leads.length} / atla: Enter): `);
           const pickedIdx = parseInt(leadPick) - 1;
           if (!isNaN(pickedIdx) && leads[pickedIdx]) {
             await sendOrDraftRecruiterMessage({
@@ -194,10 +190,10 @@ async function main() {
             });
           }
         } else {
-          console.log(`Yönetici bulunamadı.`);
+          console.log(`[INFO] Yonetici bulunamadi.`);
         }
       } else if (choice === '4') {
-        console.log(`Atlandı.`);
+        console.log(`[INFO] Atlandi.`);
       }
     }
 
@@ -207,30 +203,30 @@ async function main() {
   if (command === 'report') {
     const dataPath = path.join(__dirname, 'data/jobs_latest.json');
     if (!fs.existsSync(dataPath)) {
-      console.log(`\nHenüz taranmış ilan verisi bulunamadı. Önce: node cli.js scan`);
+      console.log(`\n[INFO] Taranmis ilan verisi bulunamadi. Once: node cli.js scan`);
       return;
     }
 
     const jobs = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
-    console.log(`\n📊 EN SON TARANAN İLANLAR RAPORU (${jobs.length} İlan)\n`);
+    console.log(`\nSON TARANAN ILANLAR RAPORU (${jobs.length} Ilan)\n`);
 
     jobs.forEach((j, index) => {
       const a = j.analysis;
-      const statusIcon = a.isGhostRisk ? '⚠️ [ŞÜPHELİ / GHOST]' : '✨ [YÜKSEK UYUM]';
+      const statusLabel = a.isGhostRisk ? '[GHOST RISKI]' : '[UYGUN]';
       
       console.log(`----------------------------------------------------------------`);
-      console.log(`#${index + 1} | Skor: %${a.score} ${statusIcon}`);
+      console.log(`#${index + 1} | Skor: %${a.score} ${statusLabel}`);
       console.log(`Pozisyon : ${j.title} @ ${j.company}`);
-      console.log(`Konum/Meta: ${j.meta}`);
-      console.log(`Başvuru Türü: ${j.isEasyApply ? '⚡ Kolay Başvuru (Easy Apply)' : '🔗 Şirket Sitesi'}`);
-      console.log(`Eşleşen Yetkinlikler: ${a.matchedSkills.join(', ') || 'Temel mobil stack'}`);
-      console.log(`Öne Çıkarılan Proje : ${a.recommendedProject}`);
+      console.log(`Konum    : ${j.meta}`);
+      console.log(`Tur      : ${j.isEasyApply ? 'Kolay Basvuru (Easy Apply)' : 'Sirket Dis Linki'}`);
+      console.log(`Eslenen  : ${a.matchedSkills.join(', ') || 'Temel mobil stack'}`);
+      console.log(`Proje    : ${a.recommendedProject}`);
 
       if (a.redFlags.length > 0 || a.warnings.length > 0) {
-        console.log(`Uyarılar: ${[...a.redFlags, ...a.warnings].join(' | ')}`);
+        console.log(`Uyarilar : ${[...a.redFlags, ...a.warnings].join(' | ')}`);
       }
 
-      console.log(`\n💬 CAN DEĞER TARZI İLETİŞİM MESAJI (Hiring Manager / İK İçin):`);
+      console.log(`\nIletisim Notu:`);
       console.log(`"""\n${a.outreachMessage}\n"""`);
       console.log(`----------------------------------------------------------------\n`);
     });
@@ -240,26 +236,25 @@ async function main() {
 
   if (command === 'track') {
     const apps = getApplications();
-    console.log(`\n📋 TAKİP EDİLEN BAŞVURULAR (${apps.length} Kayıt)\n`);
+    console.log(`\nTAKIP EDILEN BASVURULAR (${apps.length} Kayit)\n`);
     if (apps.length === 0) {
-      console.log(`Henüz kayıtlı başvuru yok.`);
+      console.log(`Kayitli basvuru bulunmuyor.`);
       return;
     }
     apps.forEach((a, i) => {
       console.log(`${i + 1}. [${a.status}] ${a.role} @ ${a.company} (${new Date(a.appliedAt).toLocaleDateString()})`);
-      if (a.outreachPerson) console.log(`   İletişim: ${a.outreachPerson}`);
+      if (a.outreachPerson) console.log(`   Iletisim: ${a.outreachPerson}`);
       if (a.notes) console.log(`   Not: ${a.notes}`);
     });
     return;
   }
 
-  // Help display
-  console.log(`\nKullanım:`);
-  console.log(`  node cli.js check              -> Profil, CV ve Chrome bağlantısını test eder`);
+  console.log(`\nKullanim:`);
+  console.log(`  node cli.js check              -> Profil, CV ve Chrome baglantisini test eder`);
   console.log(`  node cli.js scan [rol]         -> LinkedIn'i arka planda tarar ve listeler`);
-  console.log(`  node cli.js review             -> 🎯 İlanları tek tek önüne getirir, onayladıklarına başvurur`);
-  console.log(`  node cli.js report             -> Taranan tüm ilanları ve hazır mesajları listeler`);
-  console.log(`  node cli.js track              -> Yapılan başvuruları ve takip durumunu gösterir\n`);
+  console.log(`  node cli.js review             -> Ilanlari tek tek inceleyip onaylananlara basvurur`);
+  console.log(`  node cli.js report             -> Taranan tum ilanlari ve hazir mesajlari listeler`);
+  console.log(`  node cli.js track              -> Yapilan basvurulari ve takip durumunu gosterir\n`);
 }
 
 main().catch(console.error);

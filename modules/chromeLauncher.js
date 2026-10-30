@@ -1,9 +1,6 @@
 import { exec } from 'child_process';
 import http from 'http';
 
-/**
- * Checks if Chrome is currently reachable on the remote debugging port.
- */
 export function isChromeDebuggingOpen(port = 9222) {
   return new Promise((resolve) => {
     const req = http.get(`http://127.0.0.1:${port}/json/version`, (res) => {
@@ -17,22 +14,18 @@ export function isChromeDebuggingOpen(port = 9222) {
   });
 }
 
-/**
- * Explains how to start Chrome with debugging port or starts an instance.
- */
 export async function ensureChromeReady(port = 9222) {
   const isOpen = await isChromeDebuggingOpen(port);
   if (isOpen) {
-    return { ok: true, message: `Chrome zaten ${port} portunda aktif.` };
+    return { ok: true, message: `Chrome ${port} portunda aktif.` };
   }
 
   const launchCmd = `"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --remote-debugging-port=${port} --no-first-run --no-default-browser-check &`;
   
   return {
     ok: false,
-    message: `Chrome henüz remote debugging modunda açık değil.`,
-    hint: `Şu komutla kendi Chrome'unu debug modunda açabilirsin:\n${launchCmd}`,
+    message: `Chrome remote debugging modunda calismiyor.`,
+    hint: `Chrome'u debug modunda baslatmak icin komut:\n${launchCmd}`,
     command: launchCmd
   };
 }
-

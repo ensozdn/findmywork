@@ -36,7 +36,7 @@ export function logApplication({ company, role, url, status = 'APPLIED', notes =
     company,
     role,
     url,
-    status, // APPLIED, MESSAGED_LEAD, INTERVIEW, REJECTED, GHOSTED
+    status,
     notes,
     outreachPerson,
     appliedAt: new Date().toISOString(),
@@ -51,4 +51,3 @@ export function logApplication({ company, role, url, status = 'APPLIED', notes =
 export function getApplications() {
   return loadTracker();
 }
-

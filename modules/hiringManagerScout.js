@@ -1,14 +1,11 @@
 import { chromium } from 'playwright-core';
 
-/**
- * Searches for key decision makers (Engineering Manager, Mobile Lead, Tech Recruiter) for a target company.
- */
 export async function findHiringManagers({
   companyName,
   roleTarget = 'Mobile OR Engineering Manager OR Tech Recruiter',
   cdpEndpoint = 'http://127.0.0.1:9222'
 }) {
-  console.log(`\n🔎 [${companyName}] için karar vericiler aranıyor...`);
+  console.log(`[INFO] Yonetici araniyor: ${companyName}`);
   
   const browser = await chromium.connectOverCDP(cdpEndpoint);
   const contexts = browser.contexts();
@@ -44,4 +41,3 @@ export async function findHiringManagers({
   await page.close();
   return people;
 }
-

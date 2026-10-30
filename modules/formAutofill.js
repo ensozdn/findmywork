@@ -7,12 +7,8 @@ const __dirname = path.dirname(__filename);
 
 const profile = JSON.parse(fs.readFileSync(path.join(__dirname, '../config/profile.json'), 'utf8'));
 
-/**
- * Injects and auto-fills common job application form fields (Workday, Greenhouse, Lever, generic inputs).
- * @param {import('playwright-core').Page} page 
- */
 export async function autofillCurrentPage(page) {
-  console.log(`\n⚡ Sayfadaki form alanları taranıyor ve dolduruluyor...`);
+  console.log(`[INFO] Form alanlari kontrol ediliyor...`);
 
   const fillResult = await page.evaluate((prof) => {
     const filled = [];
@@ -51,8 +47,7 @@ export async function autofillCurrentPage(page) {
     return filled;
   }, profile);
 
-  console.log(`✅ ${fillResult.length} alan otomatik dolduruldu:`);
-  fillResult.forEach(f => console.log(`  • ${f}`));
+  console.log(`[INFO] ${fillResult.length} alan dolduruldu:`);
+  fillResult.forEach(f => console.log(` - ${f}`));
   return fillResult;
 }
-
