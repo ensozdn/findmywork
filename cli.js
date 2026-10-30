@@ -5,6 +5,7 @@ import { autofillCurrentPage } from './modules/formAutofill.js';
 import { performEasyApply } from './modules/easyApply.js';
 import { sendOrDraftRecruiterMessage } from './modules/recruiterMessaging.js';
 import { generateMarkdownReport } from './modules/reportGenerator.js';
+import { startTelegramListener } from './modules/telegramBot.js';
 import { getApplications, logApplication } from './modules/tracker.js';
 import { chromium } from 'playwright-core';
 import readline from 'readline';
@@ -263,12 +264,19 @@ async function main() {
     return;
   }
 
+  if (command === 'bot') {
+    console.log(`\nTELEGRAM ONAY BOTU DINLEME MODU`);
+    await startTelegramListener();
+    return;
+  }
+
   console.log(`\nKullanim:`);
   console.log(`  node cli.js check              -> Profil, CV ve Chrome baglantisini test eder`);
   console.log(`  node cli.js scan [rol]         -> LinkedIn'i arka planda tarar ve listeler`);
   console.log(`  node cli.js review             -> Ilanlari tek tek inceleyip onaylananlara basvurur`);
   console.log(`  node cli.js report             -> Taranan tum ilanlari ve hazir mesajlari listeler`);
-  console.log(`  node cli.js track              -> Yapilan basvurulari ve takip durumunu gosterir\n`);
+  console.log(`  node cli.js track              -> Yapilan basvurulari ve takip durumunu gosterir`);
+  console.log(`  node cli.js bot                -> Telegram uzaktan onay dinleyicisini baslatir\n`);
 }
 
 main().catch(console.error);

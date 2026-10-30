@@ -3,3 +3,4 @@ node_modules/
 *.log
 data/applications.json
 data/chrome_profile/
+config/telegram.json
