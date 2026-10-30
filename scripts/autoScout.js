@@ -30,3 +30,4 @@ async function runBatch() {
 console.log('[DAEMON] Arka plan tarayici baslatildi.');
 runBatch();
 setInterval(runBatch, intervalMs);
+

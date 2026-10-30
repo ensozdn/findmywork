@@ -72,7 +72,7 @@ export function analyzeJob(job) {
   score = Math.max(10, Math.min(score, 98));
 
   let relevantExp = profile.experience[0];
-  if (text.includes('java') || text.includes('spring')) {
+  if (/\bjava\b/i.test(text) || text.includes('spring')) {
     relevantExp = profile.experience[2];
   } else if (text.includes('vue') || text.includes('nuxt') || text.includes('comfyui') || text.includes('video')) {
     relevantExp = profile.experience[1];

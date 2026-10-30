@@ -1,27 +1,463 @@
 [
   {
-    "title": "Senior React Native Developer",
-    "company": "TechVentures Global",
-    "meta": "Istanbul, Turkiye (Remote) · 3 saat once · 14 basvuru",
-    "description": "We are seeking a Senior React Native Developer to build offline-first mobile applications with location tracking and real-time synchronization. Requirements: React Native, TypeScript, Redux/Zustand, REST APIs, native module integration.",
+    "title": "Full-Stack JavaScript Developer (AI-Native)",
+    "company": "UltaHost",
+    "meta": "",
+    "description": "About the job\n\nAbout UltaHost\n\nUltaHost is a rapidly growing global web hosting and cloud infrastructure provider delivering high-performance hosting, VPS, dedicated servers, and cloud solutions to customers worldwide. Our mission is to provide reliable, scalable, and innovative infrastructure services while maintaining exceptional customer satisfaction. As our global operations continue to expand, we are looking for talented professionals to join our international team and contribute to our long-term growth.\n\nJob Overview\n\nUltaHost is looking for a highly skilled Full-Stack JavaScript Developer (AI-Native) to join our Engineering team. This role is ideal for an experienced software engineer who enjoys building modern web applications across the entire technology stack while leveraging AI-assisted development workflows to deliver high-quality software efficiently. You will be responsible for designing, developing, and maintaining scalable backend services and modern frontend applications using JavaScript and TypeScript technologies. Working closely with product managers, designers, and fellow engineers, you will take ownership of features from specification through production while maintaining high standards for code quality, security, and performance.\n\nKey Responsibilities\n\n\nDesign, develop, and maintain scalable full-stack applications using Node.js, NestJS, React, Next.js, and TypeScript\nBuild secure and maintainable REST APIs, authentication systems, and backend services\nDesign and maintain database schemas using Prisma ORM with PostgreSQL,\nMySQL, MongoDB, and Redis where appropriate\nUse AI coding tools such as Claude Code, Cursor, GitHub Copilot, or similar as part of your daily development workflow\nCollaborate closely with Product, Design, QA, and Engineering teams throughout the software development lifecycle\nContribute to CI/CD pipelines, Docker-based development environments, and deployment processes\n\n\nQualifications\n\n\nBachelor's degree in Computer Science, Software Engineering, Information Technology, or a related field (or equivalent professional experience)\n4+ years of professional Full-Stack JavaScript development experience\nStrong expertise in JavaScript and TypeScript\nProduction experience with Node.js and NestJS\nStrong experience with React and Next.js\nHands-on experience with Prisma ORM, PostgresSQL/MySQL, MongoDB/Redis\nExperience with Git, Docker, and CI/CD pipelines\nExperience writing unit and integration tests using Jest, Vitest, Supertest, or similar frameworks\nDaily experience using AI coding tools such as Claude Code, Cursor, GitHub Copilot, Codex CLI, or similar\nStrong understanding of software architecture, scalability, security, and modern engineering best practices\nExcellent written and verbal communication skills in English\n\n\nPreferred Qualifications\n\n\nExperience building AI-powered applications using LLM APIs\nFamiliarity with Model Context Protocol (MCP), AI agent frameworks, or AI automation\nExperience working on SaaS, hosting, cloud, or infrastructure platforms\nExperience with GitHub Actions or similar CI/CD platforms\nExperience optimizing application performance and large-scale systems\nPassion for AI-assisted software engineering and continuous improvement\n\n\nWhat We Offer\n\n\nOpportunity to work in a fast-growing international technology company\nProfessional and collaborative engineering environment\nRemote-first work culture\nCareer growth and professional development opportunities\nOpportunity to work with modern AI-native development workflows\nExposure to large-scale cloud infrastructure and global software products\nDynamic and innovation-driven company culture",
     "isEasyApply": true,
-    "hiringManagerName": "Ahmet Yilmaz (Engineering Director)",
-    "url": "https://www.linkedin.com/jobs/view/sample1",
+    "hiringManagerName": null,
+    "url": "https://www.linkedin.com/jobs/search/?currentJobId=4485329968&f_TPR=r86400&keywords=Full%20Stack&location=Turkey",
     "analysis": {
-      "jobTitle": "Senior React Native Developer",
-      "company": "TechVentures Global",
-      "score": 92,
+      "jobTitle": "Full-Stack JavaScript Developer (AI-Native)",
+      "company": "UltaHost",
+      "score": 98,
       "isGhostRisk": false,
       "redFlags": [],
       "warnings": [],
-      "matchedSkills": ["React Native", "TypeScript", "RESTful APIs", "Offline-First Architecture", "Geolocation / Background Location Services"],
-      "missingKeywords": ["Redux"],
-      "recommendedProject": "Trip Noute",
-      "outreachMessage": "Merhabalar Ahmet Bey,\n\nTechVentures Global bunyesinde acilan Senior React Native Developer pozisyonunu inceledim. Trip Noute gibi projelerde edindigim React Native, TypeScript tecrubelerimle pozisyona iyi bir uyum saglayabilecegimi dusunuyorum.\n\nSureci yoneten ilgili teknik lider veya IK sorumlusuna yonlendirebilirseniz cok sevinirim. Detayli profilime LinkedIn uzerinden erisebilirsiniz.\n\nVaktiniz icin tesekkurler,\nEnes Ozden",
+      "matchedSkills": [
+        "TypeScript",
+        "JavaScript",
+        "NestJS",
+        "Next.js",
+        "React",
+        "Node.js",
+        "PostgreSQL",
+        "Redis",
+        "Prisma ORM",
+        "MongoDB",
+        "MySQL",
+        "Docker",
+        "Git (GitHub, GitLab)"
+      ],
+      "missingKeywords": [
+        "CI/CD"
+      ],
+      "recommendedProject": "Car Studio AI (Backend Developer Intern)",
+      "outreachMessage": "Merhabalar Yetkili Bey/Hanım,\n\nUltaHost bünyesinde açılan Full-Stack JavaScript Developer (AI-Native) pozisyonunu inceledim. Car Studio AI (Backend Developer Intern) gibi projelerde edindiğim TypeScript, JavaScript, NestJS tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.\n\nSüreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.\n\nVaktiniz için teşekkürler,\nEnes Özden",
       "atsBullets": [
-        "Trip Noute projesi kapsaminda React Native, TypeScript ile production seviyesinde mobil mimari tasarimi.",
-        "Sakarya Teknokent ve kurumsal projelerde modern state yonetimi, offline-first mimari ve performans odakli gelistirme deneyimi.",
-        "Ilanda belirtilen React Native, TypeScript, RESTful APIs, Offline-First mimarisi ile ucuca mobil uygulama gelistirme."
+        "Car Studio AI bunyesinde TypeScript, JavaScript, NestJS ile production seviyesinde olceklenebilir mimari gelistirme.",
+        "NestJS, Next.js, Spring Boot ve PostgreSQL ile mikroservis ve RESTful API tasarimi.",
+        "Ilanda talep edilen TypeScript, JavaScript, NestJS, Next.js ile ucuca sistem entegrasyonu."
+      ]
+    }
+  },
+  {
+    "title": "Full Stack Engineer",
+    "company": "Ekin Smart City",
+    "meta": "",
+    "description": "About the job\n\nQUALIFICATIONS AND JOB DESCRIPTION\n\nEkin is a 28-year young technology company operating in 40 countries with a growing team of 250+ people. We are shaping the future of smart cities and public safety with cutting-edge AI technologies.\n\n\n\n\nQUALIFICATIONS\n\nBachelor's degree in Computer Engineering, Software Engineering or a related field,\nMinimum 2 years of professional experience in software development,\nHands-on experience with at least one of the following: Node.js, NestJS, Angular, React or Next.js,\nKnowledge of NoSQL databases, particularly MongoDB; hands-on experience is a plus,\nFamiliarity with containerization and orchestration technologies such as Docker and Kubernetes; hands-on experience is a plus,\nFamiliarity with version control and CI/CD processes using Git and tools such as Jenkins or GitLab CI/CD,\nComfortable working in a Linux environment and using basic shell commands; practical experience is a plus,\nAbility to use modern AI tools and technologies effectively and responsibly throughout the software development process,\nAbility to understand technical requirements and develop independently in line with project planning,\nStrong communication skills and willingness to share technical knowledge and collaborate within the team,\nAbility to adapt to shifting priorities across multiple projects,\nStrong analytical and problem-solving skills,\nCommitment to documentation, code quality, testability and sustainable software development principles,\nGood command of English, both written and spoken,\n\n\n\n\nJOB DESCRIPTION\n\nDevelop, maintain and improve features for our smart city platform, which serves customers in many countries, as well as our other products and projects,\nBuild backend services and frontend applications using Node.js/NestJS and Angular/React/Next.js,\nTake ownership of development tasks in line with technical planning and deliver them end-to-end,\nProvide development support across different projects, including web, mobile and sensor-based solutions, as priorities require.\nGradually take part in analyzing customer requirements and in technical meetings with international customers,\nAnalyze and resolve technical issues, support customer requests and coordinate with relevant stakeholders when needed,\nWork with containerized deployments and CI/CD pipelines using Docker, Kubernetes and Jenkins/GitLab CI,\nWrite clean, testable and well-documented code, and contribute to code reviews and knowledge sharing within the team.",
+    "isEasyApply": true,
+    "hiringManagerName": null,
+    "url": "https://www.linkedin.com/jobs/search/?currentJobId=4485300676&f_TPR=r86400&keywords=Full%20Stack&location=Turkey",
+    "analysis": {
+      "jobTitle": "Full Stack Engineer",
+      "company": "Ekin Smart City",
+      "score": 98,
+      "isGhostRisk": false,
+      "redFlags": [],
+      "warnings": [],
+      "matchedSkills": [
+        "NestJS",
+        "Next.js",
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Docker",
+        "Git (GitHub, GitLab)"
+      ],
+      "missingKeywords": [
+        "Kubernetes",
+        "CI/CD"
+      ],
+      "recommendedProject": "Emlak24 (Full Stack Engineer)",
+      "outreachMessage": "Merhabalar Yetkili Bey/Hanım,\n\nEkin Smart City bünyesinde açılan Full Stack Engineer pozisyonunu inceledim. Emlak24 (Full Stack Engineer) gibi projelerde edindiğim NestJS, Next.js, React tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.\n\nSüreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.\n\nVaktiniz için teşekkürler,\nEnes Özden",
+      "atsBullets": [
+        "Emlak24 bunyesinde NestJS, Next.js, React ile production seviyesinde olceklenebilir mimari gelistirme.",
+        "NestJS, Next.js, Spring Boot ve PostgreSQL ile mikroservis ve RESTful API tasarimi.",
+        "Ilanda talep edilen NestJS, Next.js, React, Node.js ile ucuca sistem entegrasyonu."
+      ]
+    }
+  },
+  {
+    "title": "Senior Fullstack Engineer",
+    "company": "MSI Technologies Inc.",
+    "meta": "",
+    "description": "About the job\n\nPosition: Senior Fullstack Engineer\n\n\n\n\nRole Overview\n\nThe role is heavily backend-focused (around 80–85% backend), and we’re looking for experienced engineers based in Eastern Europe with strong hands-on experience in:\n\nTypeScript\nNode.js\nNestJS\nKafka\nPostgreSQL\nAWS\nKubernetes\n\n\n\n\nExperience building and operating high-scale, data-heavy backend systems and pipelines is particularly important.\n\n\n\n\nBudget: $4,500 - $4,700\n\n\n\n\nLocation: Eastern Europe",
+    "isEasyApply": true,
+    "hiringManagerName": "Federico Gabriel Composto",
+    "url": "https://www.linkedin.com/jobs/search/?currentJobId=4484557829&f_TPR=r86400&keywords=Full%20Stack&location=Turkey",
+    "analysis": {
+      "jobTitle": "Senior Fullstack Engineer",
+      "company": "MSI Technologies Inc.",
+      "score": 95,
+      "isGhostRisk": false,
+      "redFlags": [],
+      "warnings": [],
+      "matchedSkills": [
+        "TypeScript",
+        "NestJS",
+        "Node.js",
+        "PostgreSQL",
+        "AWS"
+      ],
+      "missingKeywords": [
+        "Kubernetes"
+      ],
+      "recommendedProject": "Emlak24 (Full Stack Engineer)",
+      "outreachMessage": "Merhabalar Federico Gabriel Composto Bey/Hanım,\n\nMSI Technologies Inc. bünyesinde açılan Senior Fullstack Engineer pozisyonunu inceledim. Emlak24 (Full Stack Engineer) gibi projelerde edindiğim TypeScript, NestJS, Node.js tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.\n\nSüreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.\n\nVaktiniz için teşekkürler,\nEnes Özden",
+      "atsBullets": [
+        "Emlak24 bunyesinde TypeScript, NestJS, Node.js ile production seviyesinde olceklenebilir mimari gelistirme.",
+        "NestJS, Next.js, Spring Boot ve PostgreSQL ile mikroservis ve RESTful API tasarimi.",
+        "Ilanda talep edilen TypeScript, NestJS, Node.js, PostgreSQL ile ucuca sistem entegrasyonu."
+      ]
+    }
+  },
+  {
+    "title": "Full Stack Engineer",
+    "company": "Sensor Tower",
+    "meta": "",
+    "description": "About the job\n\nSensor Tower’s digital intelligence platform provides unparalleled insight into market trends, advertising, competitor’s strategies, and consumer/user audience across mobile, web, and gaming. Sensor Tower’s insights are trusted by more than 2,500 enterprises worldwide across tech, retail/commerce, entertainment/media, gaming, consumer packaged goods and finance.\n\nAbout this role:\n\nWe're looking for a Full Stack Developer (main back end focus) to work on our advertising analytics platform. We gather and process BIG amounts of data and deliver meaningful insights to our customers. We have browser extensions, databases, panelists, servers, so many servers, and a great hybrid culture with coworkers locally and across the globe.\n\nThere's a good mix of extremely difficult problems, impossible problems, easy problems, bugs, performance issues, and the occasional thing that's a joy to work on – join us!\n\nWhat you will do in a typical day:\n\n\nTackle interesting performance and scalability challenges.\nMeticulously refactor bunches of reports decimating code size and run time while preserving results. \nIntelligently manage tech debt while simultaneously delivering new features for the business.\nCode in SQL and C# (and occasionally js) in a mixed environment (Windows and Linux but mostly Windows) utilizing AWS, SQL Server, Redshift, Mongo, EntityFramework and ASP.NET Core. \nParticipate in a Kanban/Devops dev process with fluid requirements, weekly scrums, and potentially be on-call w/Pagerduty \nBe a proponent for continuous improvement, architecture, clean code, and good systems design \nWe use Github for source control and Jira for project management\nWe review PRs! (usually) and ship often.\n\n\nWhat you can bring:\n\n\nExperienced C# developer. \nBe able to code in C#, SQL and occasionally in Ruby.\nBig Plus: Comfortable reading and modifying Javascript/React.\nFriendly - You will be working in cross function with a lot of cool people!\nLove for data - Our platform provides data intelligence for the digital economy!\n\n\nOur Engineering Culture\n\nWe believe that \"Simplicity is a prerequisite for reliability.\" We are looking for engineers who align with our core values:\n\n\n Simplicity: We avoid over-engineering. We prefer the tools we already have and the most straightforward solutions over \"shiny new toys.\"\n Quality: We write code that is a pleasure to read because we know code is written once but read many times. We don't cut corners, and we polish to a high level before shipping.\n Extreme Ownership: We don't just do the minimum. We expect you to understand the \"why\" behind your work and own the ultimate goal of fixing problems at their root cause, avoiding temporary band-aids.\n Prioritization: We focus relentlessly on what is important, not just what is urgent.\n\n\nRead more about some of our Technical challenges here (written by members of our engineering team):\n\nhttps://sensortower.com/blog/speeding-up-the-backend-with-graph-theory\n\nhttps://sensortower.com/blog/how-we-scaled-to-thousands-of-sidekiq-workers\n\nFraud warning:\n\nIt's common for scammers to create positions that look legitimate on other sites. To ensure your submission is considered, only apply for positions at Sensor Tower through our company website or through posts directly associated with Sensor Tower company profiles on sites such as LinkedIn, Indeed, BuiltIn or Hackajob. At no point will Sensor Tower ever ask for money, credit card, or bank account information to complete a job application. Communications received from Sensor Tower are only sent by e-mail addresses ending in sensortower.com. All Sensor Tower interviews will be conducted via phone or Zoom. At no time will a conversation be moved to an alternative email outside of sensortower.com or text. Should an issue arise that you feel we should be aware of, please contact us. Please provide your resume when applying.\n\nTo all recruitment agencies:\n\nSensor Tower does not accept third party resumes. Please do not send resumes to our jobs alias, Sensor Tower employees or any other organization location. Sensor Tower is not responsible for any fees related to unsolicited resumes. Sensor Tower will not pay any third-party agency or company that does not have a signed agreement with Sensor Tower.\n\nWe may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.",
+    "isEasyApply": true,
+    "hiringManagerName": null,
+    "url": "https://www.linkedin.com/jobs/search/?currentJobId=4483092773&f_TPR=r86400&keywords=Full%20Stack&location=Turkey",
+    "analysis": {
+      "jobTitle": "Full Stack Engineer",
+      "company": "Sensor Tower",
+      "score": 85,
+      "isGhostRisk": false,
+      "redFlags": [],
+      "warnings": [],
+      "matchedSkills": [
+        "JavaScript",
+        "React",
+        "AWS"
+      ],
+      "missingKeywords": [],
+      "recommendedProject": "Car Studio AI (Backend Developer Intern)",
+      "outreachMessage": "Merhabalar Yetkili Bey/Hanım,\n\nSensor Tower bünyesinde açılan Full Stack Engineer pozisyonunu inceledim. Car Studio AI (Backend Developer Intern) gibi projelerde edindiğim JavaScript, React, AWS tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.\n\nSüreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.\n\nVaktiniz için teşekkürler,\nEnes Özden",
+      "atsBullets": [
+        "Car Studio AI bunyesinde JavaScript, React, AWS ile production seviyesinde olceklenebilir mimari gelistirme.",
+        "NestJS, Next.js, Spring Boot ve PostgreSQL ile mikroservis ve RESTful API tasarimi.",
+        "Ilanda talep edilen JavaScript, React, AWS ile ucuca sistem entegrasyonu."
+      ]
+    }
+  },
+  {
+    "title": "Senior Payments Engineer — Acquiring & Payment Processing",
+    "company": "Sezzle",
+    "meta": "",
+    "description": "About the job\n\nThe salary range for this role is $5,000 - $9,500 per month (Gross in USD) \n\nAbout Sezzle:\n\nWith a mission to financially empower the next generation, Sezzle is revolutionizing the shopping experience beyond payments, blending cutting-edge tech with seamless, interest-free installment plans that make shopping smarter and more accessible. We’re not just transforming payments; we’re redefining how people discover, interact with, and purchase the things they love while driving real impact on merchant sales through increased conversions and higher order values. As we continue to shape the future of fintech and retail, we’re building an innovative, dynamic team passionate about creating more than just a transaction but a truly unique shopping journey. If you’re excited about pushing boundaries in tech and delivering a game-changing experience for consumers and merchants alike, come join us at Sezzle and help create the future of shopping!\n\nCompensation:\n\nFor this senior development role, with 7+ years of experience, the compensation range is $5,000 - $9,500 USD per month. This range acknowledges the extensive expertise, leadership capabilities, and significant contributions expected at this level, offering a competitive salary to reflect the value of advanced skills and experience.\n\nAbout the Role: \n\nWe're hiring a Senior Payments Engineer to own and scale the systems at the heart of Sezzle's acquiring and payment-processing stack — the services that integrate with processors and gateways (Stripe, Adyen, Fiserv, Plaid, and more partners from the broader acquiring ecosystem), move funds, and keep transactions accurate, auditable, and resilient.\n\nThis is a backend-focused, high-ownership role. You'll partner closely with Product, Risk, Compliance, and Support, as well as other engineering teams, to deliver scalable solutions to hard problems in authorization, settlement, reconciliation, and disputes. You'll mentor teammates, unblock peers, and occasionally lead small project teams to delivery.\n\nWhat You'll Do: \n\n\nDesign and build backend services in Golang that integrate with payment processors, gateways, and card networks\nOwn critical money-movement flows end to end: authorization, capture, settlement, refunds, reconciliation, and chargeback/dispute handling\nBuild idempotent, fault-tolerant, auditable transaction processing within a distributed architecture (transactional outbox patterns; queues such as Kafka, SQS, or RabbitMQ)\nOperate within PCI DSS scope — tokenization, network tokens, secure handling of payment data, and 3DS/SCA flows where applicable\nInstrument and monitor payment health: authorization/decline rates, processor performance, latency, and settlement accuracy, driving continuous improvement\nUse AI tooling (Claude and equivalent LLMs) as part of your daily workflow to accelerate design, coding, research, testing, and documentation — within Sezzle's security and data-handling policies\nMentor engineers and help raise the bar across the team\nDemonstrated experience working with Claude or equivalent large language model tools is required; candidates must be comfortable leveraging AI to enhance productivity, research, and communication.\n\n\nWhat We Look For:\n\n\n7+ years of backend or full-stack engineering experience, with meaningful time spent on payments, fintech, or money-movement systems\nStrong Go (preferred), or comparable experience in Python, building and serving REST APIs\nHands-on experience integrating with payment processors, gateways, or acquiring systems, and familiarity with payments fundamentals: authorization vs. settlement, tokenization, idempotency, reconciliation, and chargebacks/disputes\nExperience in distributed, cloud-based architectures using patterns like transactional outboxes or queuing tools (Kafka, SQS, RabbitMQ)\nDemonstrated, hands-on use of Claude or an equivalent LLM to enhance productivity, research, and communication — you're comfortable making AI a core part of how you work and can show how it's improved your output\nBachelor's degree in Computer Science, Engineering, or a related field.\n\n\nPreferred Knowledge and Skills:\n\n\nExperience with SQL based RDMS through an ORM tool\nComfortable using observability platforms like Prometheus, or vendor solutions like NewRelic or Datadog to instrument your code for production monitoring and alerting.\nDevOps experience with CI/CD pipelines\nFamiliarity with containerized micro-service architecture deployed with Kubernetes on AWS\nDemonstrated history of delivering commercial APIs and web applications\nA clear record of getting products to market and prioritizing solutions and improvements based on stakeholder/customer feedback.\n\n\nNice to Have\n\n\nDirect experience with payments acquiring ecosystem like; Adyen, Stripe, Marqeta, Fiserv, etc.\nExposure to PCI DSS, 3DS/SCA, network tokenization, or payments compliance\nSQL-based RDBMS through an ORM\nObservability platforms (Prometheus, Datadog, New Relic) for production instrumentation and alerting\nDevOps / CI/CD pipeline experience; containerized microservices on Kubernetes / AWS\nA track record of shipping commercial payment APIs and prioritizing based on stakeholder/customer feedback\n\n\nAI at Sezzle\n\nSezzle runs an AI-first product and engineering culture — we start projects in Claude and expect engineers to use AI to move faster and think more rigorously. In a payments environment, we do this responsibly: AI tools accelerate how we design, build, and document, but cardholder data, credentials, and secrets never leave our secured environment. We're looking for someone who treats AI fluency and secure-by-default engineering as two sides of the same skill.\n\nAbout You: \n\n\nYou have relentlessly high standards - many people may think your standards are unreasonably high. You are continually raising the bar and driving those around you to deliver great results. You make sure that defects do not get sent down the line and that problems are fixed so they stay fixed.\nYou’re not bound by convention - your success—and much of the fun—lies in developing new ways to do things\nYou need action - speed matters in business. Many decisions and actions are reversible and do not need extensive study. We value calculated risk-taking.\nYou earn trust - you listen attentively, speak candidly, and treat others respectfully.\nYou have backbone; disagree, then commit - you can respectfully challenge decisions when you disagree, even when doing so is uncomfortable or exhausting. You have conviction and are tenacious. You do not compromise for the sake of social cohesion. Once a decision is determined, you commit wholly.\nYou deliver results - you focus on the key inputs and deliver them with the right quality and in a timely fashion. Despite setbacks, you rise to the occasion and never settle.\n\n\nSezzle’s Technology Stack:\n\n\nLanguages: Golang, Typescript, Python\nFrontend: Typescript - React and React Native\nBackend: Golang\nDatabase: MySQL, Postgres, Elasticsearch\nDevOps & Cloud: AWS, Kubernetes\nVersion Control: Git\nCI/CD: Gitlab\nTesting: Developer-driven, focus on automated unit, integration, and end-to-end tests\nSezzle is focused on using open source, and we build what we can before buying!\n\n\nWhat Makes Working at Sezzle Awesome? \n\nAt Sezzle, we are more than just brilliant engineers, passionate data enthusiasts, out-of-the-box thinkers, and determined innovators; we are skilled musicians, yogis, cyclists, chefs, golfers, dog-lovers, and rock-climbers. We believe in surrounding ourselves with not only the best and the brightest individuals, but those that are unique and purpose-driven in all that they do. Our culture is not defined by a certain set of perks designed to give the illusion of the traditional startup culture, but rather, it is the visible example living in every employee that we hire.\n\n#Full-time",
+    "isEasyApply": true,
+    "hiringManagerName": null,
+    "url": "https://www.linkedin.com/jobs/search/?currentJobId=4431727295&f_TPR=r86400&keywords=Full%20Stack&location=Turkey",
+    "analysis": {
+      "jobTitle": "Senior Payments Engineer — Acquiring & Payment Processing",
+      "company": "Sezzle",
+      "score": 75,
+      "isGhostRisk": false,
+      "redFlags": [],
+      "warnings": [],
+      "matchedSkills": [
+        "TypeScript",
+        "React",
+        "MySQL",
+        "Git (GitHub, GitLab)",
+        "AWS"
+      ],
+      "missingKeywords": [
+        "Kubernetes",
+        "CI/CD",
+        "Microservices",
+        "Elasticsearch",
+        "RabbitMQ"
+      ],
+      "recommendedProject": "Emlak24 (Full Stack Engineer)",
+      "outreachMessage": "Merhabalar Yetkili Bey/Hanım,\n\nSezzle bünyesinde açılan Senior Payments Engineer — Acquiring & Payment Processing pozisyonunu inceledim. Emlak24 (Full Stack Engineer) gibi projelerde edindiğim TypeScript, React, MySQL tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.\n\nSüreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.\n\nVaktiniz için teşekkürler,\nEnes Özden",
+      "atsBullets": [
+        "Emlak24 bunyesinde TypeScript, React, MySQL ile production seviyesinde olceklenebilir mimari gelistirme.",
+        "NestJS, Next.js, Spring Boot ve PostgreSQL ile mikroservis ve RESTful API tasarimi.",
+        "Ilanda talep edilen TypeScript, React, MySQL, Git (GitHub, GitLab) ile ucuca sistem entegrasyonu."
+      ]
+    }
+  },
+  {
+    "title": "Yazılım Stajyeri (Zorunlu Uzun Dönem Staj, Ücretli, Uzaktan)",
+    "company": "Cadde",
+    "meta": "",
+    "description": "About the job\n\nYazılım Stajyeri (Zorunlu Uzun Dönem (6 Aylık) Staj, Ücretli, Uzaktan)\n\nCadde App, otomobil tutkunlarını harita üzerinde buluşturan, iOS ve Android’de yayında olan bir sosyal platform. Canlı harita, plakaya vibe bırakma, bubble ödül sistemi ve topluluk özellikleriyle büyüyen ekibimize zorunlu stajını yapacak bir Yazılım Stajyeri arıyoruz.\n\nNeler yapacaksın?\n\nYayındaki uygulamamızda gerçek kullanıcıya ulaşan özelliklerin geliştirilmesine katkı sağlayacaksın\nAPI entegrasyonları, harita ve konum tabanlı özellikler üzerinde çalışacaksın\nHata ayıklama, test ve performans iyileştirme süreçlerinde yer alacaksın\nOnline kod incelemeleri ve düzenli görüntülü toplantılarla ekip içinde birebir öğrenme fırsatı bulacaksın\n\nAradığımız özellikler\n\nBilgisayar Mühendisliği, Yazılım Mühendisliği veya ilgili bölümlerde okuyan, okulu tarafından zorunlu staj yapması gereken\nMobil geliştirme (React Native, Flutter, Swift veya Kotlin) veya backend konularında temel bilgisi olan\nWeb teknolojileri (HTML/CSS, JavaScript, PHP/WordPress) hakkında temel bilgisi olan\nGit kullanımına aşina\nÖğrenmeye açık, sorumluluk alabilen\nOtomobil kültürüne ilgi duyuyorsan artı puan\n\nNeler sunuyoruz?\n\nTamamen uzaktan çalışma, esnek çalışma saatleri\nÜcretli zorunlu staj\nYayında olan, gerçek kullanıcılı bir üründe deneyim\nKurucu ekiple doğrudan çalışma\nStaj sonunda staj belgesi ve referans\n\n📍 Uzaktan (Remote) – Türkiye geneli\n\n 📅 Staj dönemi: Müsaitlik dahilinde belirlenecektir.",
+    "isEasyApply": true,
+    "hiringManagerName": null,
+    "url": "https://www.linkedin.com/jobs/search/?currentJobId=4483437814&f_TPR=r86400&keywords=Full%20Stack&location=Turkey",
+    "analysis": {
+      "jobTitle": "Yazılım Stajyeri (Zorunlu Uzun Dönem Staj, Ücretli, Uzaktan)",
+      "company": "Cadde",
+      "score": 65,
+      "isGhostRisk": false,
+      "redFlags": [],
+      "warnings": [],
+      "matchedSkills": [
+        "JavaScript",
+        "React",
+        "Git (GitHub, GitLab)"
+      ],
+      "missingKeywords": [],
+      "recommendedProject": "Car Studio AI (Backend Developer Intern)",
+      "outreachMessage": "Merhabalar Yetkili Bey/Hanım,\n\nCadde bünyesinde açılan Yazılım Stajyeri (Zorunlu Uzun Dönem Staj, Ücretli, Uzaktan) pozisyonunu inceledim. Car Studio AI (Backend Developer Intern) gibi projelerde edindiğim JavaScript, React, Git (GitHub, GitLab) tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.\n\nSüreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.\n\nVaktiniz için teşekkürler,\nEnes Özden",
+      "atsBullets": [
+        "Car Studio AI bunyesinde JavaScript, React, Git (GitHub, GitLab) ile production seviyesinde olceklenebilir mimari gelistirme.",
+        "NestJS, Next.js, Spring Boot ve PostgreSQL ile mikroservis ve RESTful API tasarimi.",
+        "Ilanda talep edilen JavaScript, React, Git (GitHub, GitLab) ile ucuca sistem entegrasyonu."
+      ]
+    }
+  },
+  {
+    "title": "Software Engineer",
+    "company": "Zetheta Algorithms Private Limited",
+    "meta": "",
+    "description": "About the job\n\nAbout the Company\n\nZeTheta Algorithms (www.zetheta.com) is a FinTech start-up which has been recently set up and is developing innovative AI tools. https://www.instagram.com/zetheta.official/\n\n\n\n\nAbout the Role\n\nWe give a chance to every talented and motivated student/ fresher intern to develop AI models from scratch within a 2-month timeframe and show case their talents. This is an extraordinary opportunity for a self-driven, technically skilled student to build a complete enterprise-grade system that incorporates cutting-edge AI technologies including deep learning.\n\n\n\n\nApplication Process\n\nJoin us through online enrolment through this link https://www.zetheta.com/linkedin-apply/ and simply submit your updated CV. We do not conduct any interview or assessment. All motivated early career talent are welcome to take up the role to show case their skills.\n\n\n\n\nResponsibilities\n\nDesign and implement complete AI models following provided specifications.\nDevelop both frontend and backend components of the platform.\nCreate and integrate AI modules.\nDesign and optimize database schema and queries. Ensure system security, especially for sensitive identity verification data.\nDeploy the solution using zero-cost cloud services.\nDocument code, APIs, and system architecture.\nComplete the entire project within the 2-month timeline.\n\n\n\n\nQualifications\n\nNo experience required. Preferably a student currently pursuing or a fresh graduate who has recently completed a degree in Computer Science, AI/ML, or a related field.\n\n\n\n\nRequired Skills (use of all LLMs permitted)\n\nStrong programming skills in Python and JavaScript. Understanding of React.js for frontend development and Node.js for backend. Knowledge of FastAPI or similar Python web frameworks. Familiarity with database design and SQL, particularly PostgreSQL with Supabase. Deployment on AWS with CI/CD pipelines and manual environment in EC2 and S3. Understanding of basic machine learning concepts. Self-motivated with ability to work independently.\n\n\n\n\nPreferred Skills (use of all LLMs permitted)\n\nSound knowledge of AI/ML libraries including TensorFlow, Keras, and HuggingFace Transformers. Familiarity with computer vision techniques using OpenCV. Knowledge of natural language processing concepts. Sound knowledge of facial recognition or emotion detection systems. Understanding of identity verification methodologies. Docker containerization experience. Prior work with cloud deployment on AWS.\n\n\n\n\nWho Should Apply\n\nStudent or fresh graduate from any academic discipline. Strong analytical and problem-solving skills. Willingness to self-learn and work in a fast-paced environment.\n\n\n\n\nInternship Details\n\nDuration: Self-paced. Options of 15 days or 1, 2, 3, 4, or 6 months.\n\nCertificate: Project Work Experience (circa internship/ externship) Certificate\n\nType: Unpaid.",
+    "isEasyApply": true,
+    "hiringManagerName": "Suketu Sanghvi",
+    "url": "https://www.linkedin.com/jobs/search/?currentJobId=4485313076&f_TPR=r86400&keywords=Full%20Stack&location=Turkey",
+    "analysis": {
+      "jobTitle": "Software Engineer",
+      "company": "Zetheta Algorithms Private Limited",
+      "score": 60,
+      "isGhostRisk": true,
+      "redFlags": [
+        "Ucretsiz veya staj ibaresi iceriyor."
+      ],
+      "warnings": [],
+      "matchedSkills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "PostgreSQL",
+        "Docker",
+        "AWS"
+      ],
+      "missingKeywords": [
+        "CI/CD"
+      ],
+      "recommendedProject": "Car Studio AI (Backend Developer Intern)",
+      "outreachMessage": "Merhabalar Suketu Sanghvi Bey/Hanım,\n\nZetheta Algorithms Private Limited bünyesinde açılan Software Engineer pozisyonunu inceledim. Car Studio AI (Backend Developer Intern) gibi projelerde edindiğim JavaScript, React, Node.js tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.\n\nSüreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.\n\nVaktiniz için teşekkürler,\nEnes Özden",
+      "atsBullets": [
+        "Car Studio AI bunyesinde JavaScript, React, Node.js ile production seviyesinde olceklenebilir mimari gelistirme.",
+        "NestJS, Next.js, Spring Boot ve PostgreSQL ile mikroservis ve RESTful API tasarimi.",
+        "Ilanda talep edilen JavaScript, React, Node.js, PostgreSQL ile ucuca sistem entegrasyonu."
+      ]
+    }
+  },
+  {
+    "title": "AI Infrastructure Engineer",
+    "company": "Shuru",
+    "meta": "",
+    "description": "About the job\n\nAbout the job\n\nShuru is an AI-native technology and engineering services company helping businesses build and scale high-impact products and AI solutions.\n\nWe are looking for an LLM / AI Infrastructure Engineer to help deploy, optimize, and operate open-source Large Language Models within a secure private cloud / on-premise environment.This role is focused on building production-ready AI infrastructure without relying on public black-box APIs. You will work closely with a Turkish entity and an international architecture team to integrate LLM capabilities into a production MVP while meeting strict privacy, security, and regulatory requirements.\n\nKey ResponsibilitiesDeploy and manage open-source LLMs such as Llama, Mistral, Qwen, or similar models.\nFine-tune and adapt models for business-specific use cases.\nOptimize LLM inference for performance, latency, memory usage, and cost.\nSet up and operate models in private cloud, on-premise, or bare-metal environments.\nIntegrate LLM services into a production-ready MVP through APIs and backend services.\nImplement secure model-serving and data-processing workflows.\nEnsure AI infrastructure complies with data privacy, security, and regulatory requirements.\nMonitor model performance, infrastructure utilization, and production reliability.\nCollaborate with architecture, engineering, and business teams across Türkiye and international locations.\n\n\n\n\nRequired SkillsStrong hands-on experience deploying open-source LLMs in production.\nExperience with model fine-tuning, inference, quantization, and optimization.\nStrong knowledge of GPU infrastructure and model serving.\nExperience with technologies such as vLLM, Hugging Face, PyTorch, TensorRT-LLM, llama.cpp, or similar tools.\nExperience working with private cloud, on-premise, or bare-metal infrastructure.\nFamiliarity with Docker, Kubernetes, Linux, and production AI/ML infrastructure.\nUnderstanding of data privacy, security, and regulatory compliance requirements.\nStrong troubleshooting and performance optimization skills.\nProfessional proficiency in Turkish and English.\n\n\n\n\nBenefitsWork on challenging, large-scale engineering and data problems.\nWork closely with experienced engineering, product, and technology leaders.\nOpportunity to take ownership of architecture and key technical decisions.\nRemote-first and collaborative work environment.\nStrong opportunities for learning, leadership, and career growth.",
+    "isEasyApply": true,
+    "hiringManagerName": "Ujjwal Roy",
+    "url": "https://www.linkedin.com/jobs/search/?currentJobId=4483453329&f_TPR=r86400&keywords=Full%20Stack&location=Turkey",
+    "analysis": {
+      "jobTitle": "AI Infrastructure Engineer",
+      "company": "Shuru",
+      "score": 55,
+      "isGhostRisk": false,
+      "redFlags": [],
+      "warnings": [],
+      "matchedSkills": [
+        "Docker"
+      ],
+      "missingKeywords": [
+        "Kubernetes"
+      ],
+      "recommendedProject": "Emlak24 (Full Stack Engineer)",
+      "outreachMessage": "Merhabalar Ujjwal Roy Bey/Hanım,\n\nShuru bünyesinde açılan AI Infrastructure Engineer pozisyonunu inceledim. Emlak24 (Full Stack Engineer) gibi projelerde edindiğim Docker tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.\n\nSüreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.\n\nVaktiniz için teşekkürler,\nEnes Özden",
+      "atsBullets": [
+        "Emlak24 bunyesinde Docker ile production seviyesinde olceklenebilir mimari gelistirme.",
+        "NestJS, Next.js, Spring Boot ve PostgreSQL ile mikroservis ve RESTful API tasarimi.",
+        "Ilanda talep edilen Docker ile ucuca sistem entegrasyonu."
+      ]
+    }
+  },
+  {
+    "title": "iGaming SEO İçerik Yazarı (Serbest / Uzaktan)",
+    "company": "Matadorbet",
+    "meta": "",
+    "description": "About the job\n\niGaming sektöründe deneyimli, SEO odaklı içerik üretebilen ve YMYL ile E-E-A-T prensiplerine hâkim bir içerik yazarı arıyoruz. Online casino, spor bahisleri, ödeme yöntemleri, güvenlik, sorumlu oyun ve sektörel rehberler gibi konularda kullanıcı odaklı, doğru, güvenilir ve SEO uyumlu içerikler hazırlayacak bir ekip arkadaşı arıyoruz.\n\nÇalışma Şekli ve Ödeme\n\nÇalışma tipi: Serbest çalışma (freelance), proje bazlı\nKonum: Uzaktan\nÖdeme: Yazı başına yapılır. Ücret, içerik kalitesine ve uzunluğuna göre karşılıklı belirlenir\nBu pozisyon bir bordrolu/SGK’lı istihdam değil, serbest çalışma ilişkisidir.\n\nSorumluluklar\n\niGaming, online casino ve spor bahisleri alanlarında özgün içerikler hazırlamak\nSEO brieflerine ve kullanıcı arama niyetine uygun makaleler üretmek\nYMYL içeriklerinde doğruluk, güvenilirlik ve kaynak kalitesine dikkat etmek\nE-E-A-T prensiplerini içerik üretim sürecine uygulamak\nMeta title, meta description, başlık yapısı ve içerik hiyerarşisini optimize etmek\nGüvenilir kaynaklardan araştırma yapmak ve bilgileri doğrulamak\nMevcut içerikleri kalite, güncellik ve SEO açısından geliştirmek\nİç linkleme ve içerik yapısı konusunda öneriler sunmak\nGerektiğinde SSS (FAQ) ve benzeri yapılandırılmış içerik bölümleri hazırlamak.\n\n\n\n\nAradığımız Nitelikler\nTürkçe yazım ve dil bilgisi konusunda güçlü olmak\niGaming, casino, bahis veya benzeri alanlarda içerik yazarlığı deneyimine sahip olmak\nSEO uyumlu içerik üretimi konusunda deneyimli olmak\nYMYL ve E-E-A-T kavramlarını bilmek ve içeriklerde uygulayabilmek\nKullanıcı arama niyetini doğru analiz edebilmek\nAraştırma ve bilgi doğrulama konusunda dikkatli olmak\nUzun formatlı rehber ve bilgilendirici içerikler hazırlayabilmek\nTeslim tarihlerine uyumlu ve düzenli çalışabilmek\n\n\n\n\nÇalışma Anlayışımız\n\nİçeriklerin kendi araştırmanıza ve kaleminize dayanmasını bekliyoruz. Yapay zekâ araçları yalnızca destekleyici olarak kullanılabilir. Her içerik insan elinden çıkmış, kontrol edilmiş ve gerçekten okuyucuya değer katan bir metin olmalıdır. Uzunluk için yazılmış, dolgu niteliğindeki içerikler yerine net ve faydalı içerikler önceliğimizdir.\n\n\n\n\nTercih Sebebi\n\niGaming veya affiliate projelerinde çalışmış olmak\nWordPress kullanımı konusunda deneyim\nYoast SEO veya Rank Math deneyimi\nSchema / structured data hakkında temel bilgi\nİngilizce kaynaklardan araştırma yapabilecek seviyede İngilizce\nCasino lisansları, ödeme yöntemleri ve oyun sağlayıcıları hakkında sektör bilgisi\n\n\n\n\nBaşvuru\n\nBaşvurunuzu bu ilan üzerinden yapabilirsiniz. Değerlendirme için daha önce hazırladığınız 2–3 adet iGaming, casino, bahis veya SEO odaklı içerik örneğinin bağlantısını özgeçmişinize ya da başvuru formundaki ek alana eklemenizi rica ederiz. İçerik örneği bulunan başvurular öncelikli olarak değerlendirilecektir.\n\nBaşvurunuzda şu konulardaki deneyiminizi kısaca belirtmeniz tercih sebebidir:\n\niGaming içerik yazarlığı deneyiminiz\nSEO içerik üretimi deneyiminiz\nYMYL ve E-E-A-T konusundaki bilginiz",
+    "isEasyApply": true,
+    "hiringManagerName": null,
+    "url": "https://www.linkedin.com/jobs/search/?currentJobId=4483428949&f_TPR=r86400&keywords=Full%20Stack&location=Turkey",
+    "analysis": {
+      "jobTitle": "iGaming SEO İçerik Yazarı (Serbest / Uzaktan)",
+      "company": "Matadorbet",
+      "score": 50,
+      "isGhostRisk": false,
+      "redFlags": [],
+      "warnings": [],
+      "matchedSkills": [],
+      "missingKeywords": [],
+      "recommendedProject": "Emlak24 (Full Stack Engineer)",
+      "outreachMessage": "Merhabalar Yetkili Bey/Hanım,\n\nMatadorbet bünyesinde açılan iGaming SEO İçerik Yazarı (Serbest / Uzaktan) pozisyonunu inceledim. Emlak24 (Full Stack Engineer) gibi projelerde edindiğim TypeScript, NestJS ve PostgreSQL tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.\n\nSüreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.\n\nVaktiniz için teşekkürler,\nEnes Özden",
+      "atsBullets": [
+        "Emlak24 bunyesinde TypeScript, NestJS ve PostgreSQL ile production seviyesinde olceklenebilir mimari gelistirme.",
+        "NestJS, Next.js, Spring Boot ve PostgreSQL ile mikroservis ve RESTful API tasarimi.",
+        "Ilanda talep edilen modern full-stack teknolojileri ile ucuca sistem entegrasyonu."
+      ]
+    }
+  },
+  {
+    "title": "AI Strategist (Based in Dubai)",
+    "company": "Property Finder",
+    "meta": "",
+    "description": "About the job\n\nDUBAI BASED ROLE. Relocation would be required but with highly competitive, tax free salary package.\n\n\n\n\nCompany Profile:\n\n\n\n\nProperty Finder is the leading property portal in the Middle East and North Africa (MENA) region, dedicated to shaping an inclusive future for real estate while spearheading the region’s growing tech ecosystem. At its core is a clear and powerful purpose: To change living for good in the region.\n\n\n\n\nFounded on the value of great ambitions, Property Finder connects millions of property seekers with thousands of real estate professionals every day. The platform offers a seamless and enriching experience, empowering both buyers and renters to make informed decisions. Since its inception in 2007, Property Finder has evolved into a trusted partner for developers, brokers, and home seekers. As a lighthouse tech company, it continues to create an environment where people can thrive and contribute meaningfully to the transformation of real estate in MENA.\n\n\n\n\nRole Summary\n\n\n\n\nThe AI Strategist leads Property Finder's AI engagements end to end with a set of our most strategic agencies and developers. You are the person the client's CEO or COO calls. You find the business problem worth solving, define the AI solution that will move their numbers, lead the two Forward Deployed Engineers who build it, and stay accountable until it is live, adopted and its impact is measured.\n\n\n\n\nThis is a business-minded, client-facing role at the level of an Engagement Manager at a top consulting firm. It is the same role as a Deployment Strategist at Palantir, ElevenLabs or OpenAI. You don't need to write production code. You do need to be able to read a data model, prototype a simple AI workflow, challenge an engineer's estimate and explain the trade-offs to a non-technical client.\n\n\n\n\nKey Responsibilities\n\n\n\n\nBuild the relationship and find the use cases\n\nBuild trusted relationships with client owners, managing directors and operating teams; hold the senior relationship on solutions alongside the account team.\nRun discovery: understand how the client lists properties, generates and converts leads, manages agents and markets itself; find where AI and Property Finder data can change a number they care about.\nDefine and prioritise use cases, such as listing creation, lead response, marketing spend and agent productivity, with a business case, target metric and success criteria for each.\n\n\n\n\nRun the engagement and the product\n\nOwn the engagement plan and backlog: scope, sequence, milestones and timeline, agreed with the client decision-maker and the VP before work starts.\nAct as product manager for what the pod builds: write the requirements, set priorities, unblock the engineers, and keep the build tied to the outcome rather than the spec.\nMove solutions from prototype to production to adoption: train the client's teams, manage change, and embed the solution in their routines.\nMeasure impact against a control group with Analytics, and report results to client leadership with a clear storyline.\n\n\n\n\nScale What Works\n\nTurn each engagement into reusable assets: playbooks, templates, case studies.\nFeed a structured view of client needs into Product; argue for what should become a standard product for all clients.\nSpot renewal and expansion opportunities early and route them to the account team, without carrying a sales quota yourself.\n\n\n\n\nThe Person\n\n\n\n\n6–9 years of experience, including 3+ years in a top-tier management consulting firm at Engagement Manager / Project Leader level, or an equivalent client-leading role in a deployment, forward deployed or solutions team at a technology company.\nHas led multi-month client engagements end to end with a team of 2–5, owning scope, the client relationship and the outcome.\nHands-on with AI: has scoped or shipped LLM-based tools or agents, understands how they are built, evaluated and adopted, and is excited by what they can do for a client's business.\nStrong analytical and quantitative problem-solving; comfortable with SQL and spreadsheets, and able to pull and sanity-check data yourself.\nWorking technical literacy: APIs, data pipelines, CRM systems; can hold an architecture conversation and spot a bad estimate.\nExceptional written and verbal communication; has built storylines and presented to CEO-level audiences, and can explain technical content simply.\nCommercial judgment: understands what drives a client's profitability and how that connects to their spend with Property Finder.\nComfortable in ambiguity and in someone else's office; low ego, high ownership.\n\n\n\n\nOur promise to talent\n\n\n\n\nAt Property Finder, we believe talent thrives in an environment where you can be your best self. Where you are empowered to create, elevate, grow, and care. Our team is made up of the best and brightest, united by a shared ambition to change living for good in the region. We attract top talent who want to make an impact. We firmly believe that when our people grow, we all succeed.\n\n\n\n\nProperty Finder Guiding Principles\n\nThink Future First\nData Beats Opinions, Speed Beats Perfection\nOptimise for Impact\nAct Like An Owner\nThe Biggest Risk is Taking no Risk at All\n\n\n\n\nFind Us At\n\n\n\n\nTwitter\n\nFacebook\n\nInstagram\n\nLinkedin\n\nGlassdoor",
+    "isEasyApply": true,
+    "hiringManagerName": null,
+    "url": "https://www.linkedin.com/jobs/search/?currentJobId=4481701180&f_TPR=r86400&keywords=Full%20Stack&location=Turkey",
+    "analysis": {
+      "jobTitle": "AI Strategist (Based in Dubai)",
+      "company": "Property Finder",
+      "score": 50,
+      "isGhostRisk": false,
+      "redFlags": [],
+      "warnings": [],
+      "matchedSkills": [],
+      "missingKeywords": [],
+      "recommendedProject": "Emlak24 (Full Stack Engineer)",
+      "outreachMessage": "Merhabalar Yetkili Bey/Hanım,\n\nProperty Finder bünyesinde açılan AI Strategist (Based in Dubai) pozisyonunu inceledim. Emlak24 (Full Stack Engineer) gibi projelerde edindiğim TypeScript, NestJS ve PostgreSQL tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.\n\nSüreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.\n\nVaktiniz için teşekkürler,\nEnes Özden",
+      "atsBullets": [
+        "Emlak24 bunyesinde TypeScript, NestJS ve PostgreSQL ile production seviyesinde olceklenebilir mimari gelistirme.",
+        "NestJS, Next.js, Spring Boot ve PostgreSQL ile mikroservis ve RESTful API tasarimi.",
+        "Ilanda talep edilen modern full-stack teknolojileri ile ucuca sistem entegrasyonu."
+      ]
+    }
+  },
+  {
+    "title": "Researcher - Remote",
+    "company": "YO AI Labs",
+    "meta": "",
+    "description": "About the job\n\nBusiness Analyst / Researcher / Operations Specialist\n\nRole Type: Contractor\n\nLocation: Remote\n\nmicro1 is seeking Business Analysts, Researchers, and Operations Specialists to support a writing-focused customer project involving business analysis, research, and operational reasoning for AI training. No prior AI experience is required.\n\nKey Responsibilities\n\n\nAnalyze business scenarios, decisions, and trade-offs.\nConduct quantitative and qualitative research.\nGather and synthesize requirements and stakeholder insights.\nAnalyze data using Excel, SQL, or similar tools.\nDevelop reports, memos, business cases, and process documentation.\nIdentify process improvements and provide actionable recommendations.\nCommunicate complex findings clearly and effectively.\n\n\n\nRequired Skills\n\n\nBusiness Analysis & Requirements Gathering\nQuantitative & Qualitative Research\nData Analysis (Excel/SQL)\nProcess Improvement & Operations Management\nStakeholder Communication\nReport & Memo Writing\nComplex Information Synthesis\nAnalytical Writing\n\n\n\nQualifications\n\n\n3+ years of experience in business analysis, research, operations, or related fields.\nStrong analytical, research, and professional writing skills.\nExperience with data interpretation, process improvement, and stakeholder communication.",
+    "isEasyApply": true,
+    "hiringManagerName": null,
+    "url": "https://www.linkedin.com/jobs/search/?currentJobId=4484814376&f_TPR=r86400&keywords=Full%20Stack&location=Turkey",
+    "analysis": {
+      "jobTitle": "Researcher - Remote",
+      "company": "YO AI Labs",
+      "score": 50,
+      "isGhostRisk": false,
+      "redFlags": [],
+      "warnings": [],
+      "matchedSkills": [],
+      "missingKeywords": [],
+      "recommendedProject": "Emlak24 (Full Stack Engineer)",
+      "outreachMessage": "Merhabalar Yetkili Bey/Hanım,\n\nYO AI Labs bünyesinde açılan Researcher - Remote pozisyonunu inceledim. Emlak24 (Full Stack Engineer) gibi projelerde edindiğim TypeScript, NestJS ve PostgreSQL tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.\n\nSüreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.\n\nVaktiniz için teşekkürler,\nEnes Özden",
+      "atsBullets": [
+        "Emlak24 bunyesinde TypeScript, NestJS ve PostgreSQL ile production seviyesinde olceklenebilir mimari gelistirme.",
+        "NestJS, Next.js, Spring Boot ve PostgreSQL ile mikroservis ve RESTful API tasarimi.",
+        "Ilanda talep edilen modern full-stack teknolojileri ile ucuca sistem entegrasyonu."
+      ]
+    }
+  },
+  {
+    "title": "Remote ML Engineer",
+    "company": "Turing",
+    "meta": "",
+    "description": "About the job\n\nAbout Turing:\n\nBased in San Francisco, California, Turing is the world’s leading research accelerator for frontier AI labs and a trusted partner for global enterprises deploying advanced AI systems. Turing supports customers in two ways: first, by accelerating frontier research with high-quality data, advanced training pipelines, plus top AI researchers who specialize in coding, reasoning, STEM, multilinguality, multimodality, and agents; and second, by applying that expertise to help enterprises transform AI from proof of concept into proprietary intelligence with systems that perform reliably, deliver measurable impact, and drive lasting results on the P&L\n\n\n\n\nRole Overview:\n\nWe are looking for experienced Machine Learning Engineers (MLE Bench) to contribute to benchmark-driven evaluation projects focused on real-world machine learning systems. This role involves hands-on work with production-grade ML codebases, model training and evaluation pipelines, and deployment-oriented workflows to help assess and improve the capabilities of advanced AI systems.\n\nThe ideal candidate is comfortable bridging research and engineering, working deeply with models, data, and infrastructure in realistic ML environments.\n\n\n\n\nWhat does day-to-day life look like?\n\nWork with real-world ML codebases to support MLE Bench–style evaluation tasks.\nBuild, run, and modify model training, evaluation, and inference pipelines.\nPrepare datasets, features, and metrics for ML benchmarking and validation.\nDebug, refactor, and improve production-like ML systems for correctness and performance.\nEvaluate model behavior, failure modes, and edge cases relevant to benchmark tasks.\nWrite clean, reproducible, and well-documented Python code for ML workflows.\nParticipate in code reviews to ensure high standards of engineering quality.\nCollaborate with researchers and engineers to design challenging, real-world ML engineering tasks for AI system evaluation.\n\n\n\n\nRequirements:\n\nMinimum 3+ years of overall experience as a Machine Learning Engineer or Software Engineer (ML-focused).\nStrong proficiency in Python for machine learning and data workflows.\nHands-on experience with model training, evaluation, and inference pipelines.\nSolid understanding of machine learning fundamentals (supervised/unsupervised learning, evaluation metrics, optimization).\nExperience working with ML frameworks (e.g., PyTorch, TensorFlow, JAX, or similar).\nAbility to understand, navigate, and modify complex, real-world ML codebases.\nExperience writing readable, reusable, and maintainable production-quality code.\nStrong problem-solving and debugging skills.\nExcellent spoken and written English communication skills.\n\n\n\n\nPerks of Freelancing With Turing:\n\nWork in a fully remote environment.\nOpportunity to work on cutting-edge AI projects with leading LLM companies.\n\n\n\n\nOffer Details:\n\nCommitments Required: At least 4 hours per day and minimum 20 hours per week with overlap of 4 hours with PST.\nEngagement Type: Contractor assignment (no medical/paid leave)\nDuration of Contract: 3 months (adjustable based on engagement)\n\n\n\n\nEvaluation Process:\n\nTechnical Interview with live coding challege (60 mins)",
+    "isEasyApply": true,
+    "hiringManagerName": null,
+    "url": "https://www.linkedin.com/jobs/search/?currentJobId=4484814852&f_TPR=r86400&keywords=Full%20Stack&location=Turkey",
+    "analysis": {
+      "jobTitle": "Remote ML Engineer",
+      "company": "Turing",
+      "score": 50,
+      "isGhostRisk": false,
+      "redFlags": [],
+      "warnings": [],
+      "matchedSkills": [],
+      "missingKeywords": [],
+      "recommendedProject": "Emlak24 (Full Stack Engineer)",
+      "outreachMessage": "Merhabalar Yetkili Bey/Hanım,\n\nTuring bünyesinde açılan Remote ML Engineer pozisyonunu inceledim. Emlak24 (Full Stack Engineer) gibi projelerde edindiğim TypeScript, NestJS ve PostgreSQL tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.\n\nSüreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.\n\nVaktiniz için teşekkürler,\nEnes Özden",
+      "atsBullets": [
+        "Emlak24 bunyesinde TypeScript, NestJS ve PostgreSQL ile production seviyesinde olceklenebilir mimari gelistirme.",
+        "NestJS, Next.js, Spring Boot ve PostgreSQL ile mikroservis ve RESTful API tasarimi.",
+        "Ilanda talep edilen modern full-stack teknolojileri ile ucuca sistem entegrasyonu."
+      ]
+    }
+  },
+  {
+    "title": "Sr. Level Artist & Designer",
+    "company": "The Phenix",
+    "meta": "",
+    "description": "About the job\n\nAbout the Role\n\nAt The Phenix we are looking for a Level Designer / Level Artist to join our team and contribute to our game project built in Unreal Engine 5, using Nanite.\n\nWe are seeking someone who can combine engaging player experiences with strong visual storytelling and contribute throughout the level development process from designing playable spaces and building environments to integrating assets and optimizing performance. In this role, you will work closely with our Game Design, Environment Art, Technical Art, and Programming teams.\n\n\n\n\n\n\n\nResponsibilities\n\nCreate level layouts and blockouts, developing them from initial prototypes through final polish.\nDesign spaces that support gameplay mechanics, with careful attention to player guidance, exploration, sightlines, scale, and pacing.\nBuild environments using modular assets, props, foliage, and decals, strengthening the project’s atmosphere through set dressing and environmental storytelling.\nReplace blockout geometry with final assets while preserving established gameplay metrics, traversal routes, and spatial readability.\nIntegrate existing gameplay systems into levels and test basic interactions, collision, and navigation settings.\nWork from concepts and references, communicating missing assets, required asset variations, and technical issues to the relevant teams.\nRefine levels based on playtest results and team feedback, and contribute to optimization efforts to meet target performance budgets.\n\n\n\n\nRequirements\n\nExperience in level design, level art, or world building, supported by a portfolio demonstrating your work.\nStrong practical skills in level creation, asset integration, and scene organization within Unreal Engine 5.\nA solid foundation in player flow, spatial readability, and character scale, as well as composition, lighting, color, and environmental storytelling.\nProficiency in building modular environments, including checking asset scale, pivots, grid alignment, and collision settings.\nAbility to use Landscape, Foliage, and Spline tools to shape terrain and arrange vegetation, paths, and other environmental elements.\nFamiliarity with Nanite workflows, including assessing mesh and material suitability and inspecting scenes using Nanite Visualization tools.\nAn understanding of PBR material principles and the ability to work with existing master materials, Material Instances, decals, and surface blending tools.\nAbility to set up basic triggers and interaction flows using Blueprints, with knowledge of collision, blocking volumes, and NavMesh.\nAn understanding of how material complexity, overdraw, asset density, lighting and shadow costs, and texture memory usage affect performance, with the ability to take basic performance measurements using profiling tools.\nExperience with Perforce or similar version control tools, and the ability to follow project organization, naming, and file management standards.\nAbility to plan your work, explain design decisions, and translate feedback from different disciplines into practical improvements.\n\n\n\n\nNice to Have\n\nExperience with World Partition, Data Layers, Level Instances, level streaming, and HLOD workflows.\nKnowledge of Lumen, Virtual Shadow Maps, and in-game lighting.\nExperience with PCG or other procedural environment placement tools.\nExperience with World Position Offset (WPO) and wind behavior in foliage materials, or with performance analysis using Unreal Insights.\nAbility to create blockouts and make basic mesh edits in 3ds Max, Blender, or Maya.\nExperience contributing to a shipped game and creating realistic, historical, or atmospheric environments.\n\n\n\n\nIncluding links to your ArtStation portfolio or videos showcasing your work in your CV will help us review your work in detail and respond to your application more quickly.",
+    "isEasyApply": true,
+    "hiringManagerName": null,
+    "url": "https://www.linkedin.com/jobs/search/?currentJobId=4483453073&f_TPR=r86400&keywords=Full%20Stack&location=Turkey",
+    "analysis": {
+      "jobTitle": "Sr. Level Artist & Designer",
+      "company": "The Phenix",
+      "score": 50,
+      "isGhostRisk": false,
+      "redFlags": [],
+      "warnings": [],
+      "matchedSkills": [],
+      "missingKeywords": [],
+      "recommendedProject": "Pro Sicht (Full Stack Engineer)",
+      "outreachMessage": "Merhabalar Yetkili Bey/Hanım,\n\nThe Phenix bünyesinde açılan Sr. Level Artist & Designer pozisyonunu inceledim. Pro Sicht (Full Stack Engineer) gibi projelerde edindiğim TypeScript, NestJS ve PostgreSQL tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.\n\nSüreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.\n\nVaktiniz için teşekkürler,\nEnes Özden",
+      "atsBullets": [
+        "Pro Sicht bunyesinde TypeScript, NestJS ve PostgreSQL ile production seviyesinde olceklenebilir mimari gelistirme.",
+        "NestJS, Next.js, Spring Boot ve PostgreSQL ile mikroservis ve RESTful API tasarimi.",
+        "Ilanda talep edilen modern full-stack teknolojileri ile ucuca sistem entegrasyonu."
+      ]
+    }
+  },
+  {
+    "title": "Sr. Level Artist & Designer",
+    "company": "The Phenix",
+    "meta": "",
+    "description": "About the job\n\nAbout the Role\n\nAt The Phenix we are looking for a Level Designer / Level Artist to join our team and contribute to our game project built in Unreal Engine 5, using Nanite.\n\nWe are seeking someone who can combine engaging player experiences with strong visual storytelling and contribute throughout the level development process from designing playable spaces and building environments to integrating assets and optimizing performance. In this role, you will work closely with our Game Design, Environment Art, Technical Art, and Programming teams.\n\n\n\n\n\n\n\nResponsibilities\n\nCreate level layouts and blockouts, developing them from initial prototypes through final polish.\nDesign spaces that support gameplay mechanics, with careful attention to player guidance, exploration, sightlines, scale, and pacing.\nBuild environments using modular assets, props, foliage, and decals, strengthening the project’s atmosphere through set dressing and environmental storytelling.\nReplace blockout geometry with final assets while preserving established gameplay metrics, traversal routes, and spatial readability.\nIntegrate existing gameplay systems into levels and test basic interactions, collision, and navigation settings.\nWork from concepts and references, communicating missing assets, required asset variations, and technical issues to the relevant teams.\nRefine levels based on playtest results and team feedback, and contribute to optimization efforts to meet target performance budgets.\n\n\n\n\nRequirements\n\nExperience in level design, level art, or world building, supported by a portfolio demonstrating your work.\nStrong practical skills in level creation, asset integration, and scene organization within Unreal Engine 5.\nA solid foundation in player flow, spatial readability, and character scale, as well as composition, lighting, color, and environmental storytelling.\nProficiency in building modular environments, including checking asset scale, pivots, grid alignment, and collision settings.\nAbility to use Landscape, Foliage, and Spline tools to shape terrain and arrange vegetation, paths, and other environmental elements.\nFamiliarity with Nanite workflows, including assessing mesh and material suitability and inspecting scenes using Nanite Visualization tools.\nAn understanding of PBR material principles and the ability to work with existing master materials, Material Instances, decals, and surface blending tools.\nAbility to set up basic triggers and interaction flows using Blueprints, with knowledge of collision, blocking volumes, and NavMesh.\nAn understanding of how material complexity, overdraw, asset density, lighting and shadow costs, and texture memory usage affect performance, with the ability to take basic performance measurements using profiling tools.\nExperience with Perforce or similar version control tools, and the ability to follow project organization, naming, and file management standards.\nAbility to plan your work, explain design decisions, and translate feedback from different disciplines into practical improvements.\n\n\n\n\nNice to Have\n\nExperience with World Partition, Data Layers, Level Instances, level streaming, and HLOD workflows.\nKnowledge of Lumen, Virtual Shadow Maps, and in-game lighting.\nExperience with PCG or other procedural environment placement tools.\nExperience with World Position Offset (WPO) and wind behavior in foliage materials, or with performance analysis using Unreal Insights.\nAbility to create blockouts and make basic mesh edits in 3ds Max, Blender, or Maya.\nExperience contributing to a shipped game and creating realistic, historical, or atmospheric environments.\n\n\n\n\nIncluding links to your ArtStation portfolio or videos showcasing your work in your CV will help us review your work in detail and respond to your application more quickly.",
+    "isEasyApply": true,
+    "hiringManagerName": null,
+    "url": "https://www.linkedin.com/jobs/search/?currentJobId=4483453073&f_TPR=r86400&keywords=Full%20Stack&location=Turkey",
+    "analysis": {
+      "jobTitle": "Sr. Level Artist & Designer",
+      "company": "The Phenix",
+      "score": 50,
+      "isGhostRisk": false,
+      "redFlags": [],
+      "warnings": [],
+      "matchedSkills": [],
+      "missingKeywords": [],
+      "recommendedProject": "Pro Sicht (Full Stack Engineer)",
+      "outreachMessage": "Merhabalar Yetkili Bey/Hanım,\n\nThe Phenix bünyesinde açılan Sr. Level Artist & Designer pozisyonunu inceledim. Pro Sicht (Full Stack Engineer) gibi projelerde edindiğim TypeScript, NestJS ve PostgreSQL tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.\n\nSüreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.\n\nVaktiniz için teşekkürler,\nEnes Özden",
+      "atsBullets": [
+        "Pro Sicht bunyesinde TypeScript, NestJS ve PostgreSQL ile production seviyesinde olceklenebilir mimari gelistirme.",
+        "NestJS, Next.js, Spring Boot ve PostgreSQL ile mikroservis ve RESTful API tasarimi.",
+        "Ilanda talep edilen modern full-stack teknolojileri ile ucuca sistem entegrasyonu."
+      ]
+    }
+  },
+  {
+    "title": "Unpaid Co-Founder Role",
+    "company": "Hyphen",
+    "meta": "",
+    "description": "About the job\n\nLooking for a Co-Founder to start a digital marketing agency.\n\n\n40% equity and ownership.\n\n\nNo Compensation until the brand generates cashflow.\n\n\nExperience in client acquisition recommended.",
+    "isEasyApply": true,
+    "hiringManagerName": "Ishan Liyanage",
+    "url": "https://www.linkedin.com/jobs/search/?currentJobId=4484838294&f_TPR=r86400&keywords=Full%20Stack&location=Turkey",
+    "analysis": {
+      "jobTitle": "Unpaid Co-Founder Role",
+      "company": "Hyphen",
+      "score": 10,
+      "isGhostRisk": true,
+      "redFlags": [
+        "Ucretsiz veya staj ibaresi iceriyor."
+      ],
+      "warnings": [],
+      "matchedSkills": [],
+      "missingKeywords": [],
+      "recommendedProject": "Emlak24 (Full Stack Engineer)",
+      "outreachMessage": "Merhabalar Ishan Liyanage Bey/Hanım,\n\nHyphen bünyesinde açılan Unpaid Co-Founder Role pozisyonunu inceledim. Emlak24 (Full Stack Engineer) gibi projelerde edindiğim TypeScript, NestJS ve PostgreSQL tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.\n\nSüreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.\n\nVaktiniz için teşekkürler,\nEnes Özden",
+      "atsBullets": [
+        "Emlak24 bunyesinde TypeScript, NestJS ve PostgreSQL ile production seviyesinde olceklenebilir mimari gelistirme.",
+        "NestJS, Next.js, Spring Boot ve PostgreSQL ile mikroservis ve RESTful API tasarimi.",
+        "Ilanda talep edilen modern full-stack teknolojileri ile ucuca sistem entegrasyonu."
       ]
     }
   }

@@ -93,3 +93,4 @@ node cli.js report
   Hayir, `review` modu daha once basvurdugun veya `track` listesinde kayitli olan ilanlari otomatik olarak filtreler.
 * **Farkli roller aratabilir miyim?**
   Evet, `node cli.js scan "Frontend"`, `node cli.js scan "Node.js"` gibi istedigin rol parametresiyle calistirabilirsin.
+

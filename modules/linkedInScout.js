@@ -8,9 +8,9 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 export async function scanLinkedInJobs({
-  keyword = 'React Native',
+  keyword = 'Full Stack',
   location = 'Turkey',
-  remoteOnly = true,
+  remoteOnly = false,
   past24Hours = true,
   maxJobs = 15,
   cdpEndpoint = 'http://127.0.0.1:9222'
@@ -30,7 +30,7 @@ export async function scanLinkedInJobs({
   const contexts = browser.contexts();
   const context = contexts[0] || (await browser.newContext());
   
-  let page = context.pages().find(p => p.url().includes('linkedin.com'));
+  let page = context.pages().find(p => p.url().includes('linkedin.com/jobs'));
   if (!page) {
     page = await context.newPage();
   }
@@ -40,14 +40,22 @@ export async function scanLinkedInJobs({
   if (past24Hours) searchUrl += `&f_TPR=r86400`;
   if (remoteOnly) searchUrl += `&f_WT=2`;
 
-  console.log(`[INFO] URL aciliyor: ${searchUrl}`);
-  await page.goto(searchUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
-  await page.waitForTimeout(3000);
+  const currentUrl = page.url();
+  if (!currentUrl.includes(encodeURIComponent(keyword))) {
+    console.log(`[INFO] URL aciliyor: ${searchUrl}`);
+    await page.goto(searchUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
+    await page.waitForTimeout(3000);
+  } else {
+    console.log(`[INFO] Mevcut arama sekmesi kullaniliyor: ${currentUrl}`);
+  }
 
-  console.log(`[INFO] Ilan listesi okunuyor...`);
-  const jobElements = await page.$$('.jobs-search-results-list li[data-occludable-job-id], .scaffold-layout__list-container li');
+  console.log(`[INFO] Ilan listesi taranıyor...`);
   
-  console.log(`[INFO] Toplam ${jobElements.length} ilan tespit edildi.`);
+  const jobCardSelector = 'li[data-occludable-job-id], .scaffold-layout__list-item';
+  await page.waitForSelector(jobCardSelector, { timeout: 10000 }).catch(() => null);
+
+  const jobElements = await page.$$(jobCardSelector);
+  console.log(`[INFO] Toplam ${jobElements.length} ilan karti tespit edildi.`);
 
   const results = [];
   const limit = Math.min(jobElements.length, maxJobs);
@@ -56,21 +64,40 @@ export async function scanLinkedInJobs({
     try {
       const el = jobElements[i];
       await el.scrollIntoViewIfNeeded();
-      await el.click();
-      await page.waitForTimeout(1500);
+
+      const clickable = await el.$('a.job-card-container__link, .job-card-list__title, a[data-control-id]');
+      if (clickable) {
+        await clickable.click();
+      } else {
+        await el.click();
+      }
+
+      await page.waitForTimeout(1800);
 
       const jobData = await page.evaluate(() => {
-        const titleEl = document.querySelector('.job-details-jobs-unified-top-card__job-title, .jobs-unified-top-card__job-title');
-        const companyEl = document.querySelector('.job-details-jobs-unified-top-card__company-name, .jobs-unified-top-card__company-name');
-        const primaryMetaEl = document.querySelector('.job-details-jobs-unified-top-card__primary-description, .jobs-unified-top-card__primary-description');
-        const descEl = document.querySelector('.jobs-description__content, .jobs-box__html-content');
-        const isEasyApply = !!document.querySelector('.jobs-apply-button--top-card button.jobs-apply-button, .jobs-s-apply button');
-        const posterEl = document.querySelector('.hirer-card__hirer-information .jobs-poster__name, .jobs-poster-profile__name');
-        
+        const titleEl = document.querySelector(
+          '.job-details-jobs-unified-top-card__job-title, .jobs-unified-top-card__job-title, h1.t-24'
+        );
+        const companyEl = document.querySelector(
+          '.job-details-jobs-unified-top-card__company-name, .jobs-unified-top-card__company-name, .job-details-jobs-unified-top-card__primary-description a'
+        );
+        const metaEl = document.querySelector(
+          '.job-details-jobs-unified-top-card__primary-description, .jobs-unified-top-card__primary-description, .job-details-jobs-unified-top-card__tertiary-description'
+        );
+        const descEl = document.querySelector(
+          '.jobs-description__content, .jobs-box__html-content, #job-details'
+        );
+        const isEasyApply = !!document.querySelector(
+          '.jobs-apply-button--top-card button.jobs-apply-button, .jobs-s-apply button, button[data-job-id]'
+        );
+        const posterEl = document.querySelector(
+          '.hirer-card__hirer-information .jobs-poster__name, .jobs-poster-profile__name'
+        );
+
         return {
-          title: titleEl ? titleEl.innerText.trim() : 'Bilinmeyen Baslik',
-          company: companyEl ? companyEl.innerText.trim() : 'Bilinmeyen Sirket',
-          meta: primaryMetaEl ? primaryMetaEl.innerText.trim() : '',
+          title: titleEl ? titleEl.innerText.trim() : 'Ilan Basligi',
+          company: companyEl ? companyEl.innerText.trim() : 'Sirket',
+          meta: metaEl ? metaEl.innerText.trim() : '',
           description: descEl ? descEl.innerText.trim() : '',
           isEasyApply,
           hiringManagerName: posterEl ? posterEl.innerText.trim() : null,
@@ -78,16 +105,16 @@ export async function scanLinkedInJobs({
         };
       });
 
-      const analysis = analyzeJob(jobData);
-      
-      results.push({
-        ...jobData,
-        analysis
-      });
-
-      console.log(`[STATUS] [%${analysis.score}] ${jobData.title} @ ${jobData.company} [${analysis.isGhostRisk ? 'RISK' : 'OK'}]`);
+      if (jobData.title && jobData.title !== 'Ilan Basligi') {
+        const analysis = analyzeJob(jobData);
+        results.push({
+          ...jobData,
+          analysis
+        });
+        console.log(`[STATUS] [%${analysis.score}] ${jobData.title} @ ${jobData.company} [${analysis.isGhostRisk ? 'RISK' : 'UYGUN'}]`);
+      }
     } catch (itemErr) {
-      console.warn(`[WARN] Ilan okunamadi: ${itemErr.message}`);
+      console.warn(`[WARN] Ilan #${i + 1} atlandi: ${itemErr.message}`);
     }
   }
 
@@ -96,6 +123,6 @@ export async function scanLinkedInJobs({
   const outputPath = path.join(__dirname, '../data/jobs_latest.json');
   fs.writeFileSync(outputPath, JSON.stringify(results, null, 2), 'utf8');
 
-  console.log(`[SUCCESS] ${results.length} ilan analiz edildi: data/jobs_latest.json`);
+  console.log(`[SUCCESS] ${results.length} ilan basariyla analiz edildi ve kaydedildi: data/jobs_latest.json`);
   return results;
 }
