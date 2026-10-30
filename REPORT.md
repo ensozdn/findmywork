@@ -1,6 +1,6 @@
 # Son Taranan Is Ilanlari Raporu
 
-Toplam taranan ilan sayisi: **43** | Son guncelleme: **30.10.2026 19:14:40**
+Toplam taranan ilan sayisi: **52** | Son guncelleme: **30.10.2026 19:18:19**
 
 ## Ozet Tablo
 
@@ -28,27 +28,36 @@ Toplam taranan ilan sayisi: **43** | Son guncelleme: **30.10.2026 19:14:40**
 | 20 | %75 | Full-Stack Engineer (React + Ruby on Rails) - Remote Work | REF#306674 | BairesDev | Dis Link | **UYGUN** | [Ilana Git](https://pe.linkedin.com/jobs/view/full-stack-engineer-react-%2B-ruby-on-rails-remote-work-ref%23306674-at-bairesdev-4484283470) |
 | 21 | %75 | Full-Stack Engineer (React + Ruby on Rails) - Remote Work | REF#306675 | BairesDev | Dis Link | **UYGUN** | [Ilana Git](https://cl.linkedin.com/jobs/view/full-stack-engineer-react-%2B-ruby-on-rails-remote-work-ref%23306675-at-bairesdev-4484272873) |
 | 22 | %75 | Full Stack Software Engineer (React / .NET) | Compass Education | Dis Link | **UYGUN** | [Ilana Git](https://au.linkedin.com/jobs/view/full-stack-software-engineer-react-net-at-compass-education-4474878967) |
-| 23 | %70 | Software Engineer (Backend) | AppNation | Dis Link | **UYGUN** | [Ilana Git](https://tr.linkedin.com/jobs/view/software-engineer-backend-at-appnation-4480352155) |
-| 24 | %70 | Backend Developer | PlusMinusOne | Dis Link | **UYGUN** | [Ilana Git](https://tr.linkedin.com/jobs/view/backend-developer-at-plusminusone-4480046011) |
-| 25 | %70 | Senior Backend Engineer (120.000₺ - 200.000₺) | Beta.Limited | Dis Link | **UYGUN** | [Ilana Git](https://tr.linkedin.com/jobs/view/senior-backend-engineer-120-000%E2%82%BA-200-000%E2%82%BA-at-beta-limited-4428224620) |
-| 26 | %70 | Senior Software Engineer (Backend) | AppNation | Dis Link | **UYGUN** | [Ilana Git](https://tr.linkedin.com/jobs/view/senior-software-engineer-backend-at-appnation-4480355034) |
-| 27 | %70 | Software Developer | Marti Technologies (NYSE: MRT) | Dis Link | **UYGUN** | [Ilana Git](https://tr.linkedin.com/jobs/view/software-developer-at-marti-technologies-nyse-mrt-4473218970) |
-| 28 | %70 | Full-Stack Web Developer | Bolder Apps - AI Native AgentCy | Dis Link | **UYGUN** | [Ilana Git](https://uz.linkedin.com/jobs/view/full-stack-web-developer-at-bolder-apps-ai-native-agentcy-4482771744) |
-| 29 | %70 | Fullstack Developer | Propelius Technologies | Dis Link | **UYGUN** | [Ilana Git](https://in.linkedin.com/jobs/view/fullstack-developer-at-propelius-technologies-4306112554) |
-| 30 | %70 | Full Stack Developer C# Vue.js - FinTech | Client Server | Dis Link | **UYGUN** | [Ilana Git](https://nz.linkedin.com/jobs/view/full-stack-developer-c%23-vue-js-fintech-at-client-server-4482106719) |
-| 31 | %70 | Desenvolvedor Full Stack C# Angular | Jobbol | Dis Link | **UYGUN** | [Ilana Git](https://br.linkedin.com/jobs/view/desenvolvedor-full-stack-c%23-angular-at-jobbol-4478367594) |
-| 32 | %70 | Full Stack Engineer | White Tower Software LLC | Dis Link | **UYGUN** | [Ilana Git](https://ls.linkedin.com/jobs/view/full-stack-engineer-at-white-tower-software-llc-4431021869) |
-| 33 | %70 | Full-Stack Product Engineer for a US-based company (Remote) | Town Web Design | Dis Link | **UYGUN** | [Ilana Git](https://et.linkedin.com/jobs/view/full-stack-product-engineer-for-a-us-based-company-remote-at-town-web-design-4475801078) |
-| 34 | %70 | Full Stack Developer | Auto &amp; General Australia | Dis Link | **UYGUN** | [Ilana Git](https://au.linkedin.com/jobs/view/full-stack-developer-at-auto-general-australia-4435041482) |
-| 35 | %65 | Remote Engineering Expert | Turing | Easy Apply | **UYGUN** | [Ilana Git](https://www.linkedin.com/jobs/search/?currentJobId=4484812294&f_TPR=r86400&keywords=Backend%20Engineer&location=Turkey) |
-| 36 | %60 | Software Engineer | Zetheta Algorithms Private Limited | Easy Apply | **RISKLI** | [Ilana Git](https://www.linkedin.com/jobs/search/?currentJobId=4485313076&f_TPR=r86400&keywords=Backend%20Engineer&location=Turkey) |
-| 37 | %60 | Sr REACT NATIVE | Somnio Software | Dis Link | **UYGUN** | [Ilana Git](https://remoteOK.com/remote-jobs/remote-sr-react-native-somnio-software-1137523) |
-| 38 | %60 | Product Engineering Lead | Tether Operations Limited | Dis Link | **UYGUN** | [Ilana Git](https://remoteOK.com/remote-jobs/remote-product-engineering-lead-tether-operations-limited-1137478) |
-| 39 | %55 | AI Engineer – New Graduate | TEB Arf | Easy Apply | **UYGUN** | [Ilana Git](https://www.linkedin.com/jobs/search/?currentJobId=4484862042&f_TPR=r86400&keywords=Backend%20Engineer&location=Turkey) |
-| 40 | %55 | Product Design Lead | Fuel50 | Dis Link | **UYGUN** | [Ilana Git](https://remoteOK.com/remote-jobs/remote-product-design-lead-fuel50-1137474) |
-| 41 | %55 | Sr Solutions Architect | ExtraHop | Dis Link | **UYGUN** | [Ilana Git](https://remoteOK.com/remote-jobs/remote-sr-solutions-architect-extrahop-1137394) |
-| 42 | %50 | NodeJS Developer | OBSS | Dis Link | **UYGUN** | [Ilana Git](https://tr.linkedin.com/jobs/view/nodejs-developer-at-obss-4455843679) |
-| 43 | %50 | Yazılım Mühendisi | Thoth AI | Dis Link | **UYGUN** | [Ilana Git](https://tr.linkedin.com/jobs/view/yaz%C4%B1l%C4%B1m-m%C3%BChendisi-at-thoth-ai-4482963214) |
+| 23 | %75 | Senior Full-Stack Developer (.NET / React) | Dünya Varlık Yönetim A.Ş. | Dis Link | **UYGUN** | [Ilana Git](https://tr.linkedin.com/jobs/view/senior-full-stack-developer-net-react-at-d%C3%BCnya-varl%C4%B1k-y%C3%B6netim-a-%C5%9F-4474899127) |
+| 24 | %70 | Software Engineer (Backend) | AppNation | Dis Link | **UYGUN** | [Ilana Git](https://tr.linkedin.com/jobs/view/software-engineer-backend-at-appnation-4480352155) |
+| 25 | %70 | Backend Developer | PlusMinusOne | Dis Link | **UYGUN** | [Ilana Git](https://tr.linkedin.com/jobs/view/backend-developer-at-plusminusone-4480046011) |
+| 26 | %70 | Senior Backend Engineer (120.000₺ - 200.000₺) | Beta.Limited | Dis Link | **UYGUN** | [Ilana Git](https://tr.linkedin.com/jobs/view/senior-backend-engineer-120-000%E2%82%BA-200-000%E2%82%BA-at-beta-limited-4428224620) |
+| 27 | %70 | Senior Software Engineer (Backend) | AppNation | Dis Link | **UYGUN** | [Ilana Git](https://tr.linkedin.com/jobs/view/senior-software-engineer-backend-at-appnation-4480355034) |
+| 28 | %70 | Software Developer | Marti Technologies (NYSE: MRT) | Dis Link | **UYGUN** | [Ilana Git](https://tr.linkedin.com/jobs/view/software-developer-at-marti-technologies-nyse-mrt-4473218970) |
+| 29 | %70 | Full-Stack Web Developer | Bolder Apps - AI Native AgentCy | Dis Link | **UYGUN** | [Ilana Git](https://uz.linkedin.com/jobs/view/full-stack-web-developer-at-bolder-apps-ai-native-agentcy-4482771744) |
+| 30 | %70 | Fullstack Developer | Propelius Technologies | Dis Link | **UYGUN** | [Ilana Git](https://in.linkedin.com/jobs/view/fullstack-developer-at-propelius-technologies-4306112554) |
+| 31 | %70 | Full Stack Developer C# Vue.js - FinTech | Client Server | Dis Link | **UYGUN** | [Ilana Git](https://nz.linkedin.com/jobs/view/full-stack-developer-c%23-vue-js-fintech-at-client-server-4482106719) |
+| 32 | %70 | Desenvolvedor Full Stack C# Angular | Jobbol | Dis Link | **UYGUN** | [Ilana Git](https://br.linkedin.com/jobs/view/desenvolvedor-full-stack-c%23-angular-at-jobbol-4478367594) |
+| 33 | %70 | Full Stack Engineer | White Tower Software LLC | Dis Link | **UYGUN** | [Ilana Git](https://ls.linkedin.com/jobs/view/full-stack-engineer-at-white-tower-software-llc-4431021869) |
+| 34 | %70 | Full-Stack Product Engineer for a US-based company (Remote) | Town Web Design | Dis Link | **UYGUN** | [Ilana Git](https://et.linkedin.com/jobs/view/full-stack-product-engineer-for-a-us-based-company-remote-at-town-web-design-4475801078) |
+| 35 | %70 | Full Stack Developer | Auto &amp; General Australia | Dis Link | **UYGUN** | [Ilana Git](https://au.linkedin.com/jobs/view/full-stack-developer-at-auto-general-australia-4435041482) |
+| 36 | %70 | Full Stack Engineer | Ekin Smart City | Dis Link | **UYGUN** | [Ilana Git](https://tr.linkedin.com/jobs/view/full-stack-engineer-at-ekin-smart-city-4485300676) |
+| 37 | %70 | Senior Full Stack Developer · Eskişehir | OCTAPULL | Dis Link | **UYGUN** | [Ilana Git](https://tr.linkedin.com/jobs/view/senior-full-stack-developer-%C2%B7-eski%C5%9Fehir-at-octapull-4483423886) |
+| 38 | %70 | Senior Full-Stack Developer | Mazu — Software for Ship Suppliers &amp; Agencies | Dis Link | **UYGUN** | [Ilana Git](https://tr.linkedin.com/jobs/view/senior-full-stack-developer-at-mazu-%E2%80%94-software-for-ship-suppliers-agencies-4477656516) |
+| 39 | %70 | Fullstack Engineer | FunnelFox | Dis Link | **UYGUN** | [Ilana Git](https://tr.linkedin.com/jobs/view/fullstack-engineer-at-funnelfox-4484484870) |
+| 40 | %70 | Senior Full-Stack Product Engineer | The Flex | Dis Link | **UYGUN** | [Ilana Git](https://tr.linkedin.com/jobs/view/senior-full-stack-product-engineer-at-the-flex-4470916997) |
+| 41 | %70 | Senior Software Engineer | Confidential | Dis Link | **UYGUN** | [Ilana Git](https://tr.linkedin.com/jobs/view/senior-software-engineer-at-confidential-4478691064) |
+| 42 | %70 | Full Stack Engineer | Sensor Tower | Dis Link | **UYGUN** | [Ilana Git](https://tr.linkedin.com/jobs/view/full-stack-engineer-at-sensor-tower-4483092773) |
+| 43 | %65 | Remote Engineering Expert | Turing | Easy Apply | **UYGUN** | [Ilana Git](https://www.linkedin.com/jobs/search/?currentJobId=4484812294&f_TPR=r86400&keywords=Backend%20Engineer&location=Turkey) |
+| 44 | %60 | Software Engineer | Zetheta Algorithms Private Limited | Easy Apply | **RISKLI** | [Ilana Git](https://www.linkedin.com/jobs/search/?currentJobId=4485313076&f_TPR=r86400&keywords=Backend%20Engineer&location=Turkey) |
+| 45 | %60 | Sr REACT NATIVE | Somnio Software | Dis Link | **UYGUN** | [Ilana Git](https://remoteOK.com/remote-jobs/remote-sr-react-native-somnio-software-1137523) |
+| 46 | %60 | Product Engineering Lead | Tether Operations Limited | Dis Link | **UYGUN** | [Ilana Git](https://remoteOK.com/remote-jobs/remote-product-engineering-lead-tether-operations-limited-1137478) |
+| 47 | %55 | AI Engineer – New Graduate | TEB Arf | Easy Apply | **UYGUN** | [Ilana Git](https://www.linkedin.com/jobs/search/?currentJobId=4484862042&f_TPR=r86400&keywords=Backend%20Engineer&location=Turkey) |
+| 48 | %55 | Product Design Lead | Fuel50 | Dis Link | **UYGUN** | [Ilana Git](https://remoteOK.com/remote-jobs/remote-product-design-lead-fuel50-1137474) |
+| 49 | %55 | Sr Solutions Architect | ExtraHop | Dis Link | **UYGUN** | [Ilana Git](https://remoteOK.com/remote-jobs/remote-sr-solutions-architect-extrahop-1137394) |
+| 50 | %50 | NodeJS Developer | OBSS | Dis Link | **UYGUN** | [Ilana Git](https://tr.linkedin.com/jobs/view/nodejs-developer-at-obss-4455843679) |
+| 51 | %50 | Yazılım Mühendisi | Thoth AI | Dis Link | **UYGUN** | [Ilana Git](https://tr.linkedin.com/jobs/view/yaz%C4%B1l%C4%B1m-m%C3%BChendisi-at-thoth-ai-4482963214) |
+| 52 | %50 | Yazılım Geliştirme Uzmanı S-2 | Confidential Careers | Dis Link | **UYGUN** | [Ilana Git](https://tr.linkedin.com/jobs/view/yaz%C4%B1l%C4%B1m-geli%C5%9Ftirme-uzman%C4%B1-s-2-at-confidential-careers-4475543160) |
 
 ---
 
@@ -406,7 +415,23 @@ Merhabalar Yetkili, Compass Education ekibindeki Full Stack Software Engineer (R
 
 ---
 
-### 23. Software Engineer (Backend) - AppNation (Uyum: %70)
+### 23. Senior Full-Stack Developer (.NET / React) - Dünya Varlık Yönetim A.Ş. (Uyum: %75)
+
+- **Basvuru Turu:** Sirket Kariyer Sayfasi
+- **Ilan Linki:** https://tr.linkedin.com/jobs/view/senior-full-stack-developer-net-react-at-d%C3%BCnya-varl%C4%B1k-y%C3%B6netim-a-%C5%9F-4474899127
+- **Eslenen Yetkinlikler:** React
+- **One Cikarilan Deneyim:** Emlak24 (Full Stack Engineer)
+- **Hedef Persona:** Ilgili Yetkili
+
+**Can Deger Tarzi Yonlendirici Mesaj (Ilgili Yetkili - 293 Karakter):**
+
+```text
+Merhabalar Yetkili, Dünya Varlık Yönetim A.Ş. ekibindeki Senior Full-Stack Developer (.NET / React) pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sev...
+```
+
+---
+
+### 24. Software Engineer (Backend) - AppNation (Uyum: %70)
 
 - **Basvuru Turu:** Sirket Kariyer Sayfasi
 - **Ilan Linki:** https://tr.linkedin.com/jobs/view/software-engineer-backend-at-appnation-4480352155
@@ -422,7 +447,7 @@ Merhabalar Yetkili, AppNation ekibindeki Software Engineer (Backend) pozisyonunu
 
 ---
 
-### 24. Backend Developer - PlusMinusOne (Uyum: %70)
+### 25. Backend Developer - PlusMinusOne (Uyum: %70)
 
 - **Basvuru Turu:** Sirket Kariyer Sayfasi
 - **Ilan Linki:** https://tr.linkedin.com/jobs/view/backend-developer-at-plusminusone-4480046011
@@ -438,7 +463,7 @@ Merhabalar Yetkili, PlusMinusOne ekibindeki Backend Developer pozisyonunu incele
 
 ---
 
-### 25. Senior Backend Engineer (120.000₺ - 200.000₺) - Beta.Limited (Uyum: %70)
+### 26. Senior Backend Engineer (120.000₺ - 200.000₺) - Beta.Limited (Uyum: %70)
 
 - **Basvuru Turu:** Sirket Kariyer Sayfasi
 - **Ilan Linki:** https://tr.linkedin.com/jobs/view/senior-backend-engineer-120-000%E2%82%BA-200-000%E2%82%BA-at-beta-limited-4428224620
@@ -454,7 +479,7 @@ Merhabalar Yetkili, Beta.Limited ekibindeki Senior Backend Engineer (120.000₺ 
 
 ---
 
-### 26. Senior Software Engineer (Backend) - AppNation (Uyum: %70)
+### 27. Senior Software Engineer (Backend) - AppNation (Uyum: %70)
 
 - **Basvuru Turu:** Sirket Kariyer Sayfasi
 - **Ilan Linki:** https://tr.linkedin.com/jobs/view/senior-software-engineer-backend-at-appnation-4480355034
@@ -470,7 +495,7 @@ Merhabalar Yetkili, AppNation ekibindeki Senior Software Engineer (Backend) pozi
 
 ---
 
-### 27. Software Developer - Marti Technologies (NYSE: MRT) (Uyum: %70)
+### 28. Software Developer - Marti Technologies (NYSE: MRT) (Uyum: %70)
 
 - **Basvuru Turu:** Sirket Kariyer Sayfasi
 - **Ilan Linki:** https://tr.linkedin.com/jobs/view/software-developer-at-marti-technologies-nyse-mrt-4473218970
@@ -486,7 +511,7 @@ Merhabalar Yetkili, Marti Technologies (NYSE: MRT) ekibindeki Software Developer
 
 ---
 
-### 28. Full-Stack Web Developer - Bolder Apps - AI Native AgentCy (Uyum: %70)
+### 29. Full-Stack Web Developer - Bolder Apps - AI Native AgentCy (Uyum: %70)
 
 - **Basvuru Turu:** Sirket Kariyer Sayfasi
 - **Ilan Linki:** https://uz.linkedin.com/jobs/view/full-stack-web-developer-at-bolder-apps-ai-native-agentcy-4482771744
@@ -502,7 +527,7 @@ Merhabalar Yetkili, Bolder Apps - AI Native AgentCy ekibindeki Full-Stack Web De
 
 ---
 
-### 29. Fullstack Developer - Propelius Technologies (Uyum: %70)
+### 30. Fullstack Developer - Propelius Technologies (Uyum: %70)
 
 - **Basvuru Turu:** Sirket Kariyer Sayfasi
 - **Ilan Linki:** https://in.linkedin.com/jobs/view/fullstack-developer-at-propelius-technologies-4306112554
@@ -518,7 +543,7 @@ Merhabalar Yetkili, Propelius Technologies ekibindeki Fullstack Developer pozisy
 
 ---
 
-### 30. Full Stack Developer C# Vue.js - FinTech - Client Server (Uyum: %70)
+### 31. Full Stack Developer C# Vue.js - FinTech - Client Server (Uyum: %70)
 
 - **Basvuru Turu:** Sirket Kariyer Sayfasi
 - **Ilan Linki:** https://nz.linkedin.com/jobs/view/full-stack-developer-c%23-vue-js-fintech-at-client-server-4482106719
@@ -534,7 +559,7 @@ Merhabalar Yetkili, Client Server ekibindeki Full Stack Developer C# Vue.js - Fi
 
 ---
 
-### 31. Desenvolvedor Full Stack C# Angular - Jobbol (Uyum: %70)
+### 32. Desenvolvedor Full Stack C# Angular - Jobbol (Uyum: %70)
 
 - **Basvuru Turu:** Sirket Kariyer Sayfasi
 - **Ilan Linki:** https://br.linkedin.com/jobs/view/desenvolvedor-full-stack-c%23-angular-at-jobbol-4478367594
@@ -550,7 +575,7 @@ Merhabalar Yetkili, Jobbol ekibindeki Desenvolvedor Full Stack C# Angular pozisy
 
 ---
 
-### 32. Full Stack Engineer - White Tower Software LLC (Uyum: %70)
+### 33. Full Stack Engineer - White Tower Software LLC (Uyum: %70)
 
 - **Basvuru Turu:** Sirket Kariyer Sayfasi
 - **Ilan Linki:** https://ls.linkedin.com/jobs/view/full-stack-engineer-at-white-tower-software-llc-4431021869
@@ -566,7 +591,7 @@ Merhabalar Yetkili, White Tower Software LLC ekibindeki Full Stack Engineer pozi
 
 ---
 
-### 33. Full-Stack Product Engineer for a US-based company (Remote) - Town Web Design (Uyum: %70)
+### 34. Full-Stack Product Engineer for a US-based company (Remote) - Town Web Design (Uyum: %70)
 
 - **Basvuru Turu:** Sirket Kariyer Sayfasi
 - **Ilan Linki:** https://et.linkedin.com/jobs/view/full-stack-product-engineer-for-a-us-based-company-remote-at-town-web-design-4475801078
@@ -582,7 +607,7 @@ Merhabalar Yetkili, Town Web Design ekibindeki Full-Stack Product Engineer for a
 
 ---
 
-### 34. Full Stack Developer - Auto &amp; General Australia (Uyum: %70)
+### 35. Full Stack Developer - Auto &amp; General Australia (Uyum: %70)
 
 - **Basvuru Turu:** Sirket Kariyer Sayfasi
 - **Ilan Linki:** https://au.linkedin.com/jobs/view/full-stack-developer-at-auto-general-australia-4435041482
@@ -598,7 +623,119 @@ Merhabalar Yetkili, Auto &amp; General Australia ekibindeki Full Stack Developer
 
 ---
 
-### 35. Remote Engineering Expert - Turing (Uyum: %65)
+### 36. Full Stack Engineer - Ekin Smart City (Uyum: %70)
+
+- **Basvuru Turu:** Sirket Kariyer Sayfasi
+- **Ilan Linki:** https://tr.linkedin.com/jobs/view/full-stack-engineer-at-ekin-smart-city-4485300676
+- **Eslenen Yetkinlikler:** Temel yazilim gereksinimleri
+- **One Cikarilan Deneyim:** Emlak24 (Full Stack Engineer)
+- **Hedef Persona:** Ilgili Yetkili
+
+**Can Deger Tarzi Yonlendirici Mesaj (Ilgili Yetkili - 264 Karakter):**
+
+```text
+Merhabalar Yetkili, Ekin Smart City ekibindeki Full Stack Engineer pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.
+```
+
+---
+
+### 37. Senior Full Stack Developer · Eskişehir - OCTAPULL (Uyum: %70)
+
+- **Basvuru Turu:** Sirket Kariyer Sayfasi
+- **Ilan Linki:** https://tr.linkedin.com/jobs/view/senior-full-stack-developer-%C2%B7-eski%C5%9Fehir-at-octapull-4483423886
+- **Eslenen Yetkinlikler:** Temel yazilim gereksinimleri
+- **One Cikarilan Deneyim:** Emlak24 (Full Stack Engineer)
+- **Hedef Persona:** Ilgili Yetkili
+
+**Can Deger Tarzi Yonlendirici Mesaj (Ilgili Yetkili - 277 Karakter):**
+
+```text
+Merhabalar Yetkili, OCTAPULL ekibindeki Senior Full Stack Developer · Eskişehir pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.
+```
+
+---
+
+### 38. Senior Full-Stack Developer - Mazu — Software for Ship Suppliers &amp; Agencies (Uyum: %70)
+
+- **Basvuru Turu:** Sirket Kariyer Sayfasi
+- **Ilan Linki:** https://tr.linkedin.com/jobs/view/senior-full-stack-developer-at-mazu-%E2%80%94-software-for-ship-suppliers-agencies-4477656516
+- **Eslenen Yetkinlikler:** Temel yazilim gereksinimleri
+- **One Cikarilan Deneyim:** Emlak24 (Full Stack Engineer)
+- **Hedef Persona:** Ilgili Yetkili
+
+**Can Deger Tarzi Yonlendirici Mesaj (Ilgili Yetkili - 293 Karakter):**
+
+```text
+Merhabalar Yetkili, Mazu — Software for Ship Suppliers &amp; Agencies ekibindeki Senior Full-Stack Developer pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseni...
+```
+
+---
+
+### 39. Fullstack Engineer - FunnelFox (Uyum: %70)
+
+- **Basvuru Turu:** Sirket Kariyer Sayfasi
+- **Ilan Linki:** https://tr.linkedin.com/jobs/view/fullstack-engineer-at-funnelfox-4484484870
+- **Eslenen Yetkinlikler:** Temel yazilim gereksinimleri
+- **One Cikarilan Deneyim:** Emlak24 (Full Stack Engineer)
+- **Hedef Persona:** Ilgili Yetkili
+
+**Can Deger Tarzi Yonlendirici Mesaj (Ilgili Yetkili - 257 Karakter):**
+
+```text
+Merhabalar Yetkili, FunnelFox ekibindeki Fullstack Engineer pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.
+```
+
+---
+
+### 40. Senior Full-Stack Product Engineer - The Flex (Uyum: %70)
+
+- **Basvuru Turu:** Sirket Kariyer Sayfasi
+- **Ilan Linki:** https://tr.linkedin.com/jobs/view/senior-full-stack-product-engineer-at-the-flex-4470916997
+- **Eslenen Yetkinlikler:** Temel yazilim gereksinimleri
+- **One Cikarilan Deneyim:** Emlak24 (Full Stack Engineer)
+- **Hedef Persona:** Ilgili Yetkili
+
+**Can Deger Tarzi Yonlendirici Mesaj (Ilgili Yetkili - 272 Karakter):**
+
+```text
+Merhabalar Yetkili, The Flex ekibindeki Senior Full-Stack Product Engineer pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.
+```
+
+---
+
+### 41. Senior Software Engineer - Confidential (Uyum: %70)
+
+- **Basvuru Turu:** Sirket Kariyer Sayfasi
+- **Ilan Linki:** https://tr.linkedin.com/jobs/view/senior-software-engineer-at-confidential-4478691064
+- **Eslenen Yetkinlikler:** Temel yazilim gereksinimleri
+- **One Cikarilan Deneyim:** Emlak24 (Full Stack Engineer)
+- **Hedef Persona:** Ilgili Yetkili
+
+**Can Deger Tarzi Yonlendirici Mesaj (Ilgili Yetkili - 266 Karakter):**
+
+```text
+Merhabalar Yetkili, Confidential ekibindeki Senior Software Engineer pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.
+```
+
+---
+
+### 42. Full Stack Engineer - Sensor Tower (Uyum: %70)
+
+- **Basvuru Turu:** Sirket Kariyer Sayfasi
+- **Ilan Linki:** https://tr.linkedin.com/jobs/view/full-stack-engineer-at-sensor-tower-4483092773
+- **Eslenen Yetkinlikler:** Temel yazilim gereksinimleri
+- **One Cikarilan Deneyim:** Emlak24 (Full Stack Engineer)
+- **Hedef Persona:** Ilgili Yetkili
+
+**Can Deger Tarzi Yonlendirici Mesaj (Ilgili Yetkili - 261 Karakter):**
+
+```text
+Merhabalar Yetkili, Sensor Tower ekibindeki Full Stack Engineer pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.
+```
+
+---
+
+### 43. Remote Engineering Expert - Turing (Uyum: %65)
 
 - **Basvuru Turu:** Easy Apply (Kolay Basvuru)
 - **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4484812294&f_TPR=r86400&keywords=Backend%20Engineer&location=Turkey
@@ -614,7 +751,7 @@ Merhabalar Yetkili, Turing ekibindeki Remote Engineering Expert pozisyonunu ince
 
 ---
 
-### 36. Software Engineer - Zetheta Algorithms Private Limited (Uyum: %60)
+### 44. Software Engineer - Zetheta Algorithms Private Limited (Uyum: %60)
 
 - **Basvuru Turu:** Easy Apply (Kolay Basvuru)
 - **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4485313076&f_TPR=r86400&keywords=Backend%20Engineer&location=Turkey
@@ -631,7 +768,7 @@ Merhabalar Suketu, Zetheta Algorithms Private Limited ekibindeki Software Engine
 
 ---
 
-### 37. Sr REACT NATIVE - Somnio Software (Uyum: %60)
+### 45. Sr REACT NATIVE - Somnio Software (Uyum: %60)
 
 - **Basvuru Turu:** Sirket Kariyer Sayfasi
 - **Ilan Linki:** https://remoteOK.com/remote-jobs/remote-sr-react-native-somnio-software-1137523
@@ -647,7 +784,7 @@ Merhabalar Yetkili, Somnio Software ekibindeki Sr REACT NATIVE pozisyonunu incel
 
 ---
 
-### 38. Product Engineering Lead - Tether Operations Limited (Uyum: %60)
+### 46. Product Engineering Lead - Tether Operations Limited (Uyum: %60)
 
 - **Basvuru Turu:** Sirket Kariyer Sayfasi
 - **Ilan Linki:** https://remoteOK.com/remote-jobs/remote-product-engineering-lead-tether-operations-limited-1137478
@@ -663,7 +800,7 @@ Merhabalar Yetkili, Tether Operations Limited ekibindeki Product Engineering Lea
 
 ---
 
-### 39. AI Engineer – New Graduate - TEB Arf (Uyum: %55)
+### 47. AI Engineer – New Graduate - TEB Arf (Uyum: %55)
 
 - **Basvuru Turu:** Easy Apply (Kolay Basvuru)
 - **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4484862042&f_TPR=r86400&keywords=Backend%20Engineer&location=Turkey
@@ -679,7 +816,7 @@ Merhabalar Yağmur, TEB Arf ekibindeki AI Engineer – New Graduate pozisyonunu 
 
 ---
 
-### 40. Product Design Lead - Fuel50 (Uyum: %55)
+### 48. Product Design Lead - Fuel50 (Uyum: %55)
 
 - **Basvuru Turu:** Sirket Kariyer Sayfasi
 - **Ilan Linki:** https://remoteOK.com/remote-jobs/remote-product-design-lead-fuel50-1137474
@@ -695,7 +832,7 @@ Merhabalar Yetkili, Fuel50 ekibindeki Product Design Lead pozisyonunu inceledim.
 
 ---
 
-### 41. Sr Solutions Architect - ExtraHop (Uyum: %55)
+### 49. Sr Solutions Architect - ExtraHop (Uyum: %55)
 
 - **Basvuru Turu:** Sirket Kariyer Sayfasi
 - **Ilan Linki:** https://remoteOK.com/remote-jobs/remote-sr-solutions-architect-extrahop-1137394
@@ -711,7 +848,7 @@ Merhabalar Yetkili, ExtraHop ekibindeki Sr Solutions Architect pozisyonunu incel
 
 ---
 
-### 42. NodeJS Developer - OBSS (Uyum: %50)
+### 50. NodeJS Developer - OBSS (Uyum: %50)
 
 - **Basvuru Turu:** Sirket Kariyer Sayfasi
 - **Ilan Linki:** https://tr.linkedin.com/jobs/view/nodejs-developer-at-obss-4455843679
@@ -727,7 +864,7 @@ Merhabalar Yetkili, OBSS ekibindeki NodeJS Developer pozisyonunu inceledim. Full
 
 ---
 
-### 43. Yazılım Mühendisi - Thoth AI (Uyum: %50)
+### 51. Yazılım Mühendisi - Thoth AI (Uyum: %50)
 
 - **Basvuru Turu:** Sirket Kariyer Sayfasi
 - **Ilan Linki:** https://tr.linkedin.com/jobs/view/yaz%C4%B1l%C4%B1m-m%C3%BChendisi-at-thoth-ai-4482963214
@@ -739,6 +876,22 @@ Merhabalar Yetkili, OBSS ekibindeki NodeJS Developer pozisyonunu inceledim. Full
 
 ```text
 Merhabalar Yetkili, Thoth AI ekibindeki Yazılım Mühendisi pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.
+```
+
+---
+
+### 52. Yazılım Geliştirme Uzmanı S-2 - Confidential Careers (Uyum: %50)
+
+- **Basvuru Turu:** Sirket Kariyer Sayfasi
+- **Ilan Linki:** https://tr.linkedin.com/jobs/view/yaz%C4%B1l%C4%B1m-geli%C5%9Ftirme-uzman%C4%B1-s-2-at-confidential-careers-4475543160
+- **Eslenen Yetkinlikler:** Temel yazilim gereksinimleri
+- **One Cikarilan Deneyim:** Emlak24 (Full Stack Engineer)
+- **Hedef Persona:** Ilgili Yetkili
+
+**Can Deger Tarzi Yonlendirici Mesaj (Ilgili Yetkili - 279 Karakter):**
+
+```text
+Merhabalar Yetkili, Confidential Careers ekibindeki Yazılım Geliştirme Uzmanı S-2 pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.
 ```
 
 ---
