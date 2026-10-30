@@ -4,6 +4,7 @@ import { fileURLToPath } from 'url';
 import https from 'https';
 import { chromium } from 'playwright-core';
 import { performEasyApply } from './easyApply.js';
+import { handleExternalApplyFlow } from './formAutofill.js';
 import { logApplication } from './tracker.js';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -80,7 +81,7 @@ export async function notifyJob(job, jobIndex) {
   const title = `<b>[YENI ILAN - %${a.score} UYUM]</b>`;
   const pos = `<b>Pozisyon:</b> ${job.title}`;
   const comp = `<b>Sirket:</b> ${job.company}`;
-  const type = `<b>Tur:</b> ${job.isEasyApply ? 'Easy Apply' : 'Dis Link'}`;
+  const type = `<b>Tur:</b> ${job.isEasyApply ? 'Easy Apply (LinkedIn Ici)' : 'Dis Kariyer Sitesi'}`;
   const skills = `<b>Eslenenler:</b> ${a.matchedSkills.slice(0, 5).join(', ') || 'Temel Stack'}`;
   const persona = `<b>Hedef Persona:</b> ${a.personaLabel || 'Genel'}`;
 
@@ -91,6 +92,10 @@ export async function notifyJob(job, jobIndex) {
   if (job.isEasyApply) {
     keyboardButtons.push([
       { text: 'Basvur (Easy Apply)', callback_data: `apply:${jobIndex}` }
+    ]);
+  } else {
+    keyboardButtons.push([
+      { text: 'Dis Formu Doldur (Autofill)', callback_data: `extfill:${jobIndex}` }
     ]);
   }
 
@@ -195,6 +200,33 @@ async function handleCallbackQuery(cb) {
     } catch (e) {
       await sendTelegramAlert(`<b>[HATA]</b> Basvuru sirasinda hata: ${e.message}`);
     }
+  } else if (action === 'extfill') {
+    await callTelegramApi('answerCallbackQuery', {
+      callback_query_id: cb.id,
+      text: 'Dis kariyer portali aciliyor ve form dolduruluyor...'
+    });
+
+    try {
+      const browser = await chromium.connectOverCDP('http://127.0.0.1:9222');
+      const res = await handleExternalApplyFlow(browser, targetJob.url, cvPath, targetJob.analysis.outreachMessage);
+      
+      logApplication({
+        company: targetJob.company,
+        role: targetJob.title,
+        url: targetJob.url,
+        status: 'EXTERNAL_FORM_AUTOFILLED',
+        notes: `Form dolduruldu (${res.fillReport.filledCount} alan, CV: ${res.fillReport.fileUploaded ? 'Evet' : 'Hayir'})`
+      });
+
+      await sendTelegramAlert(
+        `<b>[BASARILI]</b> ${targetJob.company} dis formu dolduruldu.\n\n` +
+        `- Doldurulan Alanlar: ${res.fillReport.filledCount}\n` +
+        `- PDF CV Yuklendi: ${res.fillReport.fileUploaded ? 'Evet' : 'Alan bulunamadi'}\n\n` +
+        `Chrome'da formu inceleyip gonder butonuna basmaniz icin sekme acik bekliyor.`
+      );
+    } catch (e) {
+      await sendTelegramAlert(`<b>[HATA]</b> Dis form doldurulamadi: ${e.message}`);
+    }
   } else if (action === 'msg') {
     await callTelegramApi('answerCallbackQuery', {
       callback_query_id: cb.id,
@@ -211,4 +243,3 @@ async function handleCallbackQuery(cb) {
     await sendTelegramAlert(`<b>[BILGI]</b> ${targetJob.company} ilani atlandi.`);
   }
 }
-

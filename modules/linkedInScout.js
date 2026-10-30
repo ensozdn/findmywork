@@ -88,9 +88,11 @@ export async function scanLinkedInJobs({
         const descEl = document.querySelector(
           '.jobs-description__content, .jobs-box__html-content, #job-details'
         );
-        const isEasyApply = !!document.querySelector(
-          '.jobs-apply-button--top-card button.jobs-apply-button, .jobs-s-apply button, button[data-job-id]'
+        const applyBtnEl = document.querySelector(
+          '.jobs-apply-button--top-card button, .jobs-s-apply button, .jobs-apply-button, button[data-job-id]'
         );
+        const applyBtnText = applyBtnEl ? applyBtnEl.innerText.toLowerCase() : '';
+        const isEasyApply = applyBtnText.includes('easy apply') || applyBtnText.includes('kolay başvuru') || applyBtnText.includes('kolay basvuru');
         const posterEl = document.querySelector(
           '.hirer-card__hirer-information .jobs-poster__name, .jobs-poster-profile__name'
         );

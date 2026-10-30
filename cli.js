@@ -1,7 +1,7 @@
 import { isChromeDebuggingOpen, ensureChromeReady } from './modules/chromeLauncher.js';
 import { scanLinkedInJobs } from './modules/linkedInScout.js';
 import { findHiringManagers } from './modules/hiringManagerScout.js';
-import { autofillCurrentPage } from './modules/formAutofill.js';
+import { autofillCurrentPage, handleExternalApplyFlow } from './modules/formAutofill.js';
 import { performEasyApply } from './modules/easyApply.js';
 import { sendOrDraftRecruiterMessage } from './modules/recruiterMessaging.js';
 import { generateMarkdownReport } from './modules/reportGenerator.js';
@@ -132,8 +132,8 @@ async function main() {
       console.log(`----------------------------------------------------------------`);
 
       console.log(`Islem secin:`);
-      console.log(`  [1] Onayla ve Otomatik Basvur (Easy Apply)`);
-      console.log(`  [2] Chrome'da Ac (Incele / Dis Linkten Basvur)`);
+      console.log(j.isEasyApply ? `  [1] Onayla ve Otomatik Basvur (Easy Apply)` : `  [1] Dis Sitede Ac ve Formu Otomatik Doldur (Autofill)`);
+      console.log(`  [2] Chrome'da Ac (Incele / Manuel Basvur)`);
       console.log(`  [3] Yoneticiye Mesaj / Baglanti Notu Hazirla`);
       console.log(`  [4] Pas Gec (Atla)`);
       console.log(`  [q] Cikis`);
@@ -147,23 +147,40 @@ async function main() {
           console.log(`[ERROR] Chrome bagli degil.`);
           continue;
         }
-        const context = browser.contexts()[0];
-        const page = await context.newPage();
-        await page.goto(j.url, { waitUntil: 'domcontentloaded' });
-        await page.waitForTimeout(2000);
 
-        const res = await performEasyApply(page, cvPath);
-        if (res.success) {
-          logApplication({
-            company: j.company,
-            role: j.title,
-            url: j.url,
-            status: 'APPLIED_EASY_APPLY',
-            notes: 'Otomatik Easy Apply ile basvuruldu'
-          });
-          console.log(`[SUCCESS] Basvuru kaydedildi.`);
+        if (j.isEasyApply) {
+          const context = browser.contexts()[0];
+          const page = await context.newPage();
+          await page.goto(j.url, { waitUntil: 'domcontentloaded' });
+          await page.waitForTimeout(2000);
+
+          const res = await performEasyApply(page, cvPath);
+          if (res.success) {
+            logApplication({
+              company: j.company,
+              role: j.title,
+              url: j.url,
+              status: 'APPLIED_EASY_APPLY',
+              notes: 'Otomatik Easy Apply ile basvuruldu'
+            });
+            console.log(`[SUCCESS] Basvuru kaydedildi.`);
+          } else {
+            console.log(`[WARN] Basvuru tamamlanamadi: ${res.reason}`);
+          }
         } else {
-          console.log(`[WARN] Basvuru tamamlanamadi: ${res.reason}`);
+          try {
+            const res = await handleExternalApplyFlow(browser, j.url, cvPath, a.outreachMessage);
+            logApplication({
+              company: j.company,
+              role: j.title,
+              url: j.url,
+              status: 'EXTERNAL_FORM_AUTOFILLED',
+              notes: `Dis form dolduruldu (${res.fillReport.filledCount} alan, CV: ${res.fillReport.fileUploaded ? 'Evet' : 'Hayir'})`
+            });
+            console.log(`[SUCCESS] Dis form dolduruldu (${res.fillReport.filledCount} alan, CV: ${res.fillReport.fileUploaded ? 'Evet' : 'Hayir'}). Chrome sekmesinde incelenmeye hazir!`);
+          } catch (e) {
+            console.log(`[ERROR] Dis form doldurulurken hata: ${e.message}`);
+          }
         }
       } else if (choice === '2') {
         if (browser) {

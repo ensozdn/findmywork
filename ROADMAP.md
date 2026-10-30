@@ -1,9 +1,10 @@
 # findmywork Gelistirme Yol Haritasi
 
-## Faz 1: Telegram Bildirim ve Uzaktan Onay Botu (Tamamlandi)
+## Faz 1: Telegram Bildirim, Uzaktan Onay ve Dis Form Ajani (Tamamlandi)
 - [x] Telegram Bot entegrasyonu (Long Polling ile sunucusuz yerel calisma)
 - [x] %45 ve uzeri uyumlu ilanlarda telefona anlik bildirim
-- [x] Inline Keyboard butonlari: [Basvur], [Mesaj Notunu Gor], [Ilana Git], [Pas Gec]
+- [x] Akilli Butonlar: [Easy Apply] ve [Dis Formu Doldur (Autofill)]
+- [x] Dis sitelerde (Greenhouse, Lever, sirket portali) form doldurma ve hazir PDF CV yukleme
 - [x] Telefondan basilan butona gore Mac uzerindeki Chrome'da islemi gerceklestirme
 - [x] Islem sonucunun ozet olarak Telegram'a geri bildirilmesi
 
