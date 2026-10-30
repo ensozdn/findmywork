@@ -116,3 +116,4 @@ runCloudScout().catch(err => {
   console.log('[ERROR] Cloud Scout basarisiz: ' + err.message);
   process.exit(1);
 });
+

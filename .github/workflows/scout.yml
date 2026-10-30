@@ -36,3 +36,4 @@ jobs:
           git add data/notified_jobs.json data/jobs_latest.json REPORT.md || true
           git diff --staged --quiet || git commit -m "chore: update notified jobs from cloud scout"
           git push || true
+
