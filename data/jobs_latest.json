@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Senior React Native Developer",
+    "company": "TechVentures Global",
+    "meta": "İstanbul, Türkiye (Remote) · 3 saat önce · 14 başvuru",
+    "description": "We are seeking a Senior React Native Developer to build offline-first mobile applications with location tracking and real-time synchronization. Requirements: React Native, TypeScript, Redux/Zustand, REST APIs, native module integration.",
+    "isEasyApply": true,
+    "hiringManagerName": "Ahmet Yılmaz (Engineering Director)",
+    "url": "https://www.linkedin.com/jobs/view/sample1",
+    "analysis": {
+      "jobTitle": "Senior React Native Developer",
+      "company": "TechVentures Global",
+      "score": 92,
+      "isGhostRisk": false,
+      "redFlags": [],
+      "warnings": [],
+      "matchedSkills": ["React Native", "TypeScript", "RESTful APIs", "Offline-First Architecture", "Geolocation / Background Location Services"],
+      "missingKeywords": ["Redux"],
+      "recommendedProject": "Trip Noute",
+      "outreachMessage": "Merhabalar Ahmet Bey,\n\nTechVentures Global bünyesinde açılan Senior React Native Developer pozisyonunu inceledim. Trip Noute gibi projelerde edindiğim React Native, TypeScript, Geolocation / Background Location Services tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.\n\nSüreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.\n\nVaktiniz için teşekkürler,\nEnes Özden",
+      "atsBullets": [
+        "Trip Noute projesi kapsamında React Native, TypeScript, Geolocation servisleri ile production seviyesinde mobil mimari tasarımı ve optimizasyonu.",
+        "Sakarya Teknokent ve kurumsal projelerde modern state yönetimi, offline-first mimari ve performans odaklı geliştirme deneyimi.",
+        "İlanınızda belirtilen React Native, TypeScript, RESTful APIs, Offline-First mimarisi ile uçtan uca mobil uygulama geliştirme."
+      ]
+    }
+  },
+  {
+    "title": "Mobile Application Developer (React Native)",
+    "company": "Acme Talent Solutions (Staffing)",
+    "meta": "İstanbul, Türkiye · 45 gün önce · 620 başvuru · Reposted",
+    "description": "Looking for React Native developer. Long-running open position. Multiple clients.",
+    "isEasyApply": false,
+    "hiringManagerName": null,
+    "url": "https://www.linkedin.com/jobs/view/sample2",
+    "analysis": {
+      "jobTitle": "Mobile Application Developer (React Native)",
+      "company": "Acme Talent Solutions (Staffing)",
+      "score": 35,
+      "isGhostRisk": true,
+      "redFlags": [],
+      "warnings": [
+        "Yüksek başvuru sayısı (620+ aday). Erken başvuru avantajı kaçmış olabilir.",
+        "İlan yeniden yayınlanmış (Reposted). Şirket uzun süredir kapatamadı veya data topluyor olabilir."
+      ],
+      "matchedSkills": ["React Native"],
+      "missingKeywords": [],
+      "recommendedProject": "Trip Noute",
+      "outreachMessage": "Merhabalar Yetkili Bey/Hanım,\n\nAcme Talent Solutions bünyesindeki Mobile Application Developer pozisyonu için...",
+      "atsBullets": [
+        "Trip Noute ve kurumsal projeler kapsamında React Native odaklı mobil geliştirme."
+      ]
+    }
+  }
+]
+

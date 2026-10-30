@@ -1,0 +1,101 @@
+{
+  "personal": {
+    "full_name": "Enes Özden",
+    "title": "Mobile & Full-Stack Developer",
+    "email": "enesozden.dev@gmail.com",
+    "phone": "+90 (xxx) xxx xx xx",
+    "location": "Sakarya / Istanbul, Turkey",
+    "linkedin_url": "https://www.linkedin.com/in/enesozden",
+    "github_url": "https://github.com/enesozden",
+    "portfolio_url": ""
+  },
+  "preferences": {
+    "target_roles": [
+      "React Native Developer",
+      "Mobile Application Developer",
+      "Frontend Developer",
+      "Full Stack Developer"
+    ],
+    "employment_types": ["Full-time", "Contract"],
+    "workplace_types": ["Remote", "Hybrid"],
+    "target_locations": ["Remote", "Istanbul", "Kocaeli", "Sakarya", "Worldwide"],
+    "min_experience_years": 2,
+    "max_experience_years": 6
+  },
+  "skills": {
+    "core": [
+      "React Native",
+      "React.js",
+      "TypeScript",
+      "JavaScript (ES6+)",
+      "Node.js"
+    ],
+    "mobile": [
+      "React Native CLI",
+      "Expo",
+      "iOS / Android Native Bridges",
+      "Redux Toolkit / Zustand",
+      "Offline-First Architecture",
+      "SQLite / WatermelonDB / AsyncStorage",
+      "Geolocation / Background Location Services",
+      "Push Notifications (FCM / APNs)"
+    ],
+    "backend_and_data": [
+      "RESTful APIs",
+      "GraphQL",
+      "Node.js / Express",
+      "PostgreSQL / MongoDB / Firebase",
+      "WebSockets"
+    ],
+    "devops_and_tools": [
+      "Git / GitHub",
+      "Docker basics",
+      "CI/CD (Fastlane, GitHub Actions)",
+      "App Store Connect & Google Play Console"
+    ]
+  },
+  "highlight_projects": [
+    {
+      "name": "Trip Noute",
+      "type": "Mobile Application (Ongoing ~2 Years)",
+      "tech_stack": ["React Native", "TypeScript", "Node.js", "Mapbox/Google Maps", "Offline-First Sync"],
+      "description": "Kapsamlı seyahat, lokasyon takibi ve not alma platformu. Arka planda pil dostu konum servisleri, çevrimdışı çalışma (offline-first) senkronizasyonu ve modern kullanıcı arayüzü.",
+      "key_achievements": [
+        "Offline-first veri depolama ve senkronizasyon mimarisinin tasarımı",
+        "Düşük pil tüketimli arka plan rota ve lokasyon takibi entegrasyonu",
+        "Yüksek performanslı harita işaretleme ve kümeleme (clustering) optimizasyonu"
+      ]
+    },
+    {
+      "name": "Convoy Radio",
+      "type": "Audio Streaming & Community Mobile App",
+      "tech_stack": ["React Native", "Audio Streaming Protocols", "WebSockets"],
+      "description": "Gerçek zamanlı ses yayını, topluluk etkileşimi ve radyo istasyonu dinleme uygulaması.",
+      "key_achievements": [
+        "Düşük gecikmeli ses akışı ve arka planda kesintisiz medya oynatma desteği",
+        "Websocket tabanlı anlık sohbet ve kullanıcı etkileşim modülü"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Emlak 24",
+      "role": "Software Developer / Mobile & Web",
+      "period": "Son Dönem",
+      "highlights": [
+        "Gayrimenkul portföy yönetimi ve listeleme uygulamalarının geliştirilmesi",
+        "Kullanıcı deneyimi odaklı modern arayüz tasarımı ve API entegrasyonları"
+      ]
+    },
+    {
+      "company": "Pro Sicht (Sakarya Teknokent)",
+      "role": "Software Developer",
+      "period": "Geçmiş Deneyim",
+      "highlights": [
+        "Teknokent Ar-Ge projeleri kapsamında kurumsal yazılım ve mobil çözümler geliştirme",
+        "Scrum/Agile prensipleriyle takım çalışması ve teknik mimari tasarımı"
+      ]
+    }
+  ]
+}
+

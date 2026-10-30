@@ -1,0 +1,9 @@
+{
+  "cold_outreach": {
+    "hiring_manager": "Merhabalar {{name}} Bey/Hanım,\n\n{{company}} bünyesinde açılan {{role}} pozisyonunu inceledim. {{key_project}} gibi projelerde edindiğim {{core_skills}} tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.\n\nSüreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.\n\nVaktiniz için teşekkürler,\nEnes Özden",
+    "recruiter": "Merhabalar {{name}} Hanım/Bey,\n\n{{company}} bünyesindeki {{role}} ilanı tam olarak odaklandığım mobil/full-stack yetkinliklerimle örtüşüyor. Özellikle {{key_project}} projesinde geliştirdiğim {{core_skills}} odaklı çözümlerin ekibinize değer katacağına inanıyorum.\n\nPozisyon hakkında kısa bir ön görüşme veya CV paylaşımı için uygunluğunuz olursa çok memnun olurum.\n\nİyi çalışmalar dilerim,\nEnes Özden",
+    "peer_developer": "Selam {{name}},\n\n{{company}} ekibindeki {{role}} ilanını gördüm. Ekibinizde kullanılan stack ({{tech_stack}}) benim de aktif olarak çalıştığım alanlar. Süreç ve ekip kültürü hakkında 2 dakika deneyimini paylaşabilirsen çok sevinirim, harika bir gün dilerim!"
+  },
+  "cover_letter": "Sayın Yetkili,\n\n{{company}} bünyesindeki {{role}} pozisyonuna olan ilgimi belirtmek isterim. Mobil uygulama geliştirme alanında; Trip Noute gibi 2 yılı aşkın süredir geliştirdiğim offline-first ve konum servisleri odaklı projem, Sakarya Teknokent (Pro Sicht) ve Emlak24 süreçlerindeki full-stack tecrübemle ekibinize hızla adapte olabilecek bir birikime sahibim.\n\nİlanınızda belirtilen {{matching_keywords}} gereksinimleri, bugüne kadar aktif olarak production ortamında uyguladığım pratiklerle birebir örtüşmektedir.\n\nPozisyona katabileceğim değeri ve projelerimin detaylarını konuşmak üzere sizinle görüşmeyi çok isterim.\n\nSaygılarımla,\nEnes Özden"
+}
+

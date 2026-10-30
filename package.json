@@ -1,0 +1,16 @@
+{
+  "name": "findmywork",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Can Değer Stratejisi ile Güçlendirilmiş Yapay Zeka Destekli İş Arama & ATS Optimizasyon Pipeline'ı",
+  "main": "cli.js",
+  "scripts": {
+    "start": "node cli.js",
+    "scan": "node cli.js scan",
+    "report": "node cli.js report",
+    "check": "node cli.js check"
+  },
+  "dependencies": {
+    "playwright-core": "^1.64.1"
+  }
+}
