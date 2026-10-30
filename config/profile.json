@@ -1,101 +1,121 @@
 {
   "personal": {
     "full_name": "Enes Özden",
-    "title": "Mobile & Full-Stack Developer",
-    "email": "enesozden.dev@gmail.com",
-    "phone": "+90 (xxx) xxx xx xx",
-    "location": "Sakarya / Istanbul, Turkey",
-    "linkedin_url": "https://www.linkedin.com/in/enesozden",
+    "title": "Software Engineer",
+    "email": "ensozdn@hotmail.com",
+    "phone": "+90 537 683 22 05",
+    "location": "Istanbul, Turkiye",
+    "linkedin_url": "https://www.linkedin.com/in/ensozdn",
     "github_url": "https://github.com/ensozdn",
     "portfolio_url": ""
   },
   "preferences": {
     "target_roles": [
-      "React Native Developer",
-      "Mobile Application Developer",
+      "Software Engineer",
+      "Full Stack Engineer",
+      "Full Stack Developer",
+      "Backend Engineer",
+      "Backend Developer",
+      "Frontend Engineer",
       "Frontend Developer",
-      "Full Stack Developer"
+      "Node.js Developer",
+      "NestJS Developer"
     ],
     "employment_types": ["Full-time", "Contract"],
     "workplace_types": ["Remote", "Hybrid"],
-    "target_locations": ["Remote", "Istanbul", "Kocaeli", "Sakarya", "Worldwide"],
-    "min_experience_years": 2,
-    "max_experience_years": 6
+    "target_locations": ["Remote", "Istanbul", "Germany", "Worldwide"],
+    "min_experience_years": 1,
+    "max_experience_years": 5
   },
   "skills": {
-    "core": [
-      "React Native",
-      "React.js",
+    "languages": [
       "TypeScript",
-      "JavaScript (ES6+)",
-      "Node.js"
+      "JavaScript",
+      "Java (21)"
     ],
-    "mobile": [
-      "React Native CLI",
-      "Expo",
-      "iOS / Android Native Bridges",
-      "Redux Toolkit / Zustand",
-      "Offline-First Architecture",
-      "SQLite / WatermelonDB / AsyncStorage",
-      "Geolocation / Background Location Services",
-      "Push Notifications (FCM / APNs)"
+    "frameworks_and_tools": [
+      "NestJS",
+      "Next.js",
+      "React",
+      "Node.js",
+      "Spring Boot",
+      "Nuxt 3",
+      "Vue 3"
     ],
-    "backend_and_data": [
+    "databases_and_caching": [
+      "PostgreSQL",
+      "Redis",
+      "Prisma ORM",
+      "Hibernate",
+      "MongoDB",
+      "Mongoose",
+      "MySQL"
+    ],
+    "architecture_and_messaging": [
+      "Event-Driven Architecture",
       "RESTful APIs",
-      "GraphQL",
-      "Node.js / Express",
-      "PostgreSQL / MongoDB / Firebase",
-      "WebSockets"
+      "Apache Kafka",
+      "WebSocket"
     ],
-    "devops_and_tools": [
-      "Git / GitHub",
-      "Docker basics",
-      "CI/CD (Fastlane, GitHub Actions)",
-      "App Store Connect & Google Play Console"
+    "testing_and_methodologies": [
+      "Domain-Driven Design (DDD)",
+      "TDD",
+      "Unit Testing",
+      "BDD"
+    ],
+    "ai_and_workflows": [
+      "LLM Tool Calling",
+      "AI Agents",
+      "ComfyUI",
+      "LTX Studio"
+    ],
+    "cloud_and_devops": [
+      "Docker",
+      "Git (GitHub, GitLab)",
+      "AWS",
+      "Google Cloud"
     ]
   },
-  "highlight_projects": [
+  "experience": [
     {
-      "name": "Trip Noute",
-      "type": "Mobile Application (Ongoing ~2 Years)",
-      "tech_stack": ["React Native", "TypeScript", "Node.js", "Mapbox/Google Maps", "Offline-First Sync"],
-      "description": "Kapsamlı seyahat, lokasyon takibi ve not alma platformu. Arka planda pil dostu konum servisleri, çevrimdışı çalışma (offline-first) senkronizasyonu ve modern kullanıcı arayüzü.",
-      "key_achievements": [
-        "Offline-first veri depolama ve senkronizasyon mimarisinin tasarımı",
-        "Düşük pil tüketimli arka plan rota ve lokasyon takibi entegrasyonu",
-        "Yüksek performanslı harita işaretleme ve kümeleme (clustering) optimizasyonu"
+      "company": "Emlak24",
+      "role": "Full Stack Engineer",
+      "location": "Germany / Remote",
+      "period": "March 2026 - September 2026",
+      "highlights": [
+        "Architected modular RESTful services using NestJS and TypeScript with normalized PostgreSQL schemas and Prisma ORM.",
+        "Integrated Endeksa API to automate property valuation workflows with resilient HTTP fallback layers.",
+        "Built real-time notification pipeline backed by Redis sliding-window rate limiting.",
+        "Integrated conversational LLM tool and function calling to translate natural language prompts into database queries."
       ]
     },
     {
-      "name": "Convoy Radio",
-      "type": "Audio Streaming & Community Mobile App",
-      "tech_stack": ["React Native", "Audio Streaming Protocols", "WebSockets"],
-      "description": "Gerçek zamanlı ses yayını, topluluk etkileşimi ve radyo istasyonu dinleme uygulaması.",
-      "key_achievements": [
-        "Düşük gecikmeli ses akışı ve arka planda kesintisiz medya oynatma desteği",
-        "Websocket tabanlı anlık sohbet ve kullanıcı etkileşim modülü"
+      "company": "Pro Sicht",
+      "role": "Full Stack Engineer",
+      "location": "Germany / Remote",
+      "period": "October 2025 - March 2026",
+      "highlights": [
+        "Architected and deployed self-hosted AI video generation pipeline utilizing ComfyUI and LTX models.",
+        "Architected and deployed enterprise B2B platform using Vue 3 and Nuxt 3 with SSR/SSG.",
+        "Developed interfaces via Tailwind CSS featuring dynamic Bento Grids, GSAP interactive network topologies, and 3D SVG globes.",
+        "Architected PostgreSQL database infrastructure and built comprehensive Admin Panel."
+      ]
+    },
+    {
+      "company": "Car Studio AI",
+      "role": "Backend Developer Intern",
+      "location": "Istanbul, Turkiye",
+      "period": "July 2025 - October 2025",
+      "highlights": [
+        "Contributed to backend ecosystem using Java 21 and Spring Boot adhering to DDD principles.",
+        "Designed and optimized REST APIs for high-performance front-to-back communication.",
+        "Engineered server-side data workflows for high-resolution automotive imagery."
       ]
     }
   ],
-  "experience": [
-    {
-      "company": "Emlak 24",
-      "role": "Software Developer / Mobile & Web",
-      "period": "Son Dönem",
-      "highlights": [
-        "Gayrimenkul portföy yönetimi ve listeleme uygulamalarının geliştirilmesi",
-        "Kullanıcı deneyimi odaklı modern arayüz tasarımı ve API entegrasyonları"
-      ]
-    },
-    {
-      "company": "Pro Sicht (Sakarya Teknokent)",
-      "role": "Software Developer",
-      "period": "Geçmiş Deneyim",
-      "highlights": [
-        "Teknokent Ar-Ge projeleri kapsamında kurumsal yazılım ve mobil çözümler geliştirme",
-        "Scrum/Agile prensipleriyle takım çalışması ve teknik mimari tasarımı"
-      ]
-    }
-  ]
+  "education": {
+    "degree": "Bachelor Degree in Finance",
+    "institution": "Sakarya University",
+    "period": "October 2022 - July 2027"
+  }
 }
-

@@ -42,7 +42,8 @@ async function main() {
       const p = JSON.parse(fs.readFileSync(profilePath, 'utf8'));
       console.log(`  [OK] Profil: ${p.personal.full_name} (${p.personal.title})`);
       console.log(`  [OK] Hedef Roller: ${p.preferences.target_roles.join(', ')}`);
-      console.log(`  [OK] Projeler: ${p.highlight_projects.map(pr => pr.name).join(', ')}`);
+      const expList = p.experience ? p.experience.map(e => `${e.company} (${e.role})`).join(', ') : '';
+      console.log(`  [OK] Deneyimler: ${expList}`);
     }
 
     if (fs.existsSync(cvPath)) {

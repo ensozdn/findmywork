@@ -30,26 +30,30 @@ export function analyzeJob(job) {
   }
 
   const allUserSkills = [
-    ...profile.skills.core,
-    ...profile.skills.mobile,
-    ...profile.skills.backend_and_data,
-    ...profile.skills.devops_and_tools
+    ...profile.skills.languages,
+    ...profile.skills.frameworks_and_tools,
+    ...profile.skills.databases_and_caching,
+    ...profile.skills.architecture_and_messaging,
+    ...profile.skills.testing_and_methodologies,
+    ...profile.skills.ai_and_workflows,
+    ...profile.skills.cloud_and_devops
   ];
 
   const matchedSkills = [];
   const missingKeywords = [];
 
   allUserSkills.forEach(skill => {
-    const regex = new RegExp(`\\b${skill.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i');
+    const cleanSkill = skill.replace(/\s*\([^)]*\)/g, '');
+    const regex = new RegExp(`\\b${cleanSkill.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i');
     if (regex.test(text)) {
       matchedSkills.push(skill);
     }
   });
 
-  const commonTechs = ['GraphQL', 'CI/CD', 'Jest', 'Fastlane', 'Docker', 'Kotlin', 'Swift', 'Redux', 'Zustand'];
-  commonTechs.forEach(tech => {
-    if (new RegExp(`\\b${tech}\\b`, 'i').test(text) && !matchedSkills.includes(tech)) {
-      missingKeywords.push(tech);
+  const commonKeywords = ['GraphQL', 'Kubernetes', 'CI/CD', 'Microservices', 'Elasticsearch', 'RabbitMQ'];
+  commonKeywords.forEach(kw => {
+    if (new RegExp(`\\b${kw}\\b`, 'i').test(text) && !matchedSkills.includes(kw)) {
+      missingKeywords.push(kw);
     }
   });
 
@@ -67,23 +71,25 @@ export function analyzeJob(job) {
 
   score = Math.max(10, Math.min(score, 98));
 
-  let bestProject = profile.highlight_projects[0];
-  if (text.includes('audio') || text.includes('streaming') || text.includes('websocket') || text.includes('ses')) {
-    bestProject = profile.highlight_projects[1];
+  let relevantExp = profile.experience[0];
+  if (text.includes('java') || text.includes('spring')) {
+    relevantExp = profile.experience[2];
+  } else if (text.includes('vue') || text.includes('nuxt') || text.includes('comfyui') || text.includes('video')) {
+    relevantExp = profile.experience[1];
   }
 
-  const primarySkillsStr = matchedSkills.slice(0, 3).join(', ') || 'React Native ve TypeScript';
+  const primarySkillsStr = matchedSkills.slice(0, 3).join(', ') || 'TypeScript, NestJS ve PostgreSQL';
   const outreachMessage = templates.cold_outreach.hiring_manager
     .replace('{{name}}', job.hiringManagerName || 'Yetkili')
     .replace('{{company}}', job.company || 'Sirketiniz')
     .replace('{{role}}', job.title)
-    .replace('{{key_project}}', bestProject.name)
+    .replace('{{key_project}}', `${relevantExp.company} (${relevantExp.role})`)
     .replace('{{core_skills}}', primarySkillsStr);
 
   const atsBullets = [
-    `${bestProject.name} projesi kapsaminda ${primarySkillsStr} ile production seviyesinde mobil mimari tasarimi.`,
-    `Kurumsal projelerde modern state yonetimi, offline-first mimari ve performans odakli gelistirme deneyimi.`,
-    `Ilanda belirtilen ${matchedSkills.slice(0, 4).join(', ') || 'modern mobil teknolojiler'} ile ucuca uygulama gelistirme.`
+    `${relevantExp.company} bunyesinde ${primarySkillsStr} ile production seviyesinde olceklenebilir mimari gelistirme.`,
+    `NestJS, Next.js, Spring Boot ve PostgreSQL ile mikroservis ve RESTful API tasarimi.`,
+    `Ilanda talep edilen ${matchedSkills.slice(0, 4).join(', ') || 'modern full-stack teknolojileri'} ile ucuca sistem entegrasyonu.`
   ];
 
   return {
@@ -95,7 +101,7 @@ export function analyzeJob(job) {
     warnings,
     matchedSkills,
     missingKeywords,
-    recommendedProject: bestProject.name,
+    recommendedProject: `${relevantExp.company} (${relevantExp.role})`,
     outreachMessage,
     atsBullets
   };
