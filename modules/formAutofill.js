@@ -122,3 +122,5 @@ export async function handleExternalApplyFlow(browser, jobUrl, cvPath, coverLett
     fillReport
   };
 }
+
+export const autofillCurrentPage = autofillPageForm;
