@@ -1,35 +1,30 @@
 # Son Taranan Is Ilanlari Raporu
 
-Toplam taranan ilan sayisi: **15** | Son guncelleme: **30.10.2026 17:20:44**
+Toplam taranan ilan sayisi: **10** | Son guncelleme: **30.10.2026 18:24:00**
 
 ## Ozet Tablo
 
 | # | Skor | Pozisyon | Sirket | Basvuru Turu | Durum | Link |
 |---|---|---|---|---|---|---|
-| 1 | %98 | Full-Stack JavaScript Developer (AI-Native) | UltaHost | Easy Apply | **UYGUN** | [Ilana Git](https://www.linkedin.com/jobs/search/?currentJobId=4485329968&f_TPR=r86400&keywords=Full%20Stack&location=Turkey) |
-| 2 | %98 | Full Stack Engineer | Ekin Smart City | Easy Apply | **UYGUN** | [Ilana Git](https://www.linkedin.com/jobs/search/?currentJobId=4485300676&f_TPR=r86400&keywords=Full%20Stack&location=Turkey) |
-| 3 | %95 | Senior Fullstack Engineer | MSI Technologies Inc. | Easy Apply | **UYGUN** | [Ilana Git](https://www.linkedin.com/jobs/search/?currentJobId=4484557829&f_TPR=r86400&keywords=Full%20Stack&location=Turkey) |
-| 4 | %85 | Full Stack Engineer | Sensor Tower | Easy Apply | **UYGUN** | [Ilana Git](https://www.linkedin.com/jobs/search/?currentJobId=4483092773&f_TPR=r86400&keywords=Full%20Stack&location=Turkey) |
-| 5 | %75 | Senior Payments Engineer — Acquiring & Payment Processing | Sezzle | Easy Apply | **UYGUN** | [Ilana Git](https://www.linkedin.com/jobs/search/?currentJobId=4431727295&f_TPR=r86400&keywords=Full%20Stack&location=Turkey) |
-| 6 | %65 | Yazılım Stajyeri (Zorunlu Uzun Dönem Staj, Ücretli, Uzaktan) | Cadde | Easy Apply | **UYGUN** | [Ilana Git](https://www.linkedin.com/jobs/search/?currentJobId=4483437814&f_TPR=r86400&keywords=Full%20Stack&location=Turkey) |
-| 7 | %60 | Software Engineer | Zetheta Algorithms Private Limited | Easy Apply | **RISKLI** | [Ilana Git](https://www.linkedin.com/jobs/search/?currentJobId=4485313076&f_TPR=r86400&keywords=Full%20Stack&location=Turkey) |
-| 8 | %55 | AI Infrastructure Engineer | Shuru | Easy Apply | **UYGUN** | [Ilana Git](https://www.linkedin.com/jobs/search/?currentJobId=4483453329&f_TPR=r86400&keywords=Full%20Stack&location=Turkey) |
-| 9 | %50 | iGaming SEO İçerik Yazarı (Serbest / Uzaktan) | Matadorbet | Easy Apply | **UYGUN** | [Ilana Git](https://www.linkedin.com/jobs/search/?currentJobId=4483428949&f_TPR=r86400&keywords=Full%20Stack&location=Turkey) |
-| 10 | %50 | AI Strategist (Based in Dubai) | Property Finder | Easy Apply | **UYGUN** | [Ilana Git](https://www.linkedin.com/jobs/search/?currentJobId=4481701180&f_TPR=r86400&keywords=Full%20Stack&location=Turkey) |
-| 11 | %50 | Researcher - Remote | YO AI Labs | Easy Apply | **UYGUN** | [Ilana Git](https://www.linkedin.com/jobs/search/?currentJobId=4484814376&f_TPR=r86400&keywords=Full%20Stack&location=Turkey) |
-| 12 | %50 | Remote ML Engineer | Turing | Easy Apply | **UYGUN** | [Ilana Git](https://www.linkedin.com/jobs/search/?currentJobId=4484814852&f_TPR=r86400&keywords=Full%20Stack&location=Turkey) |
-| 13 | %50 | Sr. Level Artist & Designer | The Phenix | Easy Apply | **UYGUN** | [Ilana Git](https://www.linkedin.com/jobs/search/?currentJobId=4483453073&f_TPR=r86400&keywords=Full%20Stack&location=Turkey) |
-| 14 | %50 | Sr. Level Artist & Designer | The Phenix | Easy Apply | **UYGUN** | [Ilana Git](https://www.linkedin.com/jobs/search/?currentJobId=4483453073&f_TPR=r86400&keywords=Full%20Stack&location=Turkey) |
-| 15 | %10 | Unpaid Co-Founder Role | Hyphen | Easy Apply | **RISKLI** | [Ilana Git](https://www.linkedin.com/jobs/search/?currentJobId=4484838294&f_TPR=r86400&keywords=Full%20Stack&location=Turkey) |
+| 1 | %100 | Full-Stack JavaScript Developer (AI-Native) | UltaHost | Dis Link | **UYGUN** | [Ilana Git](https://www.linkedin.com/jobs/search/?currentJobId=4485329968&f_TPR=r86400&keywords=Backend%20Engineer&location=Turkey) |
+| 2 | %100 | Full Stack Engineer | Ekin Smart City | Easy Apply | **UYGUN** | [Ilana Git](https://www.linkedin.com/jobs/search/?currentJobId=4485300676&f_TPR=r86400&keywords=Backend%20Engineer&location=Turkey) |
+| 3 | %95 | Senior Fullstack Engineer | MSI Technologies Inc. | Easy Apply | **UYGUN** | [Ilana Git](https://www.linkedin.com/jobs/search/?currentJobId=4484557829&f_TPR=r86400&keywords=Backend%20Engineer&location=Turkey) |
+| 4 | %95 | Full Stack Platform Engineer | Vagon | Easy Apply | **UYGUN** | [Ilana Git](https://www.linkedin.com/jobs/search/?currentJobId=4483415921&f_TPR=r86400&keywords=Backend%20Engineer&location=Turkey) |
+| 5 | %85 | Full Stack Engineer | Sensor Tower | Dis Link | **UYGUN** | [Ilana Git](https://www.linkedin.com/jobs/search/?currentJobId=4483092773&f_TPR=r86400&keywords=Backend%20Engineer&location=Turkey) |
+| 6 | %85 | Senior Payments Engineer — Acquiring & Payment Processing | Sezzle | Dis Link | **UYGUN** | [Ilana Git](https://www.linkedin.com/jobs/search/?currentJobId=4431727295&f_TPR=r86400&keywords=Backend%20Engineer&location=Turkey) |
+| 7 | %80 | Remote Java Spring Back-end Developer | Cadde | Easy Apply | **UYGUN** | [Ilana Git](https://www.linkedin.com/jobs/search/?currentJobId=4483477160&f_TPR=r86400&keywords=Backend%20Engineer&location=Turkey) |
+| 8 | %65 | Remote Engineering Expert | Turing | Easy Apply | **UYGUN** | [Ilana Git](https://www.linkedin.com/jobs/search/?currentJobId=4484812294&f_TPR=r86400&keywords=Backend%20Engineer&location=Turkey) |
+| 9 | %60 | Software Engineer | Zetheta Algorithms Private Limited | Easy Apply | **RISKLI** | [Ilana Git](https://www.linkedin.com/jobs/search/?currentJobId=4485313076&f_TPR=r86400&keywords=Backend%20Engineer&location=Turkey) |
+| 10 | %55 | AI Engineer – New Graduate | TEB Arf | Easy Apply | **UYGUN** | [Ilana Git](https://www.linkedin.com/jobs/search/?currentJobId=4484862042&f_TPR=r86400&keywords=Backend%20Engineer&location=Turkey) |
 
 ---
 
 ## Detayli Ilan Analizleri ve Hazir Mesajlar
 
-### 1. Full-Stack JavaScript Developer (AI-Native) - UltaHost (Uyum: %98)
+### 1. Full-Stack JavaScript Developer (AI-Native) - UltaHost (Uyum: %100)
 
-- **Basvuru Turu:** Easy Apply (Kolay Basvuru)
-- **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4485329968&f_TPR=r86400&keywords=Full%20Stack&location=Turkey
+- **Basvuru Turu:** Sirket Kariyer Sayfasi
+- **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4485329968&f_TPR=r86400&keywords=Backend%20Engineer&location=Turkey
 - **Eslenen Yetkinlikler:** TypeScript, JavaScript, NestJS, Next.js, React, Node.js, PostgreSQL, Redis, Prisma ORM, MongoDB, MySQL, Docker, Git (GitHub, GitLab)
 - **One Cikarilan Deneyim:** Emlak24 (Full Stack Engineer)
 - **Hedef Persona:** Ilgili Yetkili
@@ -42,10 +37,10 @@ Merhabalar Yetkili, UltaHost ekibindeki Full-Stack JavaScript Developer (AI-Nati
 
 ---
 
-### 2. Full Stack Engineer - Ekin Smart City (Uyum: %98)
+### 2. Full Stack Engineer - Ekin Smart City (Uyum: %100)
 
 - **Basvuru Turu:** Easy Apply (Kolay Basvuru)
-- **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4485300676&f_TPR=r86400&keywords=Full%20Stack&location=Turkey
+- **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4485300676&f_TPR=r86400&keywords=Backend%20Engineer&location=Turkey
 - **Eslenen Yetkinlikler:** NestJS, Next.js, React, Node.js, MongoDB, Docker, Git (GitHub, GitLab)
 - **One Cikarilan Deneyim:** Emlak24 (Full Stack Engineer)
 - **Hedef Persona:** Ilgili Yetkili
@@ -61,7 +56,7 @@ Merhabalar Yetkili, Ekin Smart City ekibindeki Full Stack Engineer pozisyonunu i
 ### 3. Senior Fullstack Engineer - MSI Technologies Inc. (Uyum: %95)
 
 - **Basvuru Turu:** Easy Apply (Kolay Basvuru)
-- **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4484557829&f_TPR=r86400&keywords=Full%20Stack&location=Turkey
+- **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4484557829&f_TPR=r86400&keywords=Backend%20Engineer&location=Turkey
 - **Eslenen Yetkinlikler:** TypeScript, NestJS, Node.js, PostgreSQL, AWS
 - **One Cikarilan Deneyim:** Emlak24 (Full Stack Engineer)
 - **Hedef Persona:** Ilgili Yetkili
@@ -74,10 +69,26 @@ Merhabalar Federico, MSI Technologies Inc. ekibindeki Senior Fullstack Engineer 
 
 ---
 
-### 4. Full Stack Engineer - Sensor Tower (Uyum: %85)
+### 4. Full Stack Platform Engineer - Vagon (Uyum: %95)
 
 - **Basvuru Turu:** Easy Apply (Kolay Basvuru)
-- **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4483092773&f_TPR=r86400&keywords=Full%20Stack&location=Turkey
+- **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4483415921&f_TPR=r86400&keywords=Backend%20Engineer&location=Turkey
+- **Eslenen Yetkinlikler:** JavaScript, React, AI Agents, Docker, AWS
+- **One Cikarilan Deneyim:** Pro Sicht (Full Stack Engineer)
+- **Hedef Persona:** Ilgili Yetkili
+
+**Can Deger Tarzi Yonlendirici Mesaj (Ilgili Yetkili - 263 Karakter):**
+
+```text
+Merhabalar Yetkili, Vagon ekibindeki Full Stack Platform Engineer pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.
+```
+
+---
+
+### 5. Full Stack Engineer - Sensor Tower (Uyum: %85)
+
+- **Basvuru Turu:** Sirket Kariyer Sayfasi
+- **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4483092773&f_TPR=r86400&keywords=Backend%20Engineer&location=Turkey
 - **Eslenen Yetkinlikler:** JavaScript, React, AWS
 - **One Cikarilan Deneyim:** Emlak24 (Full Stack Engineer)
 - **Hedef Persona:** Ilgili Yetkili
@@ -90,10 +101,10 @@ Merhabalar Yetkili, Sensor Tower ekibindeki Full Stack Engineer pozisyonunu ince
 
 ---
 
-### 5. Senior Payments Engineer — Acquiring & Payment Processing - Sezzle (Uyum: %75)
+### 6. Senior Payments Engineer — Acquiring & Payment Processing - Sezzle (Uyum: %85)
 
-- **Basvuru Turu:** Easy Apply (Kolay Basvuru)
-- **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4431727295&f_TPR=r86400&keywords=Full%20Stack&location=Turkey
+- **Basvuru Turu:** Sirket Kariyer Sayfasi
+- **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4431727295&f_TPR=r86400&keywords=Backend%20Engineer&location=Turkey
 - **Eslenen Yetkinlikler:** TypeScript, React, MySQL, Git (GitHub, GitLab), AWS
 - **One Cikarilan Deneyim:** Emlak24 (Full Stack Engineer)
 - **Hedef Persona:** Ilgili Yetkili
@@ -106,26 +117,42 @@ Merhabalar Yetkili, Sezzle ekibindeki Senior Payments Engineer — Acquiring & P
 
 ---
 
-### 6. Yazılım Stajyeri (Zorunlu Uzun Dönem Staj, Ücretli, Uzaktan) - Cadde (Uyum: %65)
+### 7. Remote Java Spring Back-end Developer - Cadde (Uyum: %80)
 
 - **Basvuru Turu:** Easy Apply (Kolay Basvuru)
-- **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4483437814&f_TPR=r86400&keywords=Full%20Stack&location=Turkey
-- **Eslenen Yetkinlikler:** JavaScript, React, Git (GitHub, GitLab)
-- **One Cikarilan Deneyim:** Emlak24 (Full Stack Engineer)
+- **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4483477160&f_TPR=r86400&keywords=Backend%20Engineer&location=Turkey
+- **Eslenen Yetkinlikler:** Java (21), Spring Boot, PostgreSQL, Redis, MySQL, RESTful APIs, Git (GitHub, GitLab), AWS
+- **One Cikarilan Deneyim:** Car Studio AI (Backend Developer Intern)
 - **Hedef Persona:** Ilgili Yetkili
 
-**Can Deger Tarzi Yonlendirici Mesaj (Ilgili Yetkili - 295 Karakter):**
+**Can Deger Tarzi Yonlendirici Mesaj (Ilgili Yetkili - 272 Karakter):**
 
 ```text
-Merhabalar Yetkili, Cadde ekibindeki Yazılım Stajyeri (Zorunlu Uzun Dönem Staj, Ücretli, Uzaktan) pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.
+Merhabalar Yetkili, Cadde ekibindeki Remote Java Spring Back-end Developer pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.
 ```
 
 ---
 
-### 7. Software Engineer - Zetheta Algorithms Private Limited (Uyum: %60)
+### 8. Remote Engineering Expert - Turing (Uyum: %65)
 
 - **Basvuru Turu:** Easy Apply (Kolay Basvuru)
-- **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4485313076&f_TPR=r86400&keywords=Full%20Stack&location=Turkey
+- **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4484812294&f_TPR=r86400&keywords=Backend%20Engineer&location=Turkey
+- **Eslenen Yetkinlikler:** AI Agents
+- **One Cikarilan Deneyim:** Emlak24 (Full Stack Engineer)
+- **Hedef Persona:** Ilgili Yetkili
+
+**Can Deger Tarzi Yonlendirici Mesaj (Ilgili Yetkili - 261 Karakter):**
+
+```text
+Merhabalar Yetkili, Turing ekibindeki Remote Engineering Expert pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.
+```
+
+---
+
+### 9. Software Engineer - Zetheta Algorithms Private Limited (Uyum: %60)
+
+- **Basvuru Turu:** Easy Apply (Kolay Basvuru)
+- **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4485313076&f_TPR=r86400&keywords=Backend%20Engineer&location=Turkey
 - **Eslenen Yetkinlikler:** JavaScript, React, Node.js, PostgreSQL, Docker, AWS
 - **One Cikarilan Deneyim:** Emlak24 (Full Stack Engineer)
 - **Uyarilar:** Ucretsiz veya staj ibaresi iceriyor.
@@ -139,131 +166,18 @@ Merhabalar Suketu, Zetheta Algorithms Private Limited ekibindeki Software Engine
 
 ---
 
-### 8. AI Infrastructure Engineer - Shuru (Uyum: %55)
+### 10. AI Engineer – New Graduate - TEB Arf (Uyum: %55)
 
 - **Basvuru Turu:** Easy Apply (Kolay Basvuru)
-- **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4483453329&f_TPR=r86400&keywords=Full%20Stack&location=Turkey
-- **Eslenen Yetkinlikler:** Docker
+- **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4484862042&f_TPR=r86400&keywords=Backend%20Engineer&location=Turkey
+- **Eslenen Yetkinlikler:** AI Agents
 - **One Cikarilan Deneyim:** Emlak24 (Full Stack Engineer)
 - **Hedef Persona:** Ilgili Yetkili
 
-**Can Deger Tarzi Yonlendirici Mesaj (Ilgili Yetkili - 260 Karakter):**
+**Can Deger Tarzi Yonlendirici Mesaj (Ilgili Yetkili - 262 Karakter):**
 
 ```text
-Merhabalar Ujjwal, Shuru ekibindeki AI Infrastructure Engineer pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.
-```
-
----
-
-### 9. iGaming SEO İçerik Yazarı (Serbest / Uzaktan) - Matadorbet (Uyum: %50)
-
-- **Basvuru Turu:** Easy Apply (Kolay Basvuru)
-- **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4483428949&f_TPR=r86400&keywords=Full%20Stack&location=Turkey
-- **Eslenen Yetkinlikler:** Temel yazilim gereksinimleri
-- **One Cikarilan Deneyim:** Emlak24 (Full Stack Engineer)
-- **Hedef Persona:** Ilgili Yetkili
-
-**Can Deger Tarzi Yonlendirici Mesaj (Ilgili Yetkili - 285 Karakter):**
-
-```text
-Merhabalar Yetkili, Matadorbet ekibindeki iGaming SEO İçerik Yazarı (Serbest / Uzaktan) pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.
-```
-
----
-
-### 10. AI Strategist (Based in Dubai) - Property Finder (Uyum: %50)
-
-- **Basvuru Turu:** Easy Apply (Kolay Basvuru)
-- **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4481701180&f_TPR=r86400&keywords=Full%20Stack&location=Turkey
-- **Eslenen Yetkinlikler:** Temel yazilim gereksinimleri
-- **One Cikarilan Deneyim:** Emlak24 (Full Stack Engineer)
-- **Hedef Persona:** Ilgili Yetkili
-
-**Can Deger Tarzi Yonlendirici Mesaj (Ilgili Yetkili - 275 Karakter):**
-
-```text
-Merhabalar Yetkili, Property Finder ekibindeki AI Strategist (Based in Dubai) pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.
-```
-
----
-
-### 11. Researcher - Remote - YO AI Labs (Uyum: %50)
-
-- **Basvuru Turu:** Easy Apply (Kolay Basvuru)
-- **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4484814376&f_TPR=r86400&keywords=Full%20Stack&location=Turkey
-- **Eslenen Yetkinlikler:** Temel yazilim gereksinimleri
-- **One Cikarilan Deneyim:** Emlak24 (Full Stack Engineer)
-- **Hedef Persona:** Ilgili Yetkili
-
-**Can Deger Tarzi Yonlendirici Mesaj (Ilgili Yetkili - 259 Karakter):**
-
-```text
-Merhabalar Yetkili, YO AI Labs ekibindeki Researcher - Remote pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.
-```
-
----
-
-### 12. Remote ML Engineer - Turing (Uyum: %50)
-
-- **Basvuru Turu:** Easy Apply (Kolay Basvuru)
-- **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4484814852&f_TPR=r86400&keywords=Full%20Stack&location=Turkey
-- **Eslenen Yetkinlikler:** Temel yazilim gereksinimleri
-- **One Cikarilan Deneyim:** Emlak24 (Full Stack Engineer)
-- **Hedef Persona:** Ilgili Yetkili
-
-**Can Deger Tarzi Yonlendirici Mesaj (Ilgili Yetkili - 254 Karakter):**
-
-```text
-Merhabalar Yetkili, Turing ekibindeki Remote ML Engineer pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.
-```
-
----
-
-### 13. Sr. Level Artist & Designer - The Phenix (Uyum: %50)
-
-- **Basvuru Turu:** Easy Apply (Kolay Basvuru)
-- **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4483453073&f_TPR=r86400&keywords=Full%20Stack&location=Turkey
-- **Eslenen Yetkinlikler:** Temel yazilim gereksinimleri
-- **One Cikarilan Deneyim:** Pro Sicht (Full Stack Engineer)
-- **Hedef Persona:** Ilgili Yetkili
-
-**Can Deger Tarzi Yonlendirici Mesaj (Ilgili Yetkili - 267 Karakter):**
-
-```text
-Merhabalar Yetkili, The Phenix ekibindeki Sr. Level Artist & Designer pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.
-```
-
----
-
-### 14. Sr. Level Artist & Designer - The Phenix (Uyum: %50)
-
-- **Basvuru Turu:** Easy Apply (Kolay Basvuru)
-- **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4483453073&f_TPR=r86400&keywords=Full%20Stack&location=Turkey
-- **Eslenen Yetkinlikler:** Temel yazilim gereksinimleri
-- **One Cikarilan Deneyim:** Pro Sicht (Full Stack Engineer)
-- **Hedef Persona:** Ilgili Yetkili
-
-**Can Deger Tarzi Yonlendirici Mesaj (Ilgili Yetkili - 267 Karakter):**
-
-```text
-Merhabalar Yetkili, The Phenix ekibindeki Sr. Level Artist & Designer pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.
-```
-
----
-
-### 15. Unpaid Co-Founder Role - Hyphen (Uyum: %10)
-
-- **Basvuru Turu:** Easy Apply (Kolay Basvuru)
-- **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4484838294&f_TPR=r86400&keywords=Full%20Stack&location=Turkey
-- **Eslenen Yetkinlikler:** Temel yazilim gereksinimleri
-- **One Cikarilan Deneyim:** Emlak24 (Full Stack Engineer)
-- **Uyarilar:** Ucretsiz veya staj ibaresi iceriyor.
-- **Hedef Persona:** Ilgili Yetkili
-
-**Can Deger Tarzi Yonlendirici Mesaj (Ilgili Yetkili - 256 Karakter):**
-
-```text
-Merhabalar Ishan, Hyphen ekibindeki Unpaid Co-Founder Role pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.
+Merhabalar Yağmur, TEB Arf ekibindeki AI Engineer – New Graduate pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.
 ```
 
 ---

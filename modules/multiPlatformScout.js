@@ -96,3 +96,4 @@ export async function syncAllPlatforms() {
   console.log(`[SUCCESS] ${newJobs.length} yeni global remote ilan eklendi. Toplam liste: ${merged.length}`);
   return merged;
 }
+
