@@ -1,5 +1,6 @@
 import { chromium } from 'playwright-core';
 import { analyzeJob } from './jobAnalyzer.js';
+import { generateMarkdownReport } from './reportGenerator.js';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -123,6 +124,8 @@ export async function scanLinkedInJobs({
   const outputPath = path.join(__dirname, '../data/jobs_latest.json');
   fs.writeFileSync(outputPath, JSON.stringify(results, null, 2), 'utf8');
 
-  console.log(`[SUCCESS] ${results.length} ilan basariyla analiz edildi ve kaydedildi: data/jobs_latest.json`);
+  generateMarkdownReport();
+
+  console.log(`[SUCCESS] ${results.length} ilan basariyla analiz edildi ve kaydedildi: data/jobs_latest.json & REPORT.md`);
   return results;
 }

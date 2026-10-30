@@ -4,6 +4,7 @@ import { findHiringManagers } from './modules/hiringManagerScout.js';
 import { autofillCurrentPage } from './modules/formAutofill.js';
 import { performEasyApply } from './modules/easyApply.js';
 import { sendOrDraftRecruiterMessage } from './modules/recruiterMessaging.js';
+import { generateMarkdownReport } from './modules/reportGenerator.js';
 import { getApplications, logApplication } from './modules/tracker.js';
 import { chromium } from 'playwright-core';
 import readline from 'readline';
@@ -207,6 +208,9 @@ async function main() {
       console.log(`\n[INFO] Taranmis ilan verisi bulunamadi. Once: node cli.js scan`);
       return;
     }
+
+    generateMarkdownReport();
+    console.log(`\n[SUCCESS] Guncel Markdown raporu olusturuldu: REPORT.md`);
 
     const jobs = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
     console.log(`\nSON TARANAN ILANLAR RAPORU (${jobs.length} Ilan)\n`);
