@@ -1,15 +1,13 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { generatePersonaMessage } from './personaEngine.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const profilePath = path.join(__dirname, '../config/profile.json');
-const templatesPath = path.join(__dirname, '../templates/messages.json');
-
 const profile = JSON.parse(fs.readFileSync(profilePath, 'utf8'));
-const templates = JSON.parse(fs.readFileSync(templatesPath, 'utf8'));
 
 export function analyzeJob(job) {
   const text = `${job.title} ${job.company} ${job.description || ''} ${job.meta || ''}`.toLowerCase();
@@ -79,12 +77,14 @@ export function analyzeJob(job) {
   }
 
   const primarySkillsStr = matchedSkills.slice(0, 3).join(', ') || 'TypeScript, NestJS ve PostgreSQL';
-  const outreachMessage = templates.cold_outreach.hiring_manager
-    .replace('{{name}}', job.hiringManagerName || 'Yetkili')
-    .replace('{{company}}', job.company || 'Sirketiniz')
-    .replace('{{role}}', job.title)
-    .replace('{{key_project}}', `${relevantExp.company} (${relevantExp.role})`)
-    .replace('{{core_skills}}', primarySkillsStr);
+
+  const personaMeta = generatePersonaMessage({
+    title: job.hiringManagerTitle || '',
+    fullName: job.hiringManagerName || '',
+    company: job.company || '',
+    role: job.title,
+    matchedSkills
+  });
 
   const atsBullets = [
     `${relevantExp.company} bunyesinde ${primarySkillsStr} ile production seviyesinde olceklenebilir mimari gelistirme.`,
@@ -102,7 +102,10 @@ export function analyzeJob(job) {
     matchedSkills,
     missingKeywords,
     recommendedProject: `${relevantExp.company} (${relevantExp.role})`,
-    outreachMessage,
+    personaType: personaMeta.personaType,
+    personaLabel: personaMeta.personaLabel,
+    outreachMessage: personaMeta.message,
+    charLength: personaMeta.charLength,
     atsBullets
   };
 }

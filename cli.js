@@ -172,23 +172,32 @@ async function main() {
           console.log(`[INFO] Sekme Chrome'da acildi.`);
         }
       } else if (choice === '3') {
-        const leads = await findHiringManagers({ companyName: j.company });
+        const leads = await findHiringManagers({
+          companyName: j.company,
+          jobRole: j.title,
+          matchedSkills: a.matchedSkills
+        });
         if (leads.length > 0) {
-          console.log(`\nBulunan Yoneticiler:`);
-          leads.forEach((l, idx) => console.log(`  ${idx + 1}. ${l.name} (${l.title})`));
-          const leadPick = await askQuestion(`Kime mesaj notu hazirlansin? (1-${leads.length} / atla: Enter): `);
+          console.log(`\nBulunan Karar Vericiler ve Persona Mesajlari:`);
+          leads.forEach((l, idx) => {
+            console.log(`  [${idx + 1}] ${l.name} - ${l.title}`);
+            console.log(`      Persona  : ${l.personaLabel} (${l.charLength} karakter)`);
+            console.log(`      Taslak   : "${l.customMessage}"\n`);
+          });
+          const leadPick = await askQuestion(`Kime mesaj notu gonderilsin? (1-${leads.length} / atla: Enter): `);
           const pickedIdx = parseInt(leadPick) - 1;
           if (!isNaN(pickedIdx) && leads[pickedIdx]) {
+            const chosen = leads[pickedIdx];
             await sendOrDraftRecruiterMessage({
-              profileUrl: leads[pickedIdx].profileUrl,
-              messageText: a.outreachMessage
+              profileUrl: chosen.profileUrl,
+              messageText: chosen.customMessage
             });
             logApplication({
               company: j.company,
               role: j.title,
               url: j.url,
               status: 'MESSAGED_LEAD',
-              outreachPerson: `${leads[pickedIdx].name} (${leads[pickedIdx].title})`
+              outreachPerson: `${chosen.name} (${chosen.title} - ${chosen.personaLabel})`
             });
           }
         } else {

@@ -32,10 +32,13 @@
       "missingKeywords": [
         "CI/CD"
       ],
-      "recommendedProject": "Car Studio AI (Backend Developer Intern)",
-      "outreachMessage": "Merhabalar Yetkili Bey/Hanım,\n\nUltaHost bünyesinde açılan Full-Stack JavaScript Developer (AI-Native) pozisyonunu inceledim. Car Studio AI (Backend Developer Intern) gibi projelerde edindiğim TypeScript, JavaScript, NestJS tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.\n\nSüreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.\n\nVaktiniz için teşekkürler,\nEnes Özden",
+      "recommendedProject": "Emlak24 (Full Stack Engineer)",
+      "personaType": "general",
+      "personaLabel": "Ilgili Yetkili",
+      "outreachMessage": "Merhabalar Yetkili, UltaHost ekibindeki Full-Stack JavaScript Developer (AI-Native) pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.",
+      "charLength": 281,
       "atsBullets": [
-        "Car Studio AI bunyesinde TypeScript, JavaScript, NestJS ile production seviyesinde olceklenebilir mimari gelistirme.",
+        "Emlak24 bunyesinde TypeScript, JavaScript, NestJS ile production seviyesinde olceklenebilir mimari gelistirme.",
         "NestJS, Next.js, Spring Boot ve PostgreSQL ile mikroservis ve RESTful API tasarimi.",
         "Ilanda talep edilen TypeScript, JavaScript, NestJS, Next.js ile ucuca sistem entegrasyonu."
       ]
@@ -70,7 +73,10 @@
         "CI/CD"
       ],
       "recommendedProject": "Emlak24 (Full Stack Engineer)",
-      "outreachMessage": "Merhabalar Yetkili Bey/Hanım,\n\nEkin Smart City bünyesinde açılan Full Stack Engineer pozisyonunu inceledim. Emlak24 (Full Stack Engineer) gibi projelerde edindiğim NestJS, Next.js, React tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.\n\nSüreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.\n\nVaktiniz için teşekkürler,\nEnes Özden",
+      "personaType": "general",
+      "personaLabel": "Ilgili Yetkili",
+      "outreachMessage": "Merhabalar Yetkili, Ekin Smart City ekibindeki Full Stack Engineer pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.",
+      "charLength": 264,
       "atsBullets": [
         "Emlak24 bunyesinde NestJS, Next.js, React ile production seviyesinde olceklenebilir mimari gelistirme.",
         "NestJS, Next.js, Spring Boot ve PostgreSQL ile mikroservis ve RESTful API tasarimi.",
@@ -104,7 +110,10 @@
         "Kubernetes"
       ],
       "recommendedProject": "Emlak24 (Full Stack Engineer)",
-      "outreachMessage": "Merhabalar Federico Gabriel Composto Bey/Hanım,\n\nMSI Technologies Inc. bünyesinde açılan Senior Fullstack Engineer pozisyonunu inceledim. Emlak24 (Full Stack Engineer) gibi projelerde edindiğim TypeScript, NestJS, Node.js tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.\n\nSüreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.\n\nVaktiniz için teşekkürler,\nEnes Özden",
+      "personaType": "general",
+      "personaLabel": "Ilgili Yetkili",
+      "outreachMessage": "Merhabalar Federico, MSI Technologies Inc. ekibindeki Senior Fullstack Engineer pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.",
+      "charLength": 277,
       "atsBullets": [
         "Emlak24 bunyesinde TypeScript, NestJS, Node.js ile production seviyesinde olceklenebilir mimari gelistirme.",
         "NestJS, Next.js, Spring Boot ve PostgreSQL ile mikroservis ve RESTful API tasarimi.",
@@ -133,10 +142,13 @@
         "AWS"
       ],
       "missingKeywords": [],
-      "recommendedProject": "Car Studio AI (Backend Developer Intern)",
-      "outreachMessage": "Merhabalar Yetkili Bey/Hanım,\n\nSensor Tower bünyesinde açılan Full Stack Engineer pozisyonunu inceledim. Car Studio AI (Backend Developer Intern) gibi projelerde edindiğim JavaScript, React, AWS tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.\n\nSüreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.\n\nVaktiniz için teşekkürler,\nEnes Özden",
+      "recommendedProject": "Emlak24 (Full Stack Engineer)",
+      "personaType": "general",
+      "personaLabel": "Ilgili Yetkili",
+      "outreachMessage": "Merhabalar Yetkili, Sensor Tower ekibindeki Full Stack Engineer pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.",
+      "charLength": 261,
       "atsBullets": [
-        "Car Studio AI bunyesinde JavaScript, React, AWS ile production seviyesinde olceklenebilir mimari gelistirme.",
+        "Emlak24 bunyesinde JavaScript, React, AWS ile production seviyesinde olceklenebilir mimari gelistirme.",
         "NestJS, Next.js, Spring Boot ve PostgreSQL ile mikroservis ve RESTful API tasarimi.",
         "Ilanda talep edilen JavaScript, React, AWS ile ucuca sistem entegrasyonu."
       ]
@@ -172,7 +184,10 @@
         "RabbitMQ"
       ],
       "recommendedProject": "Emlak24 (Full Stack Engineer)",
-      "outreachMessage": "Merhabalar Yetkili Bey/Hanım,\n\nSezzle bünyesinde açılan Senior Payments Engineer — Acquiring & Payment Processing pozisyonunu inceledim. Emlak24 (Full Stack Engineer) gibi projelerde edindiğim TypeScript, React, MySQL tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.\n\nSüreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.\n\nVaktiniz için teşekkürler,\nEnes Özden",
+      "personaType": "general",
+      "personaLabel": "Ilgili Yetkili",
+      "outreachMessage": "Merhabalar Yetkili, Sezzle ekibindeki Senior Payments Engineer — Acquiring & Payment Processing pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.",
+      "charLength": 293,
       "atsBullets": [
         "Emlak24 bunyesinde TypeScript, React, MySQL ile production seviyesinde olceklenebilir mimari gelistirme.",
         "NestJS, Next.js, Spring Boot ve PostgreSQL ile mikroservis ve RESTful API tasarimi.",
@@ -201,10 +216,13 @@
         "Git (GitHub, GitLab)"
       ],
       "missingKeywords": [],
-      "recommendedProject": "Car Studio AI (Backend Developer Intern)",
-      "outreachMessage": "Merhabalar Yetkili Bey/Hanım,\n\nCadde bünyesinde açılan Yazılım Stajyeri (Zorunlu Uzun Dönem Staj, Ücretli, Uzaktan) pozisyonunu inceledim. Car Studio AI (Backend Developer Intern) gibi projelerde edindiğim JavaScript, React, Git (GitHub, GitLab) tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.\n\nSüreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.\n\nVaktiniz için teşekkürler,\nEnes Özden",
+      "recommendedProject": "Emlak24 (Full Stack Engineer)",
+      "personaType": "general",
+      "personaLabel": "Ilgili Yetkili",
+      "outreachMessage": "Merhabalar Yetkili, Cadde ekibindeki Yazılım Stajyeri (Zorunlu Uzun Dönem Staj, Ücretli, Uzaktan) pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.",
+      "charLength": 295,
       "atsBullets": [
-        "Car Studio AI bunyesinde JavaScript, React, Git (GitHub, GitLab) ile production seviyesinde olceklenebilir mimari gelistirme.",
+        "Emlak24 bunyesinde JavaScript, React, Git (GitHub, GitLab) ile production seviyesinde olceklenebilir mimari gelistirme.",
         "NestJS, Next.js, Spring Boot ve PostgreSQL ile mikroservis ve RESTful API tasarimi.",
         "Ilanda talep edilen JavaScript, React, Git (GitHub, GitLab) ile ucuca sistem entegrasyonu."
       ]
@@ -238,10 +256,13 @@
       "missingKeywords": [
         "CI/CD"
       ],
-      "recommendedProject": "Car Studio AI (Backend Developer Intern)",
-      "outreachMessage": "Merhabalar Suketu Sanghvi Bey/Hanım,\n\nZetheta Algorithms Private Limited bünyesinde açılan Software Engineer pozisyonunu inceledim. Car Studio AI (Backend Developer Intern) gibi projelerde edindiğim JavaScript, React, Node.js tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.\n\nSüreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.\n\nVaktiniz için teşekkürler,\nEnes Özden",
+      "recommendedProject": "Emlak24 (Full Stack Engineer)",
+      "personaType": "general",
+      "personaLabel": "Ilgili Yetkili",
+      "outreachMessage": "Merhabalar Suketu, Zetheta Algorithms Private Limited ekibindeki Software Engineer pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.",
+      "charLength": 280,
       "atsBullets": [
-        "Car Studio AI bunyesinde JavaScript, React, Node.js ile production seviyesinde olceklenebilir mimari gelistirme.",
+        "Emlak24 bunyesinde JavaScript, React, Node.js ile production seviyesinde olceklenebilir mimari gelistirme.",
         "NestJS, Next.js, Spring Boot ve PostgreSQL ile mikroservis ve RESTful API tasarimi.",
         "Ilanda talep edilen JavaScript, React, Node.js, PostgreSQL ile ucuca sistem entegrasyonu."
       ]
@@ -269,7 +290,10 @@
         "Kubernetes"
       ],
       "recommendedProject": "Emlak24 (Full Stack Engineer)",
-      "outreachMessage": "Merhabalar Ujjwal Roy Bey/Hanım,\n\nShuru bünyesinde açılan AI Infrastructure Engineer pozisyonunu inceledim. Emlak24 (Full Stack Engineer) gibi projelerde edindiğim Docker tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.\n\nSüreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.\n\nVaktiniz için teşekkürler,\nEnes Özden",
+      "personaType": "general",
+      "personaLabel": "Ilgili Yetkili",
+      "outreachMessage": "Merhabalar Ujjwal, Shuru ekibindeki AI Infrastructure Engineer pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.",
+      "charLength": 260,
       "atsBullets": [
         "Emlak24 bunyesinde Docker ile production seviyesinde olceklenebilir mimari gelistirme.",
         "NestJS, Next.js, Spring Boot ve PostgreSQL ile mikroservis ve RESTful API tasarimi.",
@@ -295,7 +319,10 @@
       "matchedSkills": [],
       "missingKeywords": [],
       "recommendedProject": "Emlak24 (Full Stack Engineer)",
-      "outreachMessage": "Merhabalar Yetkili Bey/Hanım,\n\nMatadorbet bünyesinde açılan iGaming SEO İçerik Yazarı (Serbest / Uzaktan) pozisyonunu inceledim. Emlak24 (Full Stack Engineer) gibi projelerde edindiğim TypeScript, NestJS ve PostgreSQL tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.\n\nSüreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.\n\nVaktiniz için teşekkürler,\nEnes Özden",
+      "personaType": "general",
+      "personaLabel": "Ilgili Yetkili",
+      "outreachMessage": "Merhabalar Yetkili, Matadorbet ekibindeki iGaming SEO İçerik Yazarı (Serbest / Uzaktan) pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.",
+      "charLength": 285,
       "atsBullets": [
         "Emlak24 bunyesinde TypeScript, NestJS ve PostgreSQL ile production seviyesinde olceklenebilir mimari gelistirme.",
         "NestJS, Next.js, Spring Boot ve PostgreSQL ile mikroservis ve RESTful API tasarimi.",
@@ -321,7 +348,10 @@
       "matchedSkills": [],
       "missingKeywords": [],
       "recommendedProject": "Emlak24 (Full Stack Engineer)",
-      "outreachMessage": "Merhabalar Yetkili Bey/Hanım,\n\nProperty Finder bünyesinde açılan AI Strategist (Based in Dubai) pozisyonunu inceledim. Emlak24 (Full Stack Engineer) gibi projelerde edindiğim TypeScript, NestJS ve PostgreSQL tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.\n\nSüreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.\n\nVaktiniz için teşekkürler,\nEnes Özden",
+      "personaType": "general",
+      "personaLabel": "Ilgili Yetkili",
+      "outreachMessage": "Merhabalar Yetkili, Property Finder ekibindeki AI Strategist (Based in Dubai) pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.",
+      "charLength": 275,
       "atsBullets": [
         "Emlak24 bunyesinde TypeScript, NestJS ve PostgreSQL ile production seviyesinde olceklenebilir mimari gelistirme.",
         "NestJS, Next.js, Spring Boot ve PostgreSQL ile mikroservis ve RESTful API tasarimi.",
@@ -347,7 +377,10 @@
       "matchedSkills": [],
       "missingKeywords": [],
       "recommendedProject": "Emlak24 (Full Stack Engineer)",
-      "outreachMessage": "Merhabalar Yetkili Bey/Hanım,\n\nYO AI Labs bünyesinde açılan Researcher - Remote pozisyonunu inceledim. Emlak24 (Full Stack Engineer) gibi projelerde edindiğim TypeScript, NestJS ve PostgreSQL tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.\n\nSüreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.\n\nVaktiniz için teşekkürler,\nEnes Özden",
+      "personaType": "general",
+      "personaLabel": "Ilgili Yetkili",
+      "outreachMessage": "Merhabalar Yetkili, YO AI Labs ekibindeki Researcher - Remote pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.",
+      "charLength": 259,
       "atsBullets": [
         "Emlak24 bunyesinde TypeScript, NestJS ve PostgreSQL ile production seviyesinde olceklenebilir mimari gelistirme.",
         "NestJS, Next.js, Spring Boot ve PostgreSQL ile mikroservis ve RESTful API tasarimi.",
@@ -373,7 +406,10 @@
       "matchedSkills": [],
       "missingKeywords": [],
       "recommendedProject": "Emlak24 (Full Stack Engineer)",
-      "outreachMessage": "Merhabalar Yetkili Bey/Hanım,\n\nTuring bünyesinde açılan Remote ML Engineer pozisyonunu inceledim. Emlak24 (Full Stack Engineer) gibi projelerde edindiğim TypeScript, NestJS ve PostgreSQL tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.\n\nSüreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.\n\nVaktiniz için teşekkürler,\nEnes Özden",
+      "personaType": "general",
+      "personaLabel": "Ilgili Yetkili",
+      "outreachMessage": "Merhabalar Yetkili, Turing ekibindeki Remote ML Engineer pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.",
+      "charLength": 254,
       "atsBullets": [
         "Emlak24 bunyesinde TypeScript, NestJS ve PostgreSQL ile production seviyesinde olceklenebilir mimari gelistirme.",
         "NestJS, Next.js, Spring Boot ve PostgreSQL ile mikroservis ve RESTful API tasarimi.",
@@ -399,7 +435,10 @@
       "matchedSkills": [],
       "missingKeywords": [],
       "recommendedProject": "Pro Sicht (Full Stack Engineer)",
-      "outreachMessage": "Merhabalar Yetkili Bey/Hanım,\n\nThe Phenix bünyesinde açılan Sr. Level Artist & Designer pozisyonunu inceledim. Pro Sicht (Full Stack Engineer) gibi projelerde edindiğim TypeScript, NestJS ve PostgreSQL tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.\n\nSüreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.\n\nVaktiniz için teşekkürler,\nEnes Özden",
+      "personaType": "general",
+      "personaLabel": "Ilgili Yetkili",
+      "outreachMessage": "Merhabalar Yetkili, The Phenix ekibindeki Sr. Level Artist & Designer pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.",
+      "charLength": 267,
       "atsBullets": [
         "Pro Sicht bunyesinde TypeScript, NestJS ve PostgreSQL ile production seviyesinde olceklenebilir mimari gelistirme.",
         "NestJS, Next.js, Spring Boot ve PostgreSQL ile mikroservis ve RESTful API tasarimi.",
@@ -425,7 +464,10 @@
       "matchedSkills": [],
       "missingKeywords": [],
       "recommendedProject": "Pro Sicht (Full Stack Engineer)",
-      "outreachMessage": "Merhabalar Yetkili Bey/Hanım,\n\nThe Phenix bünyesinde açılan Sr. Level Artist & Designer pozisyonunu inceledim. Pro Sicht (Full Stack Engineer) gibi projelerde edindiğim TypeScript, NestJS ve PostgreSQL tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.\n\nSüreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.\n\nVaktiniz için teşekkürler,\nEnes Özden",
+      "personaType": "general",
+      "personaLabel": "Ilgili Yetkili",
+      "outreachMessage": "Merhabalar Yetkili, The Phenix ekibindeki Sr. Level Artist & Designer pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.",
+      "charLength": 267,
       "atsBullets": [
         "Pro Sicht bunyesinde TypeScript, NestJS ve PostgreSQL ile production seviyesinde olceklenebilir mimari gelistirme.",
         "NestJS, Next.js, Spring Boot ve PostgreSQL ile mikroservis ve RESTful API tasarimi.",
@@ -453,7 +495,10 @@
       "matchedSkills": [],
       "missingKeywords": [],
       "recommendedProject": "Emlak24 (Full Stack Engineer)",
-      "outreachMessage": "Merhabalar Ishan Liyanage Bey/Hanım,\n\nHyphen bünyesinde açılan Unpaid Co-Founder Role pozisyonunu inceledim. Emlak24 (Full Stack Engineer) gibi projelerde edindiğim TypeScript, NestJS ve PostgreSQL tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.\n\nSüreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.\n\nVaktiniz için teşekkürler,\nEnes Özden",
+      "personaType": "general",
+      "personaLabel": "Ilgili Yetkili",
+      "outreachMessage": "Merhabalar Ishan, Hyphen ekibindeki Unpaid Co-Founder Role pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.",
+      "charLength": 256,
       "atsBullets": [
         "Emlak24 bunyesinde TypeScript, NestJS ve PostgreSQL ile production seviyesinde olceklenebilir mimari gelistirme.",
         "NestJS, Next.js, Spring Boot ve PostgreSQL ile mikroservis ve RESTful API tasarimi.",

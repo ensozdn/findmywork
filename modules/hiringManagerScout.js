@@ -1,8 +1,11 @@
 import { chromium } from 'playwright-core';
+import { generatePersonaMessage, classifyPersona } from './personaEngine.js';
 
 export async function findHiringManagers({
   companyName,
-  roleTarget = 'Mobile OR Engineering Manager OR Tech Recruiter',
+  jobRole = 'Full Stack Engineer',
+  matchedSkills = [],
+  roleTarget = 'Founder OR CEO OR CTO OR "Engineering Manager" OR "Tech Lead" OR "Talent Acquisition"',
   cdpEndpoint = 'http://127.0.0.1:9222'
 }) {
   console.log(`[INFO] Yonetici araniyor: ${companyName}`);
@@ -19,7 +22,7 @@ export async function findHiringManagers({
   await page.goto(searchUrl, { waitUntil: 'domcontentloaded', timeout: 20000 });
   await page.waitForTimeout(2500);
 
-  const people = await page.evaluate(() => {
+  const rawPeople = await page.evaluate(() => {
     const cards = document.querySelectorAll('.reusable-search__result-container, .entity-result__item');
     const list = [];
     cards.forEach((c) => {
@@ -39,5 +42,26 @@ export async function findHiringManagers({
   });
 
   await page.close();
-  return people;
+
+  const enrichedPeople = rawPeople.map(p => {
+    const personaMeta = generatePersonaMessage({
+      title: p.title,
+      fullName: p.name,
+      company: companyName,
+      role: jobRole,
+      matchedSkills
+    });
+
+    return {
+      name: p.name,
+      title: p.title,
+      profileUrl: p.profileUrl,
+      personaType: personaMeta.personaType,
+      personaLabel: personaMeta.personaLabel,
+      customMessage: personaMeta.message,
+      charLength: personaMeta.charLength
+    };
+  });
+
+  return enrichedPeople;
 }

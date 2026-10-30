@@ -1,6 +1,6 @@
 # Son Taranan Is Ilanlari Raporu
 
-Toplam taranan ilan sayisi: **15** | Son guncelleme: **30.10.2026 16:27:49**
+Toplam taranan ilan sayisi: **15** | Son guncelleme: **30.10.2026 17:20:44**
 
 ## Ozet Tablo
 
@@ -31,19 +31,13 @@ Toplam taranan ilan sayisi: **15** | Son guncelleme: **30.10.2026 16:27:49**
 - **Basvuru Turu:** Easy Apply (Kolay Basvuru)
 - **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4485329968&f_TPR=r86400&keywords=Full%20Stack&location=Turkey
 - **Eslenen Yetkinlikler:** TypeScript, JavaScript, NestJS, Next.js, React, Node.js, PostgreSQL, Redis, Prisma ORM, MongoDB, MySQL, Docker, Git (GitHub, GitLab)
-- **One Cikarilan Deneyim:** Car Studio AI (Backend Developer Intern)
+- **One Cikarilan Deneyim:** Emlak24 (Full Stack Engineer)
+- **Hedef Persona:** Ilgili Yetkili
 
-**Can Deger Tarzi Yonlendirici Mesaj (IK / Yonetici Icin):**
+**Can Deger Tarzi Yonlendirici Mesaj (Ilgili Yetkili - 281 Karakter):**
 
 ```text
-Merhabalar Yetkili Bey/Hanım,
-
-UltaHost bünyesinde açılan Full-Stack JavaScript Developer (AI-Native) pozisyonunu inceledim. Car Studio AI (Backend Developer Intern) gibi projelerde edindiğim TypeScript, JavaScript, NestJS tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.
-
-Süreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.
-
-Vaktiniz için teşekkürler,
-Enes Özden
+Merhabalar Yetkili, UltaHost ekibindeki Full-Stack JavaScript Developer (AI-Native) pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.
 ```
 
 ---
@@ -54,18 +48,12 @@ Enes Özden
 - **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4485300676&f_TPR=r86400&keywords=Full%20Stack&location=Turkey
 - **Eslenen Yetkinlikler:** NestJS, Next.js, React, Node.js, MongoDB, Docker, Git (GitHub, GitLab)
 - **One Cikarilan Deneyim:** Emlak24 (Full Stack Engineer)
+- **Hedef Persona:** Ilgili Yetkili
 
-**Can Deger Tarzi Yonlendirici Mesaj (IK / Yonetici Icin):**
+**Can Deger Tarzi Yonlendirici Mesaj (Ilgili Yetkili - 264 Karakter):**
 
 ```text
-Merhabalar Yetkili Bey/Hanım,
-
-Ekin Smart City bünyesinde açılan Full Stack Engineer pozisyonunu inceledim. Emlak24 (Full Stack Engineer) gibi projelerde edindiğim NestJS, Next.js, React tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.
-
-Süreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.
-
-Vaktiniz için teşekkürler,
-Enes Özden
+Merhabalar Yetkili, Ekin Smart City ekibindeki Full Stack Engineer pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.
 ```
 
 ---
@@ -76,18 +64,12 @@ Enes Özden
 - **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4484557829&f_TPR=r86400&keywords=Full%20Stack&location=Turkey
 - **Eslenen Yetkinlikler:** TypeScript, NestJS, Node.js, PostgreSQL, AWS
 - **One Cikarilan Deneyim:** Emlak24 (Full Stack Engineer)
+- **Hedef Persona:** Ilgili Yetkili
 
-**Can Deger Tarzi Yonlendirici Mesaj (IK / Yonetici Icin):**
+**Can Deger Tarzi Yonlendirici Mesaj (Ilgili Yetkili - 277 Karakter):**
 
 ```text
-Merhabalar Federico Gabriel Composto Bey/Hanım,
-
-MSI Technologies Inc. bünyesinde açılan Senior Fullstack Engineer pozisyonunu inceledim. Emlak24 (Full Stack Engineer) gibi projelerde edindiğim TypeScript, NestJS, Node.js tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.
-
-Süreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.
-
-Vaktiniz için teşekkürler,
-Enes Özden
+Merhabalar Federico, MSI Technologies Inc. ekibindeki Senior Fullstack Engineer pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.
 ```
 
 ---
@@ -97,19 +79,13 @@ Enes Özden
 - **Basvuru Turu:** Easy Apply (Kolay Basvuru)
 - **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4483092773&f_TPR=r86400&keywords=Full%20Stack&location=Turkey
 - **Eslenen Yetkinlikler:** JavaScript, React, AWS
-- **One Cikarilan Deneyim:** Car Studio AI (Backend Developer Intern)
+- **One Cikarilan Deneyim:** Emlak24 (Full Stack Engineer)
+- **Hedef Persona:** Ilgili Yetkili
 
-**Can Deger Tarzi Yonlendirici Mesaj (IK / Yonetici Icin):**
+**Can Deger Tarzi Yonlendirici Mesaj (Ilgili Yetkili - 261 Karakter):**
 
 ```text
-Merhabalar Yetkili Bey/Hanım,
-
-Sensor Tower bünyesinde açılan Full Stack Engineer pozisyonunu inceledim. Car Studio AI (Backend Developer Intern) gibi projelerde edindiğim JavaScript, React, AWS tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.
-
-Süreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.
-
-Vaktiniz için teşekkürler,
-Enes Özden
+Merhabalar Yetkili, Sensor Tower ekibindeki Full Stack Engineer pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.
 ```
 
 ---
@@ -120,18 +96,12 @@ Enes Özden
 - **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4431727295&f_TPR=r86400&keywords=Full%20Stack&location=Turkey
 - **Eslenen Yetkinlikler:** TypeScript, React, MySQL, Git (GitHub, GitLab), AWS
 - **One Cikarilan Deneyim:** Emlak24 (Full Stack Engineer)
+- **Hedef Persona:** Ilgili Yetkili
 
-**Can Deger Tarzi Yonlendirici Mesaj (IK / Yonetici Icin):**
+**Can Deger Tarzi Yonlendirici Mesaj (Ilgili Yetkili - 293 Karakter):**
 
 ```text
-Merhabalar Yetkili Bey/Hanım,
-
-Sezzle bünyesinde açılan Senior Payments Engineer — Acquiring & Payment Processing pozisyonunu inceledim. Emlak24 (Full Stack Engineer) gibi projelerde edindiğim TypeScript, React, MySQL tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.
-
-Süreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.
-
-Vaktiniz için teşekkürler,
-Enes Özden
+Merhabalar Yetkili, Sezzle ekibindeki Senior Payments Engineer — Acquiring & Payment Processing pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.
 ```
 
 ---
@@ -141,19 +111,13 @@ Enes Özden
 - **Basvuru Turu:** Easy Apply (Kolay Basvuru)
 - **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4483437814&f_TPR=r86400&keywords=Full%20Stack&location=Turkey
 - **Eslenen Yetkinlikler:** JavaScript, React, Git (GitHub, GitLab)
-- **One Cikarilan Deneyim:** Car Studio AI (Backend Developer Intern)
+- **One Cikarilan Deneyim:** Emlak24 (Full Stack Engineer)
+- **Hedef Persona:** Ilgili Yetkili
 
-**Can Deger Tarzi Yonlendirici Mesaj (IK / Yonetici Icin):**
+**Can Deger Tarzi Yonlendirici Mesaj (Ilgili Yetkili - 295 Karakter):**
 
 ```text
-Merhabalar Yetkili Bey/Hanım,
-
-Cadde bünyesinde açılan Yazılım Stajyeri (Zorunlu Uzun Dönem Staj, Ücretli, Uzaktan) pozisyonunu inceledim. Car Studio AI (Backend Developer Intern) gibi projelerde edindiğim JavaScript, React, Git (GitHub, GitLab) tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.
-
-Süreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.
-
-Vaktiniz için teşekkürler,
-Enes Özden
+Merhabalar Yetkili, Cadde ekibindeki Yazılım Stajyeri (Zorunlu Uzun Dönem Staj, Ücretli, Uzaktan) pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.
 ```
 
 ---
@@ -163,20 +127,14 @@ Enes Özden
 - **Basvuru Turu:** Easy Apply (Kolay Basvuru)
 - **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4485313076&f_TPR=r86400&keywords=Full%20Stack&location=Turkey
 - **Eslenen Yetkinlikler:** JavaScript, React, Node.js, PostgreSQL, Docker, AWS
-- **One Cikarilan Deneyim:** Car Studio AI (Backend Developer Intern)
+- **One Cikarilan Deneyim:** Emlak24 (Full Stack Engineer)
 - **Uyarilar:** Ucretsiz veya staj ibaresi iceriyor.
+- **Hedef Persona:** Ilgili Yetkili
 
-**Can Deger Tarzi Yonlendirici Mesaj (IK / Yonetici Icin):**
+**Can Deger Tarzi Yonlendirici Mesaj (Ilgili Yetkili - 280 Karakter):**
 
 ```text
-Merhabalar Suketu Sanghvi Bey/Hanım,
-
-Zetheta Algorithms Private Limited bünyesinde açılan Software Engineer pozisyonunu inceledim. Car Studio AI (Backend Developer Intern) gibi projelerde edindiğim JavaScript, React, Node.js tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.
-
-Süreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.
-
-Vaktiniz için teşekkürler,
-Enes Özden
+Merhabalar Suketu, Zetheta Algorithms Private Limited ekibindeki Software Engineer pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.
 ```
 
 ---
@@ -187,18 +145,12 @@ Enes Özden
 - **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4483453329&f_TPR=r86400&keywords=Full%20Stack&location=Turkey
 - **Eslenen Yetkinlikler:** Docker
 - **One Cikarilan Deneyim:** Emlak24 (Full Stack Engineer)
+- **Hedef Persona:** Ilgili Yetkili
 
-**Can Deger Tarzi Yonlendirici Mesaj (IK / Yonetici Icin):**
+**Can Deger Tarzi Yonlendirici Mesaj (Ilgili Yetkili - 260 Karakter):**
 
 ```text
-Merhabalar Ujjwal Roy Bey/Hanım,
-
-Shuru bünyesinde açılan AI Infrastructure Engineer pozisyonunu inceledim. Emlak24 (Full Stack Engineer) gibi projelerde edindiğim Docker tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.
-
-Süreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.
-
-Vaktiniz için teşekkürler,
-Enes Özden
+Merhabalar Ujjwal, Shuru ekibindeki AI Infrastructure Engineer pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.
 ```
 
 ---
@@ -209,18 +161,12 @@ Enes Özden
 - **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4483428949&f_TPR=r86400&keywords=Full%20Stack&location=Turkey
 - **Eslenen Yetkinlikler:** Temel yazilim gereksinimleri
 - **One Cikarilan Deneyim:** Emlak24 (Full Stack Engineer)
+- **Hedef Persona:** Ilgili Yetkili
 
-**Can Deger Tarzi Yonlendirici Mesaj (IK / Yonetici Icin):**
+**Can Deger Tarzi Yonlendirici Mesaj (Ilgili Yetkili - 285 Karakter):**
 
 ```text
-Merhabalar Yetkili Bey/Hanım,
-
-Matadorbet bünyesinde açılan iGaming SEO İçerik Yazarı (Serbest / Uzaktan) pozisyonunu inceledim. Emlak24 (Full Stack Engineer) gibi projelerde edindiğim TypeScript, NestJS ve PostgreSQL tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.
-
-Süreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.
-
-Vaktiniz için teşekkürler,
-Enes Özden
+Merhabalar Yetkili, Matadorbet ekibindeki iGaming SEO İçerik Yazarı (Serbest / Uzaktan) pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.
 ```
 
 ---
@@ -231,18 +177,12 @@ Enes Özden
 - **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4481701180&f_TPR=r86400&keywords=Full%20Stack&location=Turkey
 - **Eslenen Yetkinlikler:** Temel yazilim gereksinimleri
 - **One Cikarilan Deneyim:** Emlak24 (Full Stack Engineer)
+- **Hedef Persona:** Ilgili Yetkili
 
-**Can Deger Tarzi Yonlendirici Mesaj (IK / Yonetici Icin):**
+**Can Deger Tarzi Yonlendirici Mesaj (Ilgili Yetkili - 275 Karakter):**
 
 ```text
-Merhabalar Yetkili Bey/Hanım,
-
-Property Finder bünyesinde açılan AI Strategist (Based in Dubai) pozisyonunu inceledim. Emlak24 (Full Stack Engineer) gibi projelerde edindiğim TypeScript, NestJS ve PostgreSQL tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.
-
-Süreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.
-
-Vaktiniz için teşekkürler,
-Enes Özden
+Merhabalar Yetkili, Property Finder ekibindeki AI Strategist (Based in Dubai) pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.
 ```
 
 ---
@@ -253,18 +193,12 @@ Enes Özden
 - **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4484814376&f_TPR=r86400&keywords=Full%20Stack&location=Turkey
 - **Eslenen Yetkinlikler:** Temel yazilim gereksinimleri
 - **One Cikarilan Deneyim:** Emlak24 (Full Stack Engineer)
+- **Hedef Persona:** Ilgili Yetkili
 
-**Can Deger Tarzi Yonlendirici Mesaj (IK / Yonetici Icin):**
+**Can Deger Tarzi Yonlendirici Mesaj (Ilgili Yetkili - 259 Karakter):**
 
 ```text
-Merhabalar Yetkili Bey/Hanım,
-
-YO AI Labs bünyesinde açılan Researcher - Remote pozisyonunu inceledim. Emlak24 (Full Stack Engineer) gibi projelerde edindiğim TypeScript, NestJS ve PostgreSQL tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.
-
-Süreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.
-
-Vaktiniz için teşekkürler,
-Enes Özden
+Merhabalar Yetkili, YO AI Labs ekibindeki Researcher - Remote pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.
 ```
 
 ---
@@ -275,18 +209,12 @@ Enes Özden
 - **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4484814852&f_TPR=r86400&keywords=Full%20Stack&location=Turkey
 - **Eslenen Yetkinlikler:** Temel yazilim gereksinimleri
 - **One Cikarilan Deneyim:** Emlak24 (Full Stack Engineer)
+- **Hedef Persona:** Ilgili Yetkili
 
-**Can Deger Tarzi Yonlendirici Mesaj (IK / Yonetici Icin):**
+**Can Deger Tarzi Yonlendirici Mesaj (Ilgili Yetkili - 254 Karakter):**
 
 ```text
-Merhabalar Yetkili Bey/Hanım,
-
-Turing bünyesinde açılan Remote ML Engineer pozisyonunu inceledim. Emlak24 (Full Stack Engineer) gibi projelerde edindiğim TypeScript, NestJS ve PostgreSQL tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.
-
-Süreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.
-
-Vaktiniz için teşekkürler,
-Enes Özden
+Merhabalar Yetkili, Turing ekibindeki Remote ML Engineer pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.
 ```
 
 ---
@@ -297,18 +225,12 @@ Enes Özden
 - **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4483453073&f_TPR=r86400&keywords=Full%20Stack&location=Turkey
 - **Eslenen Yetkinlikler:** Temel yazilim gereksinimleri
 - **One Cikarilan Deneyim:** Pro Sicht (Full Stack Engineer)
+- **Hedef Persona:** Ilgili Yetkili
 
-**Can Deger Tarzi Yonlendirici Mesaj (IK / Yonetici Icin):**
+**Can Deger Tarzi Yonlendirici Mesaj (Ilgili Yetkili - 267 Karakter):**
 
 ```text
-Merhabalar Yetkili Bey/Hanım,
-
-The Phenix bünyesinde açılan Sr. Level Artist & Designer pozisyonunu inceledim. Pro Sicht (Full Stack Engineer) gibi projelerde edindiğim TypeScript, NestJS ve PostgreSQL tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.
-
-Süreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.
-
-Vaktiniz için teşekkürler,
-Enes Özden
+Merhabalar Yetkili, The Phenix ekibindeki Sr. Level Artist & Designer pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.
 ```
 
 ---
@@ -319,18 +241,12 @@ Enes Özden
 - **Ilan Linki:** https://www.linkedin.com/jobs/search/?currentJobId=4483453073&f_TPR=r86400&keywords=Full%20Stack&location=Turkey
 - **Eslenen Yetkinlikler:** Temel yazilim gereksinimleri
 - **One Cikarilan Deneyim:** Pro Sicht (Full Stack Engineer)
+- **Hedef Persona:** Ilgili Yetkili
 
-**Can Deger Tarzi Yonlendirici Mesaj (IK / Yonetici Icin):**
+**Can Deger Tarzi Yonlendirici Mesaj (Ilgili Yetkili - 267 Karakter):**
 
 ```text
-Merhabalar Yetkili Bey/Hanım,
-
-The Phenix bünyesinde açılan Sr. Level Artist & Designer pozisyonunu inceledim. Pro Sicht (Full Stack Engineer) gibi projelerde edindiğim TypeScript, NestJS ve PostgreSQL tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.
-
-Süreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.
-
-Vaktiniz için teşekkürler,
-Enes Özden
+Merhabalar Yetkili, The Phenix ekibindeki Sr. Level Artist & Designer pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.
 ```
 
 ---
@@ -342,18 +258,12 @@ Enes Özden
 - **Eslenen Yetkinlikler:** Temel yazilim gereksinimleri
 - **One Cikarilan Deneyim:** Emlak24 (Full Stack Engineer)
 - **Uyarilar:** Ucretsiz veya staj ibaresi iceriyor.
+- **Hedef Persona:** Ilgili Yetkili
 
-**Can Deger Tarzi Yonlendirici Mesaj (IK / Yonetici Icin):**
+**Can Deger Tarzi Yonlendirici Mesaj (Ilgili Yetkili - 256 Karakter):**
 
 ```text
-Merhabalar Ishan Liyanage Bey/Hanım,
-
-Hyphen bünyesinde açılan Unpaid Co-Founder Role pozisyonunu inceledim. Emlak24 (Full Stack Engineer) gibi projelerde edindiğim TypeScript, NestJS ve PostgreSQL tecrübelerimle pozisyona iyi bir uyum sağlayabileceğimi düşünüyorum.
-
-Süreci yöneten ilgili teknik lider veya İK sorumlusuna yönlendirebilirseniz çok sevinirim. Detaylı profilime LinkedIn üzerinden erişebilirsiniz.
-
-Vaktiniz için teşekkürler,
-Enes Özden
+Merhabalar Ishan, Hyphen ekibindeki Unpaid Co-Founder Role pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.
 ```
 
 ---

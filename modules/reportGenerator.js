@@ -44,7 +44,10 @@ export function generateMarkdownReport() {
       md += `- **Uyarilar:** ${[...a.redFlags, ...a.warnings].join(' | ')}\n`;
     }
 
-    md += `\n**Can Deger Tarzi Yonlendirici Mesaj (IK / Yonetici Icin):**\n\n`;
+    const personaLabel = a.personaLabel || 'Genel Yetkili';
+    const charLen = a.charLength || (a.outreachMessage ? a.outreachMessage.length : 0);
+    md += `- **Hedef Persona:** ${personaLabel}\n`;
+    md += `\n**Can Deger Tarzi Yonlendirici Mesaj (${personaLabel} - ${charLen} Karakter):**\n\n`;
     md += `\`\`\`text\n${a.outreachMessage}\n\`\`\`\n\n`;
     md += `---\n\n`;
   });
@@ -52,3 +55,4 @@ export function generateMarkdownReport() {
   fs.writeFileSync(reportPath, md, 'utf8');
   return { ok: true, reportPath };
 }
+
