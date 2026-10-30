@@ -211,3 +211,4 @@ async function handleCallbackQuery(cb) {
     await sendTelegramAlert(`<b>[BILGI]</b> ${targetJob.company} ilani atlandi.`);
   }
 }
+
