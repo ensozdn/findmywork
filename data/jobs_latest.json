@@ -903,6 +903,72 @@
     }
   },
   {
+    "title": "Senior Backend Developer (Node.js / Nest.js)",
+    "company": "Proxify",
+    "meta": "Türkiye · LinkedIn",
+    "description": "Senior Backend Developer (Node.js / Nest.js) at Proxify",
+    "isEasyApply": false,
+    "hiringManagerName": null,
+    "url": "https://tr.linkedin.com/jobs/view/senior-backend-developer-node-js-nest-js-at-proxify-4304685947",
+    "platform": "LinkedIn",
+    "analysis": {
+      "jobTitle": "Senior Backend Developer (Node.js / Nest.js)",
+      "company": "Proxify",
+      "score": 75,
+      "isGhostRisk": false,
+      "redFlags": [],
+      "warnings": [],
+      "matchedSkills": [
+        "Node.js"
+      ],
+      "missingKeywords": [],
+      "recommendedProject": "Emlak24 (Full Stack Engineer)",
+      "personaType": "general",
+      "personaLabel": "Ilgili Yetkili",
+      "outreachMessage": "Merhabalar Yetkili, Proxify ekibindeki Senior Backend Developer (Node.js / Nest.js) pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.",
+      "charLength": 281,
+      "verification": null,
+      "atsBullets": [
+        "Emlak24 bunyesinde Node.js ile production seviyesinde olceklenebilir mimari gelistirme.",
+        "NestJS, Next.js, Spring Boot ve PostgreSQL ile mikroservis ve RESTful API tasarimi.",
+        "Ilanda talep edilen Node.js ile ucuca sistem entegrasyonu."
+      ]
+    }
+  },
+  {
+    "title": "Full-Stack JavaScript Developer (AI-Native)",
+    "company": "UltaHost",
+    "meta": "Türkiye · LinkedIn",
+    "description": "Full-Stack JavaScript Developer (AI-Native) at UltaHost",
+    "isEasyApply": false,
+    "hiringManagerName": null,
+    "url": "https://tr.linkedin.com/jobs/view/full-stack-javascript-developer-ai-native-at-ultahost-4485329968",
+    "platform": "LinkedIn",
+    "analysis": {
+      "jobTitle": "Full-Stack JavaScript Developer (AI-Native)",
+      "company": "UltaHost",
+      "score": 75,
+      "isGhostRisk": false,
+      "redFlags": [],
+      "warnings": [],
+      "matchedSkills": [
+        "JavaScript"
+      ],
+      "missingKeywords": [],
+      "recommendedProject": "Emlak24 (Full Stack Engineer)",
+      "personaType": "general",
+      "personaLabel": "Ilgili Yetkili",
+      "outreachMessage": "Merhabalar Yetkili, UltaHost ekibindeki Full-Stack JavaScript Developer (AI-Native) pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.",
+      "charLength": 281,
+      "verification": null,
+      "atsBullets": [
+        "Emlak24 bunyesinde JavaScript ile production seviyesinde olceklenebilir mimari gelistirme.",
+        "NestJS, Next.js, Spring Boot ve PostgreSQL ile mikroservis ve RESTful API tasarimi.",
+        "Ilanda talep edilen JavaScript ile ucuca sistem entegrasyonu."
+      ]
+    }
+  },
+  {
     "title": "Software Engineer (Backend)",
     "company": "AppNation",
     "meta": "Istanbul, Türkiye · LinkedIn",
@@ -1483,6 +1549,37 @@
       "personaLabel": "Ilgili Yetkili",
       "outreachMessage": "Merhabalar Yetkili, Sensor Tower ekibindeki Full Stack Engineer pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya IK ekibine yonlendirebilirseniz cok sevinirim.",
       "charLength": 261,
+      "verification": null,
+      "atsBullets": [
+        "Emlak24 bunyesinde TypeScript, NestJS ve PostgreSQL ile production seviyesinde olceklenebilir mimari gelistirme.",
+        "NestJS, Next.js, Spring Boot ve PostgreSQL ile mikroservis ve RESTful API tasarimi.",
+        "Ilanda talep edilen modern full-stack teknolojileri ile ucuca sistem entegrasyonu."
+      ]
+    }
+  },
+  {
+    "title": "Software Developer (Dotnet with ReactJS / Angular / JQuery)",
+    "company": "eVero Consulting Services India Private Limited",
+    "meta": "Kochi, Kerala, India · LinkedIn",
+    "description": "Software Developer (Dotnet with ReactJS / Angular / JQuery) at eVero Consulting Services India Private Limited",
+    "isEasyApply": false,
+    "hiringManagerName": null,
+    "url": "https://in.linkedin.com/jobs/view/software-developer-dotnet-with-reactjs-angular-jquery-at-evero-consulting-services-india-private-limited-4397743652",
+    "platform": "LinkedIn",
+    "analysis": {
+      "jobTitle": "Software Developer (Dotnet with ReactJS / Angular / JQuery)",
+      "company": "eVero Consulting Services India Private Limited",
+      "score": 70,
+      "isGhostRisk": false,
+      "redFlags": [],
+      "warnings": [],
+      "matchedSkills": [],
+      "missingKeywords": [],
+      "recommendedProject": "Emlak24 (Full Stack Engineer)",
+      "personaType": "general",
+      "personaLabel": "Ilgili Yetkili",
+      "outreachMessage": "Merhabalar Yetkili, eVero Consulting Services India Private Limited ekibindeki Software Developer (Dotnet with ReactJS / Angular / JQuery) pozisyonunu inceledim. Full Stack yetkinliklerim ve NestJS/TypeScript birikimimle surece katki saglayabilecegimi dusunuyorum. Ilgili teknik lider veya ...",
+      "charLength": 293,
       "verification": null,
       "atsBullets": [
         "Emlak24 bunyesinde TypeScript, NestJS ve PostgreSQL ile production seviyesinde olceklenebilir mimari gelistirme.",
